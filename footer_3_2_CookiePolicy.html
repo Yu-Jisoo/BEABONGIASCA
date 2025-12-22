@@ -1,0 +1,962 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BEABONGIASCA</title>
+    <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="js/jquery.bxslider.js"></script>
+    <script src="js/jquery.fitvids.js"></script>
+    <script src="js/bea.js"></script>
+    <link rel="stylesheet" href="css/import.css">
+    <link rel="shortcut icon" href="images/Logo_favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <a id="topbutton"></a>
+    <div id="cartPanel">
+        <h2 class="poMD18" data-disp="blockAll">
+            CART
+            <input type="button" value="closeButton" class="closeBtn" data-pos="abAll">
+        </h2>
+        <p class="poTH12" data-disp="noneAll">Your cart is currently empty.</p>
+        <div data-pos="reAll">
+            <form action="cart_Step2.html">
+                <ul>
+                    <li data-floatChild="leftAll">
+                        <div>
+                            <img src="images/Ca_2_Earrings_3601.jpg" alt="2 TONE ASYMMETRICAL FLOWER POWER EARRINGS IN CHERRY CHOCOLATE AND PANNA ENAMEL">
+                            <input type="button" value="Remove" class="btn color blue remove">
+                        </div>
+                        <div>
+                            <b class="poRG12" data-disp="blockAll">2 TONE ASYMMETRICAL FLOWER POWER EARRINGS IN CHERRY CHOCOLATE AND PANNA ENAMEL</b>
+                            <strong class="poMD12">€370.00</strong>
+                            <div class="qtyComponent">
+                                <input type="button" value="minimizeButton" class="minimize">
+                                <input type="number" value="1" min="1" max="10" class="poEL10 qty" title="quantity">
+                                <input type="button" value="addButton" class="add">
+                            </div>
+                        </div>
+                    </li>
+                    <li data-floatChild="leftAll">
+                        <div>
+                            <img src="images/Ca_1_Rings_1501.jpg" alt="BABY VINE RING WITH DIAMOND PAVE' IN MARQUISE SHAPE">
+                            <input type="button" value="Remove" class="btn color blue remove">
+                        </div>
+                        <div>
+                            <b class="poRG12" data-disp="blockAll">BABY VINE RING WITH DIAMOND PAVE' IN MARQUISE SHAPE</b>
+                            <strong class="poMD12">€1,650.00</strong>
+                            <div class="qtyComponent">
+                                <input type="button" value="minimizeButton" class="minimize">
+                                <input type="number" value="1" min="1" max="10" class="poEL10 qty" title="quantity">
+                                <input type="button" value="addButton" class="add">
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+                <div data-pos="abAll">
+                    <b class="poRG14">SUBTOTAL</b>
+                    <mark class="poMD18">€2,020.00</mark>
+                    <button type="submit" class="btn box black">Check Out</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div id="searchPanel">
+        <div>
+            <form>
+                <input type="search" title="input ur Searchkeywords" placeholder="Search" class="poRG12">
+                <input type="reset" value="Clear" class="btn color red">
+                <input type="button" value="closeButton" class="closeBtn">
+            </form>
+        </div>
+    </div>
+    <!-- Panel's & Popup's -->
+    <header>
+        <div class="respRollingBanner">
+            <p class="poEL14" data-disp="inBlockAll">A spirited and non- traditional take on jewellery which does not compromise on quality</p>
+            <p class="poEL14" data-disp="inBlockAll">But remains accessible to people of her own age.</p>
+        </div>
+        <div>
+            <button type="button" class="mui" data-panel="mnavPanel">menu</button>
+            <h1>
+                <a href="Index.html"><img src="images/logo_Black.png" alt="Welcome to BEABONGIASCA."></a>
+            </h1>
+            <nav id="mnavPanel" data-disp="noneM">
+                <input type="button" value="close" class="closeBtn mui">
+                <ul>
+                    <li>
+                        <b class="poMD16" data-disp="blockAll">SHOP</b>
+                        <div class="poLT14" data-disp="noneM">
+                            <ol data-float="leftDT">
+                                <li><a href="list_Ca_1_Rings_01.html">Rings</a></li>
+                                <li><a href="list_Ca_2_Earings_01.html">Earrings</a></li>
+                                <li><a href="list_Ca_3_Necklaces_01.html">Necklaces &amp; Initial Pendant Necklaces</a></li>
+                                <li><a href="list_Ca_4_Bracelets_EarCuffs.html">Bracelets &amp; Ear Cuffs</a></li>
+                            </ol>
+                            <img src="images/Ca_1_Rings_3405.jpg" alt="Nav image" data-disp="noneM">
+                        </div>
+                    </li>
+                    <li>
+                        <b class="poMD16" data-disp="blockAll">SHOP BY COLOR</b>
+                        <div class="poLT14" data-disp="noneM">
+                            <ol data-float="leftDT">
+                                <li><a href="list_Co_1_Black.html">Black</a></li>
+                                <li><a href="list_Co_2_Blue_01.html">Blue</a></li>
+                                <li><a href="list_Co_3_Brown.html">Brown</a></li>
+                                <li><a href="list_Co_4_Green_01.html">Green</a></li>
+                                <li><a href="list_Co_5_Multicolour.html">Multicolour</a></li>
+                                <li><a href="list_Co_6_Neutrals.html">Neutrals</a></li>
+                                <li><a href="list_Co_7_OnlyGold_01.html">Only Gold</a></li>
+                                <li><a href="list_Co_8_Orange.html">Orange</a></li>
+                                <li><a href="list_Co_9_pink_01.html">Pink</a></li>
+                                <li><a href="list_Co_10_Purple.html">Purple</a></li>
+                                <li><a href="list_Co_11_Red.html">Red</a></li>
+                                <li><a href="list_Co_12_White.html">White</a></li>
+                                <li><a href="list_Co_13_Yellow.html">Yellow</a></li>
+                            </ol>
+                            <img src="images/nav_02.jpg" alt="Nav image" data-disp="noneM">
+                        </div>
+                    </li>
+                    <li>
+                        <b class="poMD16" data-disp="blockAll">COLLECTIONS</b>
+                        <div class="poLT14" data-disp="noneM">
+                            <ol data-float="leftDT">
+                                <li><a href="list_Cl_1_Save_01.html">Save The Colors</a></li>
+                                <li><a href="list_Cl_2_Flower_01.html">Flower Funk</a></li>
+                                <li><a href="list_Cl_3_Groovy_01.html">Flower Funk Groovy</a></li>
+                                <li><a href="list_Cl_4_Vine_01.html">You’re So Vine!</a></li>
+                            </ol>
+                            <img src="images/HJ_1_Sugar_2204.jpg" alt="Nav image" data-disp="noneM">
+                        </div>
+                    </li>
+                    <li>
+                        <b class="poMD16" data-disp="blockAll">HIGH JEWELRY</b>
+                        <div class="poLT14" data-disp="noneM">
+                            <ol data-float="leftDT">
+                                <li><a href="list_HJ_1_Sugar.html">Sugar, Spice &amp; Equal Rights</a></li>
+                                <li><a href="list_HJ_2_Diamonds.html">Diamond Collection</a></li>
+                                <li><a href="list_HJ_3_CreateRing.html">Create Your Own Personalized Diamond Ring</a></li>
+                            </ol>
+                            <img src="images/nav_04.jpg" alt="Nav image" data-disp="noneM">
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+            <div data-floatChild="leftAll">
+                <a href="main_logIn.html">Account</a>
+                <input type="button" value="SearchButton" data-panel="searchPanel">
+                <button type="button" data-panel="cartPanel" data-pos="reAll">Cart<span class="poEL10" data-pos="abAll">99</span></button>
+            </div>
+        </div>
+    </header>
+    <!-- Header -->
+    <div class="footerContainer policy">
+        <ul class="poMD14" data-dispActive="noneM">
+            <li><a href="footer_3_1_PrivacyPolicy.html">Privacy Policy</a></li>
+            <li class="active">Cookie Policy</li>
+            <li><a href="footer_3_3_ChangeYourCookieConsent.html">Change your Cookie consent</a></li>
+            <li><a href="footer_3_4_TermsConditions.html">Terms &amp; Conditions</a></li>
+        </ul>
+        <div data-floatChild="leftD">
+            <aside> 
+                <h2 class="poMD14" data-disp="blockAll"><a href="#title">COOKIE POLICY HTTPS://BEABONGIASCA.COM/</a></h2>
+                <ul class="poEL12" data-floatChild="leftT">
+                    <li data-pos="reAll"><a href="#sub01">WHAT COOKIES ARE?</a></li>
+                    <li data-pos="reAll"><a href="#sub02">HOW MANY TYPES OF COOKIES THERE ARE?</a></li>
+                    <li data-pos="reAll"><a href="#sub03">COOKIES USED BY THIS SITE</a></li>
+                </ul>
+                <input type="button" value="Return to Page" class="btn color blue returnPage">
+            </aside>
+            <article class="poLT16" data-disp="inBlockAll">
+                <h2 id="title" class="poMD22">COOKIE POLICY HTTPS://BEABONGIASCA.COM/</h2>
+                <p>This website uses cookies.</p>
+                <p>We use cookies to personalise content and ads, to provide social media features and to analyse our traffic. We also share information about your use of our site with our social media, advertising and analytics partners who may combine it with other information that you’ve provided to them or that they’ve collected from your use of their services.</p>
+                <p>See our <a href="footer_3_1_PrivacyPolicy.html">Privacy Policy</a> &amp; <a href="footer_3_2_CookiePolicy.html">Cookie Policy</a>.</p>
+                <p>The computer systems and software procedures used to operate this Site collect certain personal data, the transmission of which is implicit in the use of Internet communication protocols. This information is not collected in order to be associated with identified interested parties, but it may allow users to be identified through processing and association with data held by third parties. Among the information that may be collected are IP addresses, the type of browser or operating system used, addresses in URI (uniform resource identifier) notation, the domain name and addresses of the Websites from which the access or exit (referring/exitpages) was made, the time the request was made to the server, the method used and information on the response obtained, further information on the user's navigation on the Site and other parameters relating to the user's operating system and computer environment.</p>
+                <div id="sub01">
+                    <h3 class="poMD20">WHAT COOKIES ARE?</h3>
+                    <div class="whiteBG">
+                        <p>Cookies are small pieces of data that allow us to compare new and past visitors and understand how users navigate through our Site. We use the data collected through cookies to provide an experience that reflects your interests, preferences and facilitates access to our services. Cookies do not record any personal information about a user and any identifiable data will not be stored. If you wish to disable the use of cookies, you must customise the settings on your computer by setting the deletion of all cookies or by activating a warning message when cookies are stored. To proceed without changing the application of cookies, simply continue browsing. Visit AboutCookies.org for more information on cookies and how they determine your browsing experience.</p>
+                    </div>
+                </div>
+                <div id="sub02">
+                    <h3 class="poMD20">HOW MANY TYPES OF COOKIES THERE ARE?</h3>
+                    <div class="whiteBG">
+                        <p>There are two basic macro-categories, with different characteristics: technical cookies and profiling cookies. Technical cookies are generally necessary for the functioning of the Website and to allow navigation; without them, the person concerned may not be able to view pages correctly or use certain services. For example, a technical cookie is essential to keep you logged in throughout your visit to a Website, or to store language settings, display settings, etc. Profiling cookies, used to link specific actions or behavioural patterns recurring in the use of the offered functionalities to specific identified or identifiable subjects in order to send advertising messages in line with the preferences expressed by the person concerned during his/her browsing or to personalise the browsing experience. Cookies can also be distinguished according to the entity managing the cookies installed: First-party cookies, i.e. cookies generated and managed directly by the operator of the website on which the user is browsing. Third-party cookies, which are generated and managed by parties other than the operator of the website on which the user is browsing (by virtue, as a rule, of a contract between the owner of the website and the third party). If you would like more information on cookies, please visit the following link. Below are links to the most popular browsers, where you can find information on how to disable the storage or delete cookies already stored on your browser: Internet Explorer, Microsoft Edge, Google Chrome, Mozilla Firefox, Apple Safari.</p>
+                    </div>
+                </div>
+                <div id="sub03">
+                    <h3 class="poMD20">COOKIES USED BY THIS SITE</h3>
+                    <div class="whiteBG">
+                        <p>The cookies used by this Site are the following:</p>
+                        <p>Your consent applies to the following domains: beabongiasca.com</p>
+                        <p>Your current state: Deny.</p>
+                        <p>Your consent ID: A+UAKo7RWv6q7W5PolmvO792rCooAnanRstcsEv/k38Bb58JCoA0zw==</p>
+                        <p>Consent date: Monday, October 2, 2023 at 02:37:17 AM GMT+9</p>
+                        <p><a href="footer_3_3_ChangeYourCookieConsent.html">Change your consent</a></p>
+                        <p>Cookie declaration last updated on 24. 1. 4. by <a href="footer_3_3_ChangeYourCookieConsent.html">Cookiebot</a>:</p>
+                        <h4 class="poLT16">Necessary (22)</h4>
+                        <p>Necessary cookies contribute to the usability of the Website by enabling basic functionality such as page navigation and access to secure areas of the Website. The Website cannot function properly without these cookies.</p>                                
+                        <div>
+                            <table>
+                                <caption data-disp="noneAll">none</caption>
+                                <thead>
+                                    <tr>
+                                        <th class="poLT16">Name</th>
+                                        <th class="poLT16">Provider</th>
+                                        <th class="poLT16">Purpose</th>
+                                        <th class="poLT16">Expiry</th>
+                                        <th class="poLT16">Type</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th class="poLT16">__cf_bm [x2]</th>
+                                        <td>
+                                            <a href="#">Digital Ocean</a>
+                                            <a href="#">Soundestlink.com</a>
+                                        </td>
+                                        <td>This cookie is used to distinguish between humans and bots. This is beneficial for the website, in order to make valid reports on the use of their website.</td>
+                                        <td>1 day</td>
+                                        <td>HTTP Cookie</td>
+                                    </tr>
+                                    <tr>
+                                        <th class="poLT16">_cmp_a</th>
+                                        <td>beabongiasca.com</td>
+                                        <td>Determines whether the user has accepted the cookie consent box.</td>
+                                        <td>1 day</td>
+                                        <td>HTTP Cookie</td>
+                                    </tr>
+                                    <tr>
+                                        <th class="poLT16">_secure_session_id</th>
+                                        <td>beabongiasca.com</td>
+                                        <td>Necessary for the shopping cart functionality on the website.</td>
+                                        <td>30 days</td>
+                                        <td>HTTP Cookie</td>
+                                    </tr>
+                                    <tr>
+                                        <th class="poLT16">_shopify_d</th>
+                                        <td>beabongiasca.com</td>
+                                        <td>The cookie is necessary for the secure checkout and payment function on the website. This function is provided by shopify.com.</td>
+                                        <td>Session</td>
+                                        <td>HTTP Cookie</td>
+                                    </tr>
+                                    <tr>
+                                        <th class="poLT16">_tracking_consent</th>
+                                        <td>beabongiasca.com</td>
+                                        <td>Stores the user's cookie consent state for the current domain.</td>
+                                        <td>1 year</td>
+                                        <td>HTTP Cookie</td>
+                                    </tr>
+                                    <tr>
+                                        <th class="poLT16">1.gif</th>
+                                        <td>Cookiebot</td>
+                                        <td>Used to count the number of sessions to the website, necessary for optimizing CMP product delivery.</td>
+                                        <td>Session</td>
+                                        <td>Pixel Tracker</td>
+                                    </tr>
+                                    <tr>
+                                        <th class="poLT16">cart</th>
+                                        <td>beabongiasca.com</td>
+                                        <td>Necessary for the shopping cart functionality on the website.</td>
+                                        <td>14 days</td>
+                                        <td>HTTP Cookie</td>
+                                    </tr>
+                                    <tr>
+                                        <th class="poLT16">cart_currency</th>
+                                        <td>beabongiasca.com</td>
+                                        <td>The cookie is necessary for the secure checkout and payment function on the website. This function is provided by shopify.com.</td>
+                                        <td>14 days</td>
+                                        <td>HTTP Cookie</td>
+                                    </tr>
+                                    <tr>
+                                        <th class="poLT16">cart_sig</th>
+                                        <td>beabongiasca.com</td>
+                                        <td>The cookie is necessary for the secure checkout and payment function on the website. This function is provided by shopify.com.</td>
+                                        <td>14 days</td>
+                                        <td>HTTP Cookie</td>
+                                    </tr>
+                                    <tr>
+                                        <th class="poLT16">cart_ts</th>
+                                        <td>beabongiasca.com</td>
+                                        <td>The cookie is necessary for the secure checkout and payment function on the website. This function is provided by shopify.com.</td>
+                                        <td>14 days</td>
+                                        <td>HTTP Cookie</td>
+                                    </tr>
+                                    <tr>
+                                        <th class="poLT16">CONSENT</th>
+                                        <td>YouTube</td>
+                                        <td>Used to detect if the visitor has accepted the marketing category in the cookie banner. This cookie is necessary for GDPR-compliance of the website.</td>
+                                        <td>2 years</td>
+                                        <td>HTTP Cookie</td>
+                                    </tr>
+                                    <tr>
+                                        <th class="poLT16">CookieConsent</th>
+                                        <td>Cookiebot</td>
+                                        <td>Stores the user's cookie consent state for the current domain.</td>
+                                        <td>1 year</td>
+                                        <td>HTTP Cookie</td>
+                                    </tr>
+                                    <tr>
+                                        <th class="poLT16">cookietest</th>
+                                        <td>
+                                            <a href="Index.html">beabongiasca.com</a>
+                                        </td>
+                                        <td>This cookie is used to determine if the visitor has accepted the cookie consent box.</td>
+                                        <td>Session</td>
+                                        <td>HTTP Cookie</td>
+                                    </tr>
+                                    <tr>
+                                        <th class="poLT16">is_eu</th>
+                                        <td>
+                                            <a href="https://kr.pinterest.com">Pinterest</a>
+                                        </td>
+                                        <td>Determines whether the user is located within the EU and therefore is subject to EU's data privacy regulations.</td>
+                                        <td>Session</td>
+                                        <td>HTML Local Storage</td>
+                                    </tr>
+                                    <tr>
+                                        <th class="poLT16">secure_customer_sig</th>
+                                        <td>beabongiasca.com</td>
+                                        <td>This cookie is used to store customer credentials securely when processing a purchase on the website - the cookie is essential in making a secure online transaction.</td>
+                                        <td>1 year</td>
+                                        <td>HTTP Cookie</td>
+                                    </tr>
+                                    <tr>
+                                        <th class="poLT16">spurit-global-multitabs.cart</th>
+                                        <td>amaicdn.com</td>
+                                        <td>Necessary for the shopping cart functionality on the website.</td>
+                                        <td>Persistent</td>
+                                        <td>HTML Local Storage</td>
+                                    </tr>
+                                    <tr>
+                                        <th class="poLT16">spurit-global-multitabs.cart-last-refresh</th>
+                                        <td>amaicdn.com</td>
+                                        <td>Necessary for the shopping cart functionality on the website.</td>
+                                        <td>Persistent</td>
+                                        <td>HTML Local Storage</td>
+                                    </tr>
+                                    <tr>
+                                        <th class="poLT16">test_cookie</th>
+                                        <td>
+                                            <a href="https://www.google.co.kr/">Google</a>
+                                        </td>
+                                        <td>Used to check if the user's browser supports cookies.</td>
+                                        <td>1 day</td>
+                                        <td>HTTP Cookie</td>
+                                    </tr>
+                                    <tr>
+                                        <th class="poLT16">VISITOR_PRIVACY_METADATA</th>
+                                        <td>
+                                            <a href="https://www.youtube.com/">YouTube</a>
+                                        </td>
+                                        <td>Stores the user's cookie consent state for the current domain.</td>
+                                        <td>180 days</td>
+                                        <td>HTTP Cookie</td>
+                                    </tr>
+                                    <tr>
+                                        <th class="poLT16">wpm-domain-test [x2]</th>
+                                        <td>beabongiasca.com</td>
+                                        <td>Necessary for the website security.</td>
+                                        <td>Session</td>
+                                        <td>HTTP Cookie</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <h4 class="poLT16">Preferences (3)</h4>
+                        <p>Preference cookies enable a website to remember information that changes the way the website behaves or looks, like your preferred language or the region that you are in.</p>
+                        <div>
+                            <table>
+                                <caption data-disp="noneAll">none</caption>
+                                <thead>
+                                    <tr>
+                                        <th class="poLT16">Name</th>
+                                        <th class="poLT16">Provider</th>
+                                        <th class="poLT16">Purpose</th>
+                                        <th class="poLT16">Expiry</th>
+                                        <th class="poLT16">Type</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th class="poLT16">keep_alive</th>
+                                        <td>beabongiasca.com</td>
+                                        <td>Saves the user's current geographical location based on the user's IP address.</td>
+                                        <td>1 day</td>
+                                        <td>HTTP Cookie</td>
+                                    </tr>
+                                    <tr>
+                                        <th class="poLT16">locale_bar_accepted</th>
+                                        <td>geolocation-recommendations.shopifyapps.com</td>
+                                        <td>Saves the visitor's currency preferences.</td>
+                                        <td>Session</td>
+                                        <td>HTTP Cookie</td>
+                                    </tr>
+                                    <tr>
+                                        <th class="poLT16">localization</th>
+                                        <td>beabongiasca.com</td>
+                                        <td>Holds the users timezone.</td>
+                                        <td>1 year</td>
+                                        <td>HTTP Cookie</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <h4 class="poLT16">Statistics (9)</h4>
+                        <p>Statistical cookies help website owners understand how visitors interact with the Sites by collecting and transmitting information in an anonymous form.</p>
+                        <div>
+                            <table>
+                                <caption data-disp="noneAll">none</caption>
+                                <thead>
+                                    <tr>
+                                        <th class="poLT16">Name</th>
+                                        <th class="poLT16">Provider</th>
+                                        <th class="poLT16">Purpose</th>
+                                        <th class="poLT16">Expiry</th>
+                                        <th class="poLT16">Type</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th class="poLT16">_ga</td>
+                                        <td>_ga</td>
+                                        <td>Registers a unique ID that is used to generate statistical data on how the visitor uses the website.</td>
+                                        <td>2 years</td>
+                                        <td>HTTP Cookie</td>
+                                    </tr>
+                                    <tr>
+                                        <th class="poLT16">_ga_#</th>
+                                        <td>
+                                            <a href="https://www.google.co.kr/">Google</a>
+                                        </td>
+                                        <td>Used by Google Analytics to collect data on the number of times a user has visited the website as well as dates for the first and most recent visit.</td>
+                                        <td>2 years</td>
+                                        <td>HTTP Cookie</td>
+                                    </tr>
+                                    <tr>
+                                        <th class="poLT16">_gat</th>
+                                        <td>
+                                            <a href="https://www.google.co.kr/">Google</a>
+                                        </td>
+                                        <td>Used by Google Analytics to throttle request rate.</td>
+                                        <td>1 day</td>
+                                        <td>HTTP Cookie</td>
+                                    </tr>
+                                    <tr>
+                                        <th class="poLT16">_gid</th>
+                                        <td>
+                                            <a href="https://www.google.co.kr/">Google</a>
+                                        </td>
+                                        <td>Registers a unique ID that is used to generate statistical data on how the visitor uses the website.</td>
+                                        <td>1 day</td>
+                                        <td>HTTP Cookie</td>
+                                    </tr>
+                                    <tr>
+                                        <th class="poLT16">collect</th>
+                                        <td>
+                                            <a href="https://www.google.co.kr/">Google</a>
+                                        </td>
+                                        <td>Used to send data to Google Analytics about the visitor's device and behavior. Tracks the visitor across devices and marketing channels.</td>
+                                        <td>Session</td>
+                                        <td>Pixel Tracker</td>
+                                    </tr>
+                                    <tr>
+                                        <th class="poLT16">omnisendSessionID</th>
+                                        <td>omnisnippet1.com</td>
+                                        <td>Sets a unique ID for the session. This allows the website to obtain data on visitor behaviour for statistical purposes.</td>
+                                        <td>1 day</td>
+                                        <td>HTTP Cookie</td>
+                                    </tr>
+                                    <tr>
+                                        <th class="poLT16">page-views</th>
+                                        <td>omnisnippet1.com</td>
+                                        <td>Used to assess user's visits to the website, such as which pages have been visited or the frequency of visits.</td>
+                                        <td>Session</td>
+                                        <td>HTTP Cookie</td>
+                                    </tr>
+                                    <tr>
+                                        <th class="poLT16">soundestID</th>
+                                        <td>omnisnippet1.com</td>
+                                        <td>This cookie is used to determine if the visitor has visited the website before, or if it is a new visitor on the website.</td>
+                                        <td>Session</td>
+                                        <td>HTTP Cookie</td>
+                                    </tr>
+                                    <tr>
+                                        <th class="poLT16">td</th>
+                                        <td>
+                                            <a href="https://www.google.co.kr/">Google</a>
+                                        </td>
+                                        <td>Registers statistical data on users' behaviour on the website. Used for internal analytics by the website operator.</td>
+                                        <td>Session</td>
+                                        <td>Pixel Tracker</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <h4 class="poLT16">Marketing (41)</h4>
+                        <p>Marketing cookies are used to track visitors to the Websites. The purpose is to present advertisements that are relevant and engaging to the individual user and therefore of greater value to third party publishers and advertisers.</p>
+                        <div>
+                            <table>
+                                <caption data-disp="noneAll">none</caption>
+                                <thead>
+                                    <tr>
+                                        <th class="poLT16">Name</th>
+                                        <th class="poLT16">Provider</th>
+                                        <th class="poLT16">Purpose</th>
+                                        <th class="poLT16">Expiry</th>
+                                        <th class="poLT16">Type</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th class="poLT16">_fbp</th>
+                                        <td>
+                                            <a href="#">Meta Platforms, Inc.</a>
+                                        </td>
+                                        <td>Used by Facebook to deliver a series of advertisement products such as real time bidding from third party advertisers.</td>
+                                        <td>3 months</td>
+                                        <td>HTTP Cookie</td>
+                                    </tr>
+                                    <tr>
+                                        <th class="poLT16">_gcl_au</th>
+                                        <td>
+                                            <a href="https://www.google.co.kr/">Google</a>
+                                        </td>
+                                        <td>Used by Google AdSense for experimenting with advertisement efficiency across websites using their services.</td>
+                                        <td>3 months</td>
+                                        <td>HTTP Cookie</td>
+                                    </tr>
+                                    <tr>
+                                        <th class="poLT16">_landing_page</th>
+                                        <td>beabongiasca.com</td>
+                                        <td>Stores visitors' navigation by registering landing pages - This allows the website to present relevant products and/or measure their advertisement efficiency on other websites.</td>
+                                        <td>14 days/td>
+                                        <td>HTTP Cookie</td>
+                                    </tr>
+                                    <tr>
+                                        <th class="poLT16">_orig_referrer</th>
+                                        <td>beabongiasca.com</td>
+                                        <td>This cookie is used to collect information on a visitor. This information will become an ID string with information on a specific visitor – ID information strings can be used to target groups with similar preferences, or can be used by third-party domains or ad-exchanges.</td>
+                                        <td>14 days</td>
+                                        <td>HTTP Cookie</td>
+                                    </tr>
+                                    <tr>
+                                        <th class="poLT16">_pin_unauth</th>
+                                        <td>
+                                            <a href="https://kr.pinterest.com/">Pinterest</a>
+                                        </td>
+                                        <td>Used by Pinterest to track the usage of services.</td>
+                                        <td>1 year</td>
+                                        <td>HTTP Cookie</td>
+                                    </tr>
+                                    <tr>
+                                        <th class="poLT16">_pinterest_ct_ua</th>
+                                        <td>
+                                            <a href="https://kr.pinterest.com/">Pinterest</a>
+                                        </td>
+                                        <td>Used by Pinterest to track the usage of services.</td>
+                                        <td>1 year</td>
+                                        <td>HTTP Cookie</td>
+                                    </tr>
+                                    <tr>
+                                        <th class="poLT16">_shopify_s</th>
+                                        <td>beabongiasca.com</td>
+                                        <td>Collects data on user behaviour and interaction in order to optimize the website and make advertisement on the website more relevant.</td>
+                                        <td>1 day</td>
+                                        <td>HTTP Cookie</td>
+                                    </tr>
+                                    <tr>
+                                        <th class="poLT16">_shopify_sa_p</th>
+                                        <td>beabongiasca.com</td>
+                                        <td>Collects data on visitors' behaviour and interaction - This is used to make advertisement on the website more relevant. The cookie also allows the website to detect any referrals from other websites.</td>
+                                        <td>1 day</td>
+                                        <td>HTTP Cookie</td>
+                                    </tr>
+                                    <tr>
+                                        <th class="poLT16">_shopify_sa_t</th>
+                                        <td>beabongiasca.com</td>
+                                        <td>Collects data on visitors' behaviour and interaction - This is used to make advertisement on the website more relevant. The cookie also allows the website to detect any referrals from other websites.</td>
+                                        <td>1 day</td>
+                                        <td>HTTP Cookie</td>
+                                    </tr>
+                                    <tr>
+                                        <th class="poLT16">_shopify_y</th>
+                                        <td>beabongiasca.com</td>
+                                        <td>Collects data on user behaviour and interaction in order to optimize the website and make advertisement on the website more relevant.</td>
+                                        <td>1 year</td>
+                                        <td>HTTP Cookie</td>
+                                    </tr>
+                                    <tr>
+                                        <th class="poLT16">ads/ga-audiences</th>
+                                        <td>
+                                            <a href="https://www.google.co.kr/">Google</a>
+                                        </td>
+                                        <td>Used by Google AdWords to re-engage visitors that are likely to convert to customers based on the visitor's online behaviour across websites.</td>
+                                        <td>Session</td>
+                                        <td>Pixel Tracker</td>
+                                    </tr>
+                                    <tr>
+                                        <th class="poLT16">ar_debug</th>
+                                        <td>
+                                            <a href="https://kr.pinterest.com/">Pinterest</a>
+                                        </td>
+                                        <td>Pending</td>
+                                        <td>1 year</td>
+                                        <td>HTTP Cookie</td>
+                                    </tr>
+                                    <tr>
+                                        <th class="poLT16">IDE</th>
+                                        <td>
+                                            <a href="https://www.google.co.kr/">Google</a>
+                                        </td>
+                                        <td>Used by Google DoubleClick to register and report the website user's actions after viewing or clicking one of the advertiser's ads with the purpose of measuring the efficacy of an ad and to present targeted ads to the user.</td>
+                                        <td>1 year</td>
+                                        <td>HTTP Cookie</td>
+                                    </tr>
+                                    <tr>
+                                        <th class="poLT16">LAST_RESULT_ENTRY_KEY</th>
+                                        <td>
+                                            <a href="https://www.youtube.com/">YouTube</a>
+                                        </td>
+                                        <td>Used to track user’s interaction with embedded content.</td>
+                                        <td>Session</td>
+                                        <td>HTTP Cookie</td>
+                                    </tr>
+                                    <tr>
+                                        <th class="poLT16">lastExternalReferrer</th>
+                                        <td>
+                                            <a href="#">Meta Platforms, Inc.</a>
+                                        </td>
+                                        <td>Detects how the user reached the website by registering their last URL-address.</td>
+                                        <td>Persistent</td>
+                                        <td>HTML Local Storage</td>
+                                    </tr>
+                                    <tr>
+                                        <th class="poLT16">LogsDatabaseV2:V#||LogsRequestsStore</th>
+                                        <td>
+                                            <a href="https://www.youtube.com/">YouTube</a>
+                                        </td>
+                                        <td>Pending</td>
+                                        <td>Persistent</td>
+                                        <td>IndexedDB</td>
+                                    </tr>
+                                    <tr>
+                                        <th class="poLT16">nextId</th>
+                                        <td>
+                                            <a href="https://www.youtube.com/">YouTube</a>
+                                        </td>
+                                        <td>Used to track user’s interaction with embedded content.</td>
+                                        <td>Session</td>
+                                        <td>HTTP Cookie</td>
+                                    </tr>
+                                    <tr>
+                                        <th class="poLT16">pagead/1p-conversion/#/</th>
+                                        <td>
+                                            <a href="https://www.google.co.kr/">Google</a>
+                                        </td>
+                                        <td>Pending</td>
+                                        <td>Session</td>
+                                        <td>Pixel Tracker</td>
+                                    </tr>
+                                    <tr>
+                                        <th class="poLT16">pagead/landing</th>
+                                        <td>
+                                            <a href="https://www.google.co.kr/">Google</a>
+                                        </td>
+                                        <td>Collects data on visitor behaviour from multiple websites, in order to present more relevant advertisement - This also allows the website to limit the number of times that they are shown the same advertisement.</td>
+                                        <td>Session</td>
+                                        <td>Pixel Tracker</td>
+                                    </tr>
+                                    <tr>
+                                        <th class="poLT16">remote_sid</th>
+                                        <td>
+                                            <a href="https://www.youtube.com/">YouTube</a>
+                                        </td>
+                                        <td>Necessary for the implementation and functionality of YouTube video-content on the website.</td>
+                                        <td>Session</td>
+                                        <td>HTTP Cookie</td>
+                                    </tr>
+                                    <tr>
+                                        <th class="poLT16">requests</th>
+                                        <td>
+                                            <a href="https://www.youtube.com/">YouTube</a>
+                                        </td>
+                                        <td>Used to track user’s interaction with embedded content.</td>
+                                        <td>Session</td>
+                                        <td>HTTP Cookie</td>
+                                    </tr>
+                                    <tr>
+                                        <th class="poLT16">ServiceWorkerLogsDatabase#SWHealthLog</th>
+                                        <td>
+                                            <a href="https://www.youtube.com/">YouTube</a>
+                                        </td>
+                                        <td>Necessary for the implementation and functionality of YouTube video-content on the website.</td>
+                                        <td>Persistent</td>
+                                        <td>IndexedDB</td>
+                                    </tr>
+                                    <tr>
+                                        <th class="poLT16">shopify_recently_viewed</th>
+                                        <td>beabongiasca.com</td>
+                                        <td>Contains data on the content of the shopping cart. This data is used for marketing purposes by promoting related products or for retargeting purposes.</td>
+                                        <td>Session</td>
+                                        <td>HTTP Cookie</td>
+                                    </tr>
+                                    <tr>
+                                        <th class="poLT16">spurit-global-multitabs.id</th>
+                                        <td>amaicdn.com</td>
+                                        <td>Used in context with behavioral tracking by the website. The cookie registers the user’s behavior and navigation across multiple websites and ensures that no tracking errors occur when the user has multiple browser-tabs open.</td>
+                                        <td>Persistent</td>
+                                        <td>HTML Local Storage</td>
+                                    </tr>
+                                    <tr>
+                                        <th class="poLT16">spurit-global-tab-id</th>
+                                        <td>amaicdn.com</td>
+                                        <td>This cookie is used to determine which products the visitor has viewed. This information is used to promote related products and optimize ad-efficiency.</td>
+                                        <td>Session</td>
+                                        <td>HTML Local Storage</td>
+                                    </tr>
+                                    <tr>
+                                        <th class="poLT16">TESTCOOKIESENABLED</th>
+                                        <td>
+                                            <a href="https://www.youtube.com/">YouTube</a>
+                                        </td>
+                                        <td>Used to track user’s interaction with embedded content.</td>
+                                        <td>1 day</td>
+                                        <td>HTTP Cookie</td>
+                                    </tr>
+                                    <tr>
+                                        <th class="poLT16">v3/</th>
+                                        <td>
+                                            <a href="https://kr.pinterest.com/">Pinterest</a>
+                                        </td>
+                                        <td>Used by Pinterest to track the usage of services.</td>
+                                        <td>Session</td>
+                                        <td>Pixel Tracker</td>
+                                    </tr>
+                                    <tr>
+                                        <th class="poLT16">VISITOR_INFO1_LIVE</th>
+                                        <td>
+                                            <a href="https://www.youtube.com/">YouTube</a>
+                                        </td>
+                                        <td>Tries to estimate the users' bandwidth on pages with integrated YouTube videos.</td>
+                                        <td>180 days</td>
+                                        <td>HTTP Cookie</td>
+                                    </tr>
+                                    <tr>
+                                        <th class="poLT16">YSC</th>
+                                        <td>
+                                            <a href="https://www.youtube.com/">YouTube</a>
+                                        </td>
+                                        <td>Registers a unique ID to keep statistics of what videos from YouTube the user has seen.</td>
+                                        <td>Session</td>
+                                        <td>HTTP Cookie</td>
+                                    </tr>
+                                    <tr>
+                                        <th class="poLT16">yt.innertube::nextId</th>
+                                        <td>
+                                            <a href="https://www.youtube.com/">YouTube</a>
+                                        </td>
+                                        <td>Registers a unique ID to keep statistics of what videos from YouTube the user has seen.</td>
+                                        <td>Persistent</td>
+                                        <td>HTML Local Storage</td>
+                                    </tr>
+                                    <tr>
+                                        <th class="poLT16">yt.innertube::requests</th>
+                                        <td>
+                                            <a href="https://www.youtube.com/">YouTube</a>
+                                        </td>
+                                        <td>Registers a unique ID to keep statistics of what videos from YouTube the user has seen.</td>
+                                        <td>Persistent</td>
+                                        <td>HTML Local Storage</td>
+                                    </tr>
+                                    <tr>
+                                        <th class="poLT16">ytidb::LAST_RESULT_ENTRY_KEY</th>
+                                        <td>
+                                            <a href="https://www.youtube.com/">YouTube</a>
+                                        </td>
+                                        <td>Stores the user's video player preferences using embedded YouTube video.</td>
+                                        <td>Persistent</td>
+                                        <td>HTML Local Storage</td>
+                                    </tr>
+                                    <tr>
+                                        <th class="poLT16">YtIdbMeta#databases</th>
+                                        <td>
+                                            <a href="https://www.youtube.com/">YouTube</a>
+                                        </td>
+                                        <td>Used to track user’s interaction with embedded content.</td>
+                                        <td>Persistent</td>
+                                        <td>IndexedDB</td>
+                                    </tr>
+                                    <tr>
+                                        <th class="poLT16">yt-remote-cast-available</th>
+                                        <td>
+                                            <a href="https://www.youtube.com/">YouTube</a>
+                                        </td>
+                                        <td>Stores the user's video player preferences using embedded YouTube video.</td>
+                                        <td>Session</td>
+                                        <td>HTML Local Storage</td>
+                                    </tr>
+                                    <tr>
+                                        <th class="poLT16">yt-remote-cast-installed</th>
+                                        <td>
+                                            <a href="https://www.youtube.com/">YouTube</a>
+                                        </td>
+                                        <td>Stores the user's video player preferences using embedded YouTube video.</td>
+                                        <td>Session</td>
+                                        <td>HTML Local Storage</td>
+                                    </tr>
+                                    <tr>
+                                        <th class="poLT16">yt-remote-connected-devices</th>
+                                        <td>
+                                            <a href="https://www.youtube.com/">YouTube</a>
+                                        </td>
+                                        <td>Stores the user's video player preferences using embedded YouTube video.</td>
+                                        <td>Persistent</td>
+                                        <td>HTML Local Storage</td>
+                                    </tr>
+                                    <tr>
+                                        <th class="poLT16">yt-remote-device-id</th>
+                                        <td>
+                                            <a href="https://www.youtube.com/">YouTube</a>
+                                        </td>
+                                        <td>Stores the user's video player preferences using embedded YouTube video.</td>
+                                        <td>Persistent</td>
+                                        <td>HTML Local Storage</td>
+                                    </tr>
+                                    <tr>
+                                        <th class="poLT16">yt-remote-fast-check-period</th>
+                                        <td>
+                                            <a href="https://www.youtube.com/">YouTube</a>
+                                        </td>
+                                        <td>Stores the user's video player preferences using embedded YouTube video.</td>
+                                        <td>Session</td>
+                                        <td>HTML Local Storage</td>
+                                    </tr>
+                                    <tr>
+                                        <th class="poLT16">yt-remote-session-app</th>
+                                        <td>
+                                            <a href="https://www.youtube.com/">YouTube</a>
+                                        </td>
+                                        <td>Stores the user's video player preferences using embedded YouTube video.</td>
+                                        <td>Session</td>
+                                        <td>HTML Local Storage</td>
+                                    </tr>
+                                    <tr>
+                                        <th class="poLT16">yt-remote-session-name</th>
+                                        <td>
+                                            <a href="https://www.youtube.com/">YouTube</a>
+                                        </td>
+                                        <td>Stores the user's video player preferences using embedded YouTube video.</td>
+                                        <td>Session</td>
+                                        <td>HTML Local Storage</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <h4 class="poLT16">Unclassified (4)</h4>
+                        <p>Unclassified cookies are cookies that we are in the process of classifying, together with the providers of individual cookies.</p>
+                        <div>
+                            <table>
+                                <caption data-disp="noneAll">none</caption>
+                                <thead>
+                                    <tr>
+                                        <th class="poLT16">Name</th>
+                                        <th class="poLT16">Provider</th>
+                                        <th class="poLT16">Purpose</th>
+                                        <th class="poLT16">Expiry</th>
+                                        <th class="poLT16">Type</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th class="poLT16">_privy_# [x2]</th>
+                                        <td>
+                                            <a href="#">Privy</a>
+                                        </td>
+                                        <td>Pending</td>
+                                        <td>1 year</td>
+                                        <td>HTTP Cookie</td>
+                                    </tr>
+                                    <tr>
+                                        <th class="poLT16">omnisendShopifyCart</th>
+                                        <td>omnisnippet1.com</td>
+                                        <td>Pending</td>
+                                        <td>Session</td>
+                                        <td>HTTP Cookie</td>
+                                    </tr>
+                                    <tr>
+                                        <th class="poLT16">REST/forms/v2/track/view</th>
+                                        <td>
+                                            <a href="#">Shopify</a>
+                                        </td>
+                                        <td>Pending</td>
+                                        <td>Session</td>
+                                        <td>Pixel Tracker</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </div>
+    </div>
+    <!-- Footer Policy 3-2 Content -->
+    <footer>
+        <div data-floatChild="leftDT">
+            <div>
+                <h2 class="poMD16" data-disp="blockM">CONTACT US</h2>
+                <ul class="poLT14" data-disp="noneM">
+                    <li><a href="https://api.whatsapp.com/send/?phone=393519933739&text&type=phone_number&app_absent=0" target="_blank">Chat</a></li>
+                    <li><a href="footer_1_2_Email.html">Email</a></li>
+                </ul>
+            </div>
+            <div>
+                <h2 class="poMD16" data-disp="blockM">CUSTOMER &amp; AFTER CARE</h2>
+                <ul class="poLT14" data-disp="noneM">
+                    <li><a href="footer_2_1_SizeGuide.html">Size Guide</a></li>
+                    <li><a href="footer_2_2_ShippingReturns.html">Shipping &amp; Returns</a></li>
+                    <li><a href="footer_2_3_ReturnForm.html">Return Form</a></li>
+                    <li><a href="footer_2_4_FAQ.html">FAQ</a></li>
+                    <li><a href="footer_2_5_JewelleryCare.html">Jewellery Care</a></li>
+                </ul>
+            </div>
+            <div>
+                <h2 class="poMD16" data-disp="blockM">LEGAL</h2>
+                <ul class="poLT14" data-disp="noneM">
+                    <li><a href="footer_3_1_PrivacyPolicy.html">Privacy Policy</a></li>
+                    <li><a href="footer_3_2_CookiePolicy.html">Cookie Policy</a></li>
+                    <li><a href="footer_3_3_ChangeYourCookieConsent.html">Change your Cookie consent</a></li>
+                    <li><a href="footer_3_4_TermsConditions.html">Terms &amp; Conditions</a></li>
+                </ul>
+            </div>
+            <div>
+                <h2 class="poMD16" data-disp="blockM">SOCIAL</h2>
+                <p class="poLT14" data-disp="noneM">Stay current with updates from our social channels about our color jewels and more</p>
+                <ul data-disp="noneM">
+                    <li data-disp="inBlockAll"><a href="https://www.instagram.com/beabongiasca" target="_blank">Instagram</a></li>
+                    <li data-disp="inBlockAll"><a href="https://www.facebook.com/beabongiasca" target="_blank">Facebook</a></li>
+                    <li data-disp="inBlockAll"><a href="https://www.tiktok.com/@beabongiasca" target="_blank">Tictok</a></li>
+                    <li data-disp="inBlockAll"><a href="https://kr.pinterest.com/beabongiasca" target="_blank">Pinterest</a></li>
+                    <li data-disp="inBlockAll"><a href="https://www.youtube.com/channel/UCevcESf-zxMMRG8sd_UgFqA/featured" target="_blank">Youtube</a></li>
+                </ul>
+            </div>
+        </div>
+        <div>
+            <p class="poLT14">© BEA BONGIASCA 2023 / BEBPOP S.R.L. — VIA GUERRAZZI, 1, MILAN — P.IVA 08423970964  / POWERED BY DIGITAL MAO</p>
+            <ol>
+                <li data-disp="inBlockAll"><a href="https://www.americanexpress.com" target="_blank">Amex</a></li>
+                <li data-disp="inBlockAll"><a href="https://www.apple.com/apple-pay/" target="_blank">ApplePay</a></li>
+                <li data-disp="inBlockAll"><a href="https://play.google.com" target="_blank">GooglePlay</a></li>
+                <li data-disp="inBlockAll"><a href="https://www.mastercard.co.kr" target="_blank">MaterCard</a></li>
+                <li data-disp="inBlockAll"><a href="https://cartaometrocard.com.br/" target="_blank">MetroCard</a></li>
+                <li data-disp="inBlockAll"><a href="https://www.paypal.com/" target="_blank">PayPal</a></li>
+                <li data-disp="inBlockAll"><a href="https://cn.unionpay.com" target="_blank">UnionPay</a></li>
+                <li data-disp="inBlockAll"><a href="https://www.visa.com" target="_blank">VisaCard</a></li>
+            </ol>
+        </div>
+    </footer>
+    <!-- Footer -->
+</body>
+</html>
