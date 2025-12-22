@@ -1,0 +1,1023 @@
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+[data-floatChild="leftAll"] > *{
+    float: left;
+}
+[data-floatChild="leftAll"]:after{
+    content: ''; display: block; clear: both;
+}
+a,
+img,
+[data-disp="blockAll"],
+[data-dispEx="blockAll"],
+[data-disp="blockAll"]:before,
+[data-disp="blockAll"]:after,
+[data-disp="noneAll"].active,
+.formBox li label,
+.contacts li label,
+[data-dispChild="blockAll"] b,
+[data-dispChild="blockAll"] fieldset label,
+[data-dispActive="blockAll"] li.active,
+[data-dispActive="blockAll"].active li,
+[id$='Panel']:not(#mnavPanel).active,
+[id$='Popup'].active,
+[id$='Box'].active,
+input + span:not(.selectComponent).active,
+.filter.active > div{
+    display: block;
+}
+img,
+#cartPanel > div form ul li > div:nth-of-type(1) img,
+#cartPanel > div form ul li > div:nth-of-type(1) input[type='button'],
+#cartPanel > div form > div,
+#cartPanel > div form > div button,
+#searchPanel,
+header{
+    width: 100%;
+}
+input{
+    padding: 0px;
+}
+[data-disp="noneAll"],
+[data-dispActive="blockAll"] li,
+[data-dispActive="blockAll"].active::before,
+[data-dispActive="blockAll"].active::after,
+[id$='Panel']:not(#mnavPanel),
+[id$='Popup'],
+[id$='Box'],
+input + span:not(.selectComponent),
+input[type='number']::-webkit-inner-spin-button,
+input[type='number']::-webkit-outer-spin-button,
+[data-dispHover="noneAll"] span,
+.detailContainer p{
+    display: none;
+}
+#submitPopup input.closeBtn,
+#editProfilePopup.active input.closeBtn,
+#editPopup.active input.closeBtn,
+#addPopup.active input.closeBtn,
+#cartPanel > h2 input[type='button'],
+#createRingPopup .closeBtn{
+    width: 14px; height: 14px;
+}
+[data-pos="abAll"],
+[data-pos="abAll"]::before,
+[data-pos="abAll"]::after,
+[data-posActive="abAll"].active,
+[id$='Popup'] .closeBtn,
+header [data-floatChild="leftAll"],
+#cartPanel mark,
+.filter > div form ul.orAccComponent li b:after,
+.listContainer [data-floatChild="leftDT"] strong,
+.hJContainer [data-floatChild="leftDT"] strong,
+.collectionContainer [data-floatChild="leftDT"] strong,
+.filter > div,
+.collectionContainer > div:nth-of-type(1) div::before,
+.collectionContainer > div:nth-of-type(1) div::after,
+.hJContainer > div:nth-of-type(1) div::before,
+.hJContainer > div:nth-of-type(1) div::after,
+.hJCreateRingContainer .open,
+.detailContainer .bx-controls a,
+.detailContainer .customSelect,
+.detailContainer .customSelect::before,
+.detailContainer .customSelect::after,
+.footerContainer .accComponent [data-disp="inBlockAll"]:after,
+.footerContainer.policy aside ul li::before,
+.hBlindBox > *,
+[data-posLabel="abAll"] label,
+.inputBox div:last-of-type::before,
+.inputBox div:last-of-type::after,
+input + span.active,
+input + span.active::before,
+.bottomContent .gray{
+    position: absolute;
+}
+#submitPopup input.closeBtn,
+#editProfilePopup.active input.closeBtn,
+#editPopup.active input.closeBtn,
+#addPopup.active input.closeBtn,
+#createRingPopup .closeBtn{
+    top: 20px; right: 20px;
+}
+#submitPopup,
+#createRingPopup,
+#cartPanel,
+#searchPanel,
+header{
+    position: fixed;
+}
+#submitPopup,
+#createRingPopup{
+    z-index: 10;
+}
+#submitPopup,
+#createRingPopup,
+#editProfilePopup.active,
+#editPopup.active,
+#addPopup.active,
+.listContainer.colorWhite > div > h2::before,
+.detailContainer > div:nth-of-type(1) .thumbNailPager li a.active,
+.detailContainer > div:nth-of-type(2) form .colorChipsComponent ul li:hover,
+.detailContainer > div:nth-of-type(2) form .colorChipsComponent ul li.active,
+.detailContainer > div:nth-of-type(2) form :last-child ul.customSelect.active,
+.signUpContainer > div{
+    border: 1px solid var(--GS14);
+}
+#submitPopup,
+#createRingPopup,
+#editProfilePopup.active,
+#editPopup.active,
+#addPopup.active,
+#cartPanel,
+#searchPanel{
+    background-color: var(--GS01);
+}
+#submitPopup > div:nth-of-type(1) img,
+#createRingPopup > div:nth-of-type(1) img{
+    object-fit: cover;
+}
+#submitPopup > div:nth-of-type(1) img,
+#createRingPopup > div:nth-of-type(1) img,
+#cartPanel,
+#cartPanel > p{
+    height: 100%;
+}
+#submitPopup > div:nth-of-type(2){
+    padding: 50px 7.5%;
+}
+#submitPopup > div:nth-of-type(2),
+#createRingPopup > div:nth-of-type(2),
+#submitPopup > div:nth-of-type(1),
+#createRingPopup > div:nth-of-type(1),
+#editProfilePopup.active,
+#editPopup.active,
+#addPopup.active,
+#cartPanel,
+#cartPanel > div form ul li > div:nth-of-type(2),
+#cartPanel > div form > div{
+    box-sizing: border-box;
+}
+#submitPopup > div:nth-of-type(2),
+#createRingPopup > div:nth-of-type(2),
+#editProfilePopup.active,
+#editPopup.active,
+#addPopup.active,
+#cartPanel > p,
+#cartPanel > div form ul li > div:nth-of-type(2) .qtyComponent input.qty,
+header .respRollingBanner > P{
+    text-align: center;
+}
+#createRingPopup > div:nth-of-type(2){
+    padding: 38px 5.5%;
+}
+#submitPopup > div:nth-of-type(2) p::before,
+#createRingPopup > div:nth-of-type(2) p::before,
+#submitPopup > div:nth-of-type(2) ul li a:before,
+#createRingPopup > div:nth-of-type(2) ul li a:before,
+#editProfilePopup.active p:before,
+#editPopup.active p:before,
+#addPopup.active p:before{
+    content: '';
+}
+#submitPopup > div:nth-of-type(2) p::before,
+#createRingPopup > div:nth-of-type(2) p::before{
+    background: url('../images/icon_order.png') center / contain no-repeat; width: 35px; height: 35px; margin: 0 auto 20px;
+}
+#submitPopup > div:nth-of-type(2) p,
+#createRingPopup > div:nth-of-type(2) p{
+    padding-bottom: 50px; line-height: 24px;
+}
+#submitPopup > div:nth-of-type(2) p,
+#createRingPopup > div:nth-of-type(2) p,
+#editProfilePopup.active p,
+#editPopup.active p,
+#addPopup.active p{
+    border-bottom: 1px solid var(--GS14);
+}
+#submitPopup > div:nth-of-type(2) p,
+#createRingPopup > div:nth-of-type(2) p{
+    margin-bottom: var(--sp50);
+}
+#submitPopup > div:nth-of-type(2) ul li:not(:first-child),
+#createRingPopup > div:nth-of-type(2) ul li:not(:first-child){
+    margin-top: 25px;
+}
+#submitPopup > div:nth-of-type(2) ul li a,
+#createRingPopup > div:nth-of-type(2) ul li a,
+#cartPanel > h2,
+#cartPanel > div form > div b,
+#cartPanel > div form > div mark::after,
+footer > div:first-of-type div h2{
+    color: var(--GS14);
+}
+#submitPopup > div:nth-of-type(2) ul li a,
+#createRingPopup > div:nth-of-type(2) ul li a{
+    line-height: 30px
+}
+#submitPopup > div:nth-of-type(2) ul li a:hover,
+#createRingPopup > div:nth-of-type(2) ul li a:hover{
+    color: var(--BS02);
+}
+#submitPopup > div:nth-of-type(2) ul li a:before,
+#createRingPopup > div:nth-of-type(2) ul li a:before{
+    background: url('../images/icon_chip.png') center / contain no-repeat; margin-right: 5px; width: 0; height: 0; transition: 0.5s ease-in-out; vertical-align: middle;
+}
+[data-disp="inBlockAll"],
+[data-disp="inBlockAll"]::after,
+[data-disp="inBlockAll"]::before,
+[data-disp="inBlockAll"] p > a,
+[data-dispEx="blockAll"]::after,
+[data-dispChild="inBlockAll"] > *,
+span > a,
+.filter > h3::after,
+input + span.active::before{
+    display: inline-block;
+}
+#submitPopup > div:nth-of-type(2) ul li a:hover::before,
+#createRingPopup > div:nth-of-type(2) ul li a:hover::before,
+header > div:nth-of-type(2) > div > *{
+    width: 30px;
+}
+#submitPopup > div:nth-of-type(2) ul li a:hover::before,
+#createRingPopup > div:nth-of-type(2) ul li a:hover::before,
+header > div:nth-of-type(2) > div > *{
+    height: 30px;
+}
+#submitPopup > div:nth-of-type(1),
+#createRingPopup > div:nth-of-type(1){
+    border-right: 1px solid var(--GS14); height: 523px;
+}
+#editProfilePopup.active,
+#editPopup.active,
+#addPopup.active{
+    height: 230px; z-index: 100; padding: 50px 4%; margin-top: -115px;
+}
+#editProfilePopup.active input.closeBtn:hover,
+#editPopup.active input.closeBtn:hover,
+#addPopup.active input.closeBtn:hover{
+    transform: rotateZ(90deg);
+}
+#editProfilePopup.active p,
+#editPopup.active p,
+#addPopup.active p,
+#editProfilePopup.active p:before,
+#editPopup.active p:before,
+#addPopup.active p:before{
+    padding-bottom: 30px;
+}
+#editProfilePopup.active p:before,
+#editPopup.active p:before,
+#addPopup.active p:before{
+    background: url("../images/icon_order.png") center / contain no-repeat; width: 48px; height: 48px;
+}
+#editProfilePopup.active p:before,
+#editPopup.active p:before,
+#addPopup.active p:before,
+#cartPanel > div form ul li > div:nth-of-type(1) input[type='button'],
+#searchPanel > div{
+    margin: 0 auto;
+}
+#cartPanel,
+header{
+    top: 0;
+}
+#cartPanel,
+#cartPanel > h2 input[type='button'],
+#cartPanel > div form > div mark{
+    right: 0;
+}
+#cartPanel,
+#searchPanel{
+    z-index: 1001;
+}
+#cartPanel > h2{
+    padding: var(--sp30) 0; border-bottom: 1px solid var(--GS04);
+}
+[data-pos="reAll"],
+#cartPanel > h2,
+.qa .accComponent li,
+.indexContainer > :nth-child(3) li,
+.hJContainer .sugar,
+.hJContainer .dia,
+.detailContainer .thumbPagerBox,
+.detailContainer .colorChipsComponent ul li,
+.policy > div > aside ul li,
+.myAccountContainer .whiteBG,
+.myAccountContainer > div form:last-child fieldset .whiteBG > div,
+.myAccountContainer > div fieldset .whiteBG ul + div mark,
+.cartContainer > div > div:nth-child(1) form fieldset > div:nth-of-type(1) div,
+.cartContainer > div > div:nth-child(2) > div:nth-of-type(3){
+    position: relative;
+}
+#cartPanel > h2 input[type='button']{
+    top: 31px;
+}
+#cartPanel > p,
+header .respRollingBanner > P{
+    color: var(--GS08);
+}
+#cartPanel > p{
+    padding-top: 100%;
+}
+#cartPanel > div{
+    height: 91.7%;
+}
+#cartPanel > div form ul{
+    margin: 30px 0;
+}
+#cartPanel > div form ul li:not(:first-of-type){
+    margin-top: var(--sp35);
+}
+.detailContainer > div:nth-of-type(2) form :last-child .sizeGuideBox h3 span.active:after,
+.detailContainer > div:nth-of-type(2) form > :last-child ul.customSelect,
+.signUpContainer > div > form ul li input,
+.footerContainer.contacts > div:nth-child(3) > div form > ul li input,
+.footerContainer.contacts > div:nth-child(3) > div form > ul li textarea,
+.switchToggle,
+.policy table,
+.footerContainer.formBox > div:last-child > div:nth-of-type(2) form > div ul li input,
+.footerContainer.formBox > div:last-child > div:nth-of-type(2) form > div ul li textarea,
+.myAccountContainer > div .whiteBG > div:nth-child(1) > div ul li div:nth-child(1) img,
+.myAccountContainer > div form:first-child fieldset .whiteBG ul + div > div input,
+.inputBox span.selectComponent,
+.inputBox > div input,
+.cartContainer > div > div:nth-child(1) form fieldset:nth-child(1) input,
+.cartContainer > div > div:nth-child(1) form fieldset.radioBox > div:nth-of-type(1),
+.cartContainer > div > div:nth-child(1) form fieldset > div#pickupBox div div,
+.cartContainer > div > div:nth-child(1) form > ul,
+.cartContainer > div > div:nth-child(2) ul li div:nth-child(1) img,
+.cartContainer > div > div:nth-child(2) > div:nth-of-type(1) input:first-child,
+.cartContainer fieldset.payment > div,
+.cartContainer #creditcardBox input[type='text'],
+#cartPanel > div form ul li > div:nth-of-type(1) img{
+    border: 1px solid var(--GS04);
+}
+#cartPanel > div form ul li > div:nth-of-type(1) img,
+#cartPanel > div form ul li > div:nth-of-type(2) .qtyComponent input.qty{
+    border-radius: 5px;
+}
+#cartPanel > div form ul li > div:nth-of-type(2){
+    padding-left: 5%; padding-top: var(--sp10);
+}
+#cartPanel > div form ul li > div:nth-of-type(2) b{
+    color: var(--GS13); line-height: 18px;
+}
+#cartPanel > div form ul li > div:nth-of-type(2) strong,
+#cartPanel > div form > div mark{
+    color: var(--RS01);
+}
+#cartPanel > div form ul li > div:nth-of-type(2) strong,
+#cartPanel > div form ul li > div:nth-of-type(2) .qtyComponent{
+    padding-top: var(--sp20);
+}
+#cartPanel > div form ul li > div:nth-of-type(2) .qtyComponent input,
+#searchPanel > div form input[type='search'],
+header > div:nth-of-type(2) > div input,
+header > div:nth-of-type(2) > div button{
+    border: none;
+}
+#cartPanel > div form ul li > div:nth-of-type(2) .qtyComponent input.qty,
+header .respRollingBanner{
+    background-color: var(--GS03);
+}
+#cartPanel > div form ul li > div:nth-of-type(2) .qtyComponent input.minimize{
+    background: url('../images/icon_minimize.png') center / 26px no-repeat;
+}
+#cartPanel > div form ul li > div:nth-of-type(2) .qtyComponent input.minimize,
+#cartPanel > div form ul li > div:nth-of-type(2) .qtyComponent input.add,
+header > div:nth-of-type(2) > div > *,
+footer > div:first-of-type div:last-of-type ul li,
+footer > div:last-of-type ol li{
+    text-indent: -9999px;
+}
+#cartPanel > div form ul li > div:nth-of-type(2) .qtyComponent input.add{
+    background: url('../images/icon_add.png') center / 25px no-repeat;
+}
+#cartPanel > div form > div{
+    border-top: 1px solid var(--GS04); padding-top: var(--sp30); bottom: 60px;
+}
+#cartPanel > div form > div mark,
+header > div:nth-of-type(2) > div input,
+header > div:nth-of-type(2) > div button{
+    background-color: transparent;
+}
+#cartPanel > div form > div mark{
+    font-style: normal;
+}
+#cartPanel > div form > div mark::after{
+    content: 'EUR'; font-size: 12px; font-weight: 400; padding-left: var(--sp05);
+}
+#cartPanel > div form > div button{
+    margin-top: var(--sp20);
+}
+#searchPanel{
+    top: 50px;
+}
+#searchPanel,
+header > div:nth-of-type(2){
+    height: 100px;
+}
+#searchPanel{
+    border-radius: 0 0 10px 10px; box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+#searchPanel > div{
+    padding: var(--sp35) 0px;
+}
+#searchPanel > div form input[type='search']{
+    line-height: 30px; padding-left: 25px; background: url("../images/icon_search.png") no-repeat left center / 20px 20px;
+}
+#searchPanel > div form input[type='search']::placeholder,
+header > div:nth-of-type(2) > nav ul li div ol li:hover a,
+footer > div:first-of-type div ul li:hover a,
+footer > div:last-of-type p{
+    color: var(--GS11);
+}
+#searchPanel > div form input[type='reset'],
+header > div:nth-of-type(2) > div button span,
+footer > div:first-of-type div:last-of-type p,
+footer > div:last-of-type p{
+    line-height: 20px;
+}
+#searchPanel > div form input[type='button']{
+    width: 16px; height: 16px;
+}
+#searchPanel > div form input[type='button'],
+footer > div:first-of-type div:last-of-type ul li:not(:first-of-type){
+    margin-left: var(--sp15);
+}
+header{
+    z-index: 1000;
+    transition-duration: 0.4s; transition-timing-function: ease;
+    background-color:rgba(255, 255, 255, 1);
+}
+/* .down{
+    background-color:rgba(255, 255, 255, 1);
+} */
+header .respRollingBanner{
+    line-height: 50px;  white-space: nowrap; overflow-x: hidden;
+}
+header .respRollingBanner > P{
+    animation-name: hRollSlide; animation-iteration-count: infinite; animation-timing-function: linear;animation-duration: 36s;
+}
+@keyframes hRollSlide{
+    0%{transform: translateX(0%);}
+    100%{transform: translateX(-200%);}
+}
+header > div:nth-of-type(2),
+header > div:nth-of-type(2) > div{
+    display: flex;
+}
+header > div:nth-of-type(2){
+    align-items: center;
+}
+header > div:nth-of-type(2) > h1{
+    max-width: 45px;
+}
+header > div:nth-of-type(2) > nav ul li div ol li a,
+footer > div:first-of-type div ul li a,
+footer > div:first-of-type div:last-of-type p{
+    color: var(--GS06);
+}
+header > div:nth-of-type(2) > div > *,
+footer > div:first-of-type div:last-of-type ul li,
+footer > div:last-of-type ol li{
+    background-repeat: no-repeat;
+}
+header > div:nth-of-type(2) > div > *,
+footer > div:first-of-type div:last-of-type ul li,
+footer > div:last-of-type ol li{
+    background-size: contain;
+}
+header > div:nth-of-type(2) > div > *,
+footer > div:last-of-type ol li{
+    max-width: 48px;
+}
+header > div:nth-of-type(2) > div a{
+    background-image: url("../images/icon_account.png");
+}
+header > div:nth-of-type(2) > div input{
+    background-image: url("../images/icon_search.png");
+}
+header > div:nth-of-type(2) > div button{
+    background-image: url("../images/icon_cart.png");
+}
+header > div:nth-of-type(2) > div input,
+header > div:nth-of-type(2) > div button{
+    padding: 0;
+    margin-left: 3%;
+}
+header > div:nth-of-type(2) > div button span{
+    width: 20px; right: -5px; color: var(--GS01); background-color: var(--GS14); border-radius: 10px; text-indent: 0;
+} 
+header > div:nth-of-type(2) > div button span,
+footer > div:first-of-type div:last-of-type ul li{
+    height: 20px;
+}
+footer > div:first-of-type{
+    margin-bottom: var(--sp150);
+}   
+footer > div:first-of-type div h2{
+    font-size: 16px; font-weight: 500;
+}
+footer > div:first-of-type div ul li a,
+footer > div:first-of-type div:last-of-type p,
+footer > div:last-of-type p{
+    font-size: 14px; font-weight: 300;
+}
+footer > div:first-of-type div:last-of-type p{
+    margin-bottom: var(--sp20);
+}
+footer > div:first-of-type div:last-of-type ul li{
+    transition: 0.1s ease-in-out; max-width: 152px;
+} 
+footer > div:first-of-type div:last-of-type ul li:nth-of-type(1){
+    background-image: url("../images/icon_instagram.png"); 
+}
+footer > div:first-of-type div:last-of-type ul li:nth-of-type(2){
+    background-image: url("../images/icon_facebook.png"); 
+}
+footer > div:first-of-type div:last-of-type ul li:nth-of-type(3){
+    background-image: url("../images/icon_tiktok.png"); 
+}
+footer > div:first-of-type div:last-of-type ul li:nth-of-type(4){
+    background-image: url("../images/icon_pinterest.png"); 
+}
+footer > div:first-of-type div:last-of-type ul li:nth-of-type(5){
+    background-image: url("../images/icon_youtube.png"); 
+}
+footer > div:first-of-type div:last-of-type ul li:nth-of-type(1):hover{
+    background-image: url("../images/icon_instagram_h.png"); 
+}
+footer > div:first-of-type div:last-of-type ul li:nth-of-type(2):hover{
+    background-image: url("../images/icon_facebook_h.png"); 
+}
+footer > div:first-of-type div:last-of-type ul li:nth-of-type(3):hover{
+    background-image: url("../images/icon_tiktok_h.png"); 
+}
+footer > div:first-of-type div:last-of-type ul li:nth-of-type(4):hover{
+    background-image: url("../images/icon_pinterest_h.png"); 
+}
+footer > div:first-of-type div:last-of-type ul li:nth-of-type(5):hover{
+    background-image: url("../images/icon_youtube_h.png"); 
+}
+footer > div:last-of-type ol li{
+    line-height: 25px;
+}
+footer > div:last-of-type ol li:not(:first-child){
+    margin-left: var(--sp05);
+}
+footer > div:last-of-type ol li:nth-of-type(1){
+    background-image: url("../images/icon_amex.png");
+}
+footer > div:last-of-type ol li:nth-of-type(2){
+    background-image: url("../images/icon_apple.png");
+}
+footer > div:last-of-type ol li:nth-of-type(3){
+    background-image: url("../images/icon_google.png");
+}
+footer > div:last-of-type ol li:nth-of-type(4){
+    background-image: url("../images/icon_mastercard.png");
+}
+footer > div:last-of-type ol li:nth-of-type(5){
+    background-image: url("../images/icon_maestro.png");
+}
+footer > div:last-of-type ol li:nth-of-type(6){
+    background-image: url("../images/icon_paypal.png");
+}
+footer > div:last-of-type ol li:nth-of-type(7){
+    background-image: url("../images/icon_unionpay.png");
+}
+footer > div:last-of-type ol li:nth-of-type(8){
+    background-image: url("../images/icon_visa.png");
+}
+/* Common */
+@media screen and (max-width: 767px){
+    #topbutton{
+        display: inline-block;
+        background: url('../images/ico_top.png') center / contain no-repeat;
+        width: 48px;
+        height: 48px;
+        position: fixed;
+        bottom: 30px;
+        right: 3.57%;
+        transition: background-color .3s, opacity .5s, visibility .5s;
+        opacity: 0;
+        visibility: hidden;
+        z-index: 1001;
+    }
+    #topbutton:hover{
+        cursor: pointer;
+        background: url('../images/ico_top_hover.png') center / contain no-repeat;
+    }
+    #topbutton.show{
+        opacity: 1;
+        visibility: visible;
+    }
+    .hJCreateRingContainer > ul > li:not(:first-of-type),
+    .detailContainer > div:nth-of-type(2) form :last-child .sizeGuideBox.exSize h3,
+    .signUpContainer > div > div,
+    .footerContainer > ul,
+    .footerContainer.care > div > div:nth-child(2) ul.hBlindBox li{
+        position: relative;
+    }
+    .detailContainer .colorChipsComponent ul li:hover span,
+    .detailContainer .colorChipsComponent ul li:hover span::before,
+    .footerContainer > ul li.active:after,
+    .switchToggle label,
+    .cartContainer > div > div:nth-child(1) form fieldset > div:nth-of-type(1) div label{
+        display: inline-block;
+    }
+    #editProfilePopup.active,
+    #editPopup.active,
+    #addPopup.active{
+        width: 240px; margin-left: -120px;
+    }
+    #submitPopup,
+    #createRingPopup{
+        width: 92.86%; top: 23%;
+    }
+    #submitPopup,
+    #createRingPopup,
+    header > div:nth-of-type(2) > button.mui{
+        left: 3.57%;
+    }
+    [data-disp="noneM"],
+    [data-dispChild="noneM"] :first-child,
+    [data-dispActive="noneM"] li:not(.active){
+        display: none;
+    }
+    [data-disp="blockM"],
+    [data-disp="blockM"]::after,
+    [data-disp="blockM"]:hover ~ ul,
+    [data-disp="blockM"]:hover + p,
+    #mnavPanel.active,
+    #mnavPanel.active ul li:hover > div,
+    [data-disp="blockM"] li b:after,
+    [data-disp="blockM"] li:hover b + div{
+        display: block;
+    }
+    #cartPanel,
+    header > div:nth-of-type(2) > nav.active{
+        width: 100%;
+    }
+    #cartPanel{
+        padding: 0 3.57%;
+    }
+    #cartPanel > div form ul li > div:nth-of-type(1){
+        width: 30%;
+    }
+    #cartPanel > div form ul li > div:nth-of-type(2){
+        width: 70%;
+    }
+    #cartPanel > div form ul li > div:nth-of-type(2) strong{
+        float: right; line-height: 25px;
+    }
+    #cartPanel > div form ul li > div:nth-of-type(2) .qtyComponent input{
+        width: 21px; line-height: 21px;
+    }
+    #searchPanel > div form input[type='search']{
+        width: 74%;
+    }
+    header .respRollingBanner > P{
+        width: 220%;
+    }
+    header > div:nth-of-type(2) > button.mui{
+        background: url('../images/icon_nav.png') left center / contain no-repeat; width: 34px; height: 34px; border: none; padding: 0; text-indent: -9999px;
+    }
+    header > div:nth-of-type(2) > button.mui,
+    header > div:nth-of-type(2) > nav input.closeBtn,
+    .detailContainer > div:nth-of-type(2) form .colorChipsComponent ul li:hover span,
+    .detailContainer > div:nth-of-type(2) form .colorChipsComponent ul li:hover span::before,
+    .footerContainer > ul li.active,
+    .footerContainer > ul li.active:after,
+    .footerContainer.care > div > div:nth-child(2) ul.hBlindBox li h3{
+        position: absolute;
+    }
+    header > div:nth-of-type(2) > h1,
+    header > div:nth-of-type(2) > nav ul li b:after,
+    footer > div:first-of-type div h2:after{
+        margin: 0 auto;
+    }
+    header > div:nth-of-type(2) > nav.active{
+        position: fixed; left: 0; top: 0; z-index: 10; height: 100%; padding: 50px 3.57%; box-sizing: border-box;
+        background-image: url('../images/bg_div4.png'),url('../images/Ca_3_Necklaces_3402.jpg'); background-repeat: no-repeat; background-position: center; background-size: cover;
+    }
+    header > div:nth-of-type(2) > nav.active,
+    footer > div:first-of-type div{
+        text-align: center;
+    }
+    header > div:nth-of-type(2) > nav input.closeBtn{
+        top: 15px; right: 15px; width: 25px; height: 25px;
+    }
+    header > div:nth-of-type(2) > nav ul li b{
+        color: var(--GS01); margin: 20px 0;
+    }
+    header > div:nth-of-type(2) > nav ul li b:after,
+    footer > div:first-of-type div h2:after{
+        content: '';
+    }
+    header > div:nth-of-type(2) > nav ul li b:after,
+    footer > div:first-of-type div h2:after,
+    footer > div:last-of-type ol li{
+        width: 24px;
+    }
+    header > div:nth-of-type(2) > nav ul li b:after,
+    footer > div:first-of-type div h2:after{
+        height: 24px;
+    }
+    header > div:nth-of-type(2) > nav ul li b:after{
+        transform: rotate(-90deg); background: url('../images/icon_expand_L_white.png') center / contain no-repeat;
+    }
+    header > div:nth-of-type(2) > nav ul li b:after,
+    footer > div:first-of-type div h2:after{
+        transition: 0.5s ease-in-out;
+    }
+    header > div:nth-of-type(2) > nav ul li:hover b:after{
+        transform: rotate(90deg);
+    }
+    header > div:nth-of-type(2) > nav ul li b + div{
+        transition: 2s ease-in-out;
+    }
+    header > div:nth-of-type(2) > nav ul li div ol{
+        border-top: 1px solid var(--GS01); border-bottom: 1px solid #fff;
+    }
+    header > div:nth-of-type(2) > nav ul li div ol,
+    footer > div:first-of-type div h2{
+        padding: 20px 0;
+    }
+    header > div:nth-of-type(2) > nav ul li div ol li:not(:last-child),
+    footer > div:first-of-type div:not(:last-child) ul li:not(:last-child){
+        margin-bottom: 20px;
+    }
+    header > div:nth-of-type(2) > nav ul li div ol li a{
+        line-height: 20px;
+    }
+    header > div:nth-of-type(2) > div{
+        right: 3.57%;
+    }
+    footer{
+        padding: 0 3.57% var(--sp30);
+    }
+    footer > div:first-of-type div h2{
+        border-bottom: 1px solid var(--GS04);
+    }
+    footer > div:first-of-type div h2:after{
+        background: url('../images/icon_expand_D.png') center / contain no-repeat;
+    }
+    footer > div:first-of-type div h2:hover:after{
+        transform: rotate(180deg);
+    }
+    footer > div:first-of-type div ul{
+        padding: 20px; border-bottom: 1px solid #e5e5e5;
+    }
+    footer > div:first-of-type div:last-of-type p{
+        margin-top: var(--sp20);
+    }
+}
+/* Mobile */
+@media screen and (min-width: 768px) and (max-width:1279px){
+    [data-floatChild="leftT"] > *{
+    float: left;
+    }
+    [data-floatChild="leftT"]:after{
+        content: ''; display: block; clear: both;
+    }
+    header > div:nth-of-type(2),
+    footer{
+        margin: 0 auto;
+    }
+    header > div:nth-of-type(2),
+    footer,
+    #cartPanel{
+        padding: 0 3.125%;
+    }
+}
+/* Tablet */
+@media screen and (max-width: 1279px){
+    #editPopup.active,
+    #addPopup.active{
+        bottom: 20%;
+    }
+    #searchPanel > div{
+        width: 90%;
+    }
+    footer > div:first-of-type div:last-of-type ul li{
+        width: 18px;
+    }
+    footer > div:last-of-type p{
+        margin-bottom: var(--sp10);
+    }
+}
+/* Tablet & Mobile */
+@media screen and (min-width: 1280px){
+    [data-floatChild="leftD"] > *,
+    [data-float="leftD"]{
+        float: left;
+    }
+    [data-floatChild="leftD"]:after,
+    [data-float="cancelD"]:after{
+        content: ''; display: block; clear: both;
+    }
+    header > div:nth-of-type(2),
+    footer{
+        max-width: 1820px; margin: 0 auto;
+    }
+    header > div:nth-of-type(2),
+    footer,
+    #cartPanel{
+        padding: 0 2.74%;
+    }
+    #searchPanel > div{
+        width: 70%;
+    }
+    footer > div:first-of-type div:last-of-type ul li{
+        width: 20px;
+    }
+    footer > div:last-of-type ol{
+        position: absolute; right: 0; bottom: 0;
+    }
+}
+/* Desktop */
+@media screen and (min-width: 768px){
+    [data-floatChild="leftDT"] > *,
+    [data-float="leftDT"]{
+        float: left;
+    }
+    [data-floatChild="leftDT"]::after,
+    [data-float="cancelDT"]:after{
+        content: ''; display: block; clear: both;
+    }
+    #editProfilePopup.active,
+    #editPopup.active,
+    #addPopup.active,
+    #cartPanel{
+        width: 400px;
+    }
+    #editProfilePopup.active,
+    #editPopup.active,
+    #addPopup.active{
+        margin-left: -200px;
+    }
+    #editProfilePopup.active,
+    #editPopup.active,
+    #addPopup.active,
+    #submitPopup,
+    #createRingPopup,
+    header > div:nth-of-type(2) > div button span{
+        top: 50%;
+    }
+    #submitPopup,
+    #createRingPopup{
+        width: 700px; margin: -250px -351px;
+    }
+    #submitPopup,
+    #createRingPopup,
+    #editProfilePopup.active,
+    #editPopup.active,
+    #addPopup.active{
+        left: 50%;
+    }
+    #submitPopup > div,
+    #createRingPopup > div,
+    header > div:nth-of-type(2) > nav ul li div ol,
+    header > div:nth-of-type(2) > nav ul li div img{
+        width: 50%;
+    }
+    #cartPanel{
+        border-radius: 10px 0 0 10px; box-shadow: -10px 0 20px rgba(0, 0, 0, 0.2);
+    }
+    #cartPanel > div form ul li > div:nth-of-type(1){
+        width: 26%;
+    }
+    #cartPanel > div form ul li > div:nth-of-type(2){
+        width: 74%;
+    }
+    #cartPanel > div form ul li > div:nth-of-type(2) strong,
+    header > div:nth-of-type(2) > nav ul li:hover div,
+    header > div:nth-of-type(2) > nav ul > li::after{
+        display: block;
+    }
+    #cartPanel > div form ul li > div:nth-of-type(2) strong{
+        text-align: right;
+    }
+    #cartPanel > div form ul li > div:nth-of-type(2) .qtyComponent input,
+    footer > div:last-of-type ol li{
+        width: 25px;
+    }
+    #cartPanel > div form ul li > div:nth-of-type(2) .qtyComponent input{
+        line-height: 25px;
+    }
+    #searchPanel > div form input[type='search']{
+        width: 89%;
+    }
+    header .respRollingBanner > P,
+    header > div:nth-of-type(2) > nav,
+    header > div:nth-of-type(2) > nav ul li div{
+        width: 100%;
+    }
+    header .respRollingBanner > P{
+        animation-duration: 18s;
+    }       
+    header > div:nth-of-type(2){
+        justify-content: space-between;
+    }    
+    header > div:nth-of-type(2) > h1,
+    header > div:nth-of-type(2) > nav ul li div,
+    .footerContainer.care > div > div:nth-child(2) ul.hBlindBox li.active,
+    .footerContainer.care > div > div:nth-child(2) ul.hBlindBox li:hover h3,
+    .footerContainer.care > div > div:nth-child(2) ul.hBlindBox li.active div input,
+    .cartContainer > div > div:nth-child(1) form > ul li a,
+    .cartContainer > div > div form fieldset > div div:first-child ul{
+        position: absolute;
+    }
+    #topbutton,
+    header .mui,
+    header > div:nth-of-type(2) > nav ul li div{
+        display: none;
+    }    
+    header > div:nth-of-type(2) > nav{
+        text-align: center;
+    }    
+    header > div:nth-of-type(2) > nav ul > li{
+        text-align: left;
+    }
+    header > div:nth-of-type(2) > nav ul > li,
+    .footerContainer > ul li,
+    .myAccountContainer > div form:first-child fieldset .whiteBG ul + div > div:not(:last-of-type),
+    .inputBox div:nth-of-type(3),
+    .inputBox div:nth-of-type(4),
+    .inputBox div:nth-of-type(6),
+    .inputBox div:nth-of-type(7),
+    .cartContainer > div > div:nth-child(1) form > ul li span,
+    .cartContainer > div > div:nth-child(1) form > ul li a{
+        display: inline-block;
+    }
+    header > div:nth-of-type(2) > nav ul > li::after{
+        content: '';
+    }
+    header > div:nth-of-type(2) > nav ul > li::after{
+        border-bottom: 1px solid var(--GS14); transform: scaleX(0); transition: transform 0.2s ease-in-out;
+    }
+    header > div:nth-of-type(2) > nav ul > li:hover{
+        cursor: pointer;
+    }
+    header > div:nth-of-type(2) > nav ul > li:hover::after{
+        transform: scaleX(1);
+    }
+    header > div:nth-of-type(2) > nav ul > li:not(:first-of-type){
+        margin-left: 3%;
+    }
+    header > div:nth-of-type(2) > nav ul li b{
+        color: var(--GS14); line-height: 70px;
+    }
+    header > div:nth-of-type(2) > nav ul li div{
+        padding-top: var(--sp15); left: 0; height: 500px;
+    }
+    header > div:nth-of-type(2) > nav ul li div ol,
+    header > div:nth-of-type(2) > nav ul li div img{
+        height: 100%;
+    }
+    header > div:nth-of-type(2) > nav ul li div ol{
+        background-color: var(--GS01); padding-top: var(--sp30); padding-left: 2.74%;
+    }
+    header > div:nth-of-type(2) > nav ul li div ol,
+    footer > div:first-of-type div:not(:first-child){
+        box-sizing: border-box;
+    }
+    header > div:nth-of-type(2) > nav ul li div ol li:not(:first-of-type){
+        margin-top: var(--sp15);
+    }
+    header > div:nth-of-type(2) > nav ul li div img{
+       max-width: 910px; object-fit: cover; overflow: hidden;
+    }
+    header > div:nth-of-type(2) > div{
+        justify-content: flex-end; right: 2.74%;
+    }
+    footer{
+        padding-bottom: var(--sp30);
+    }
+    footer > div:first-of-type div{
+        width: 25%;
+    }
+    footer > div:first-of-type div:not(:first-child){
+        padding-left: 1%;
+    }
+    footer > div:first-of-type div h2{
+        margin-bottom: var(--sp30);
+    }
+    footer > div:first-of-type div:not(:last-of-type) ul li:not(:last-child){
+        margin-bottom: var(--sp15);
+    }
+    footer > div:last-of-type,
+    .detailContainer > div:nth-of-type(2) form :last-child .sizeGuideBox h3 span,
+    .signUpContainer > div > div h3,
+    .footerContainer.care > div > div:nth-child(2) ul.hBlindBox,
+    .cartContainer > div > div form fieldset > div div:first-child{
+        position: relative;
+    }
+}
+/* Desktop & Tablet */

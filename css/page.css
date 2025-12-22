@@ -1,0 +1,2793 @@
+html,
+.policy > div > aside ul li a{
+    scroll-behavior: smooth;
+}
+.btnToggle,
+.indexContainer > :nth-child(5),
+.indexContainer > :nth-child(8),
+.hJContainer > div:nth-of-type(2),
+.hJCreateRingContainer > ul > li:nth-of-type(2) div.open,
+.hJCreateRingContainer > ul > li:nth-of-type(3) div.open,
+.hJCreateRingContainer > ul > li:nth-of-type(4) div.open,
+.footerContainer.contacts > div:nth-child(2),
+.footerContainer.care > div > div:nth-child(1),
+.cartContainer > div > div form fieldset ul li{
+    background-repeat: no-repeat;
+}
+.btnToggle,
+.indexContainer > :nth-child(7) > div:nth-of-type(2) div h2 mark,
+.hJCreateRingContainer > ul > li:last-of-type div.open form ul li mark{
+   background-color: transparent;
+}
+.btnToggle,
+.cartContainer > div > div form fieldset ul li{
+    background-size: contain;
+}
+.btnToggle,
+.bx-wrapper,
+.hJCreateRingContainer > ul > li:not(:first-child) input.next,
+.hJCreateRingContainer > ul > li:not(:first-child) input.prev,
+.myAccountContainer > div fieldset .whiteBG ul li input,
+.myAccountContainer > div fieldset .whiteBG ul li textarea,
+.myAccountContainer > div form:last-child fieldset legend a,
+.inputBox span.selectComponent select{
+    border: none;
+}
+.btnToggle,
+.pager > a.next,
+.hJCreateRingContainer > ul > li:not(:first-child) input.next,
+.hJCreateRingContainer > ul > li:not(:first-child) input.prev,
+.detailContainer > div:nth-of-type(1) > .bx-wrapper .bx-controls a,
+.detailContainer > div:nth-of-type(1) > .thumbPagerBox .bx-controls a,
+.cartContainer > div > div form fieldset ul li{
+    text-indent: -9999px;
+}
+.btnToggle.wishIcon{ 
+    background-position: center 2px; background-image: url('../images/icon_toggleWish_off.png'); 
+}
+.btnToggle.cartIcon{
+    background-image: url('../images/icon_toggleCart_off.png');
+}
+.btnToggle.wishIcon,
+.btnToggle.cartIcon,
+.detailContainer > div:nth-of-type(1) > .thumbPagerBox .bx-controls a,
+.footerContainer ul.accComponent li h3:after{
+    width: 30px;
+}
+.btnToggle.wishIcon,
+.btnToggle.cartIcon,
+.footerContainer ul.accComponent li h3:after,
+.detailContainer > div:nth-of-type(2) form > :last-child ul.customSelect::before,
+.inputBox > div:last-of-type::before{
+    height: 30px;
+}
+.bx-wrapper{
+    box-shadow: none;
+}
+.bx-wrapper,
+.myAccountContainer > div fieldset .whiteBG ul + div mark,
+.myAccountContainer > div form:last-child fieldset legend a{
+    background: transparent;
+}
+input,
+button,
+.filter > h3,
+.filter > div form ul.orAccComponent li b,
+.filter > div form ul.orAccComponent li ol li label,
+.detailContainer > div:nth-of-type(2) form :last-child .sizeGuideBox h3 span,
+.detailContainer > div:nth-of-type(2) form > :last-child ul.customSelect,
+.footerContainer ul.accComponent li h3,
+.switchToggle label{
+    cursor: pointer;
+}
+span > a,
+.detailContainer > div:nth-of-type(2) > ul li p a,
+.policy > div > article p a,
+.policy table tr td a,
+.policy table tr td a:visited,
+.myAccountContainer > div .whiteBG > div h3,
+.myAccountContainer > div form:last-child fieldset .whiteBG > div h3,
+.myAccountContainer > div fieldset .whiteBG ul + div mark,
+.cartContainer > div > div:nth-child(1) form fieldset > div:nth-of-type(1) div input[type='radio']:checked + label{
+    color: var(--BS02);
+}
+span > a:hover,
+.detailContainer > div:nth-of-type(2) > ul li p a:hover,
+.policy > div > article p a:hover,
+.policy table tr td a:hover{
+    color: rgba(0, 100, 153, 0.7);
+}
+.whiteBG,
+.indexContainer > :nth-child(1) > div:nth-child(2)::after,
+.filter > div,
+.listContainer.colorWhite > div > h2::before,
+.hJCreateRingContainer > ul > li:not(:first-of-type) > div.open > div:nth-child(2) form fieldset ul li input[type='radio']:checked,
+.detailContainer > div:nth-of-type(2) form > :last-child ul.customSelect,
+.signUpContainer > div,
+.footerContainer.contacts > div:nth-child(3) > div{
+    background-color: var(--GS01);
+}
+.bx-wrapper{
+    margin-bottom: 0;
+}
+.bx-wrapper a.bx-prev,
+.bx-wrapper a.bx-next{
+    z-index: 0;
+}
+[class*='Container']:not(.indexContainer, .signUpContainer),
+.indexContainer,
+.listContainer > div:first-of-type,
+.listContainer > ul,
+.collectionContainer > div:nth-of-type(1),
+.collectionContainer > div:nth-of-type(2) > div:first-of-type,
+.hJContainer > div:not(:last-child),
+.hJCreateRingContainer > ul > li:nth-of-type(1) p,
+.hJCreateRingContainer > ul > li:nth-of-type(1) ol,
+.footerContainer > ul,
+.footerContainer.contacts > div:nth-child(2),
+.cartContainer > ol{
+    margin-bottom: var(--sp150);
+}
+[class*='Container']:not(.indexContainer, .signUpContainer){
+    margin-top: var(--sp300);
+}
+.indexContainer{
+    padding-top: 150px;
+}
+.indexContainer > :nth-child(1) > div:nth-child(1) video,
+.filter > div > form > div input,
+.hJCreateRingContainer > ul > li:nth-of-type(1) input,
+.hJCreateRingContainer > ul > li:last-of-type div.open,
+.hJCreateRingContainer > ul > li:last-of-type div.open form input:first-of-type,
+.detailContainer > div:nth-of-type(2) form :last-child ul.customSelect li,
+.detailContainer > div:nth-of-type(2) form :last-child div:last-child,
+.signUpContainer > div > form ul li input,
+.signUpContainer > div > form > button,
+.signUpContainer > div > button,
+.footerContainer.contacts > div:nth-child(3) > div form > ul li input,
+.footerContainer.contacts > div:nth-child(3) > div form > ul li textarea,
+.footerContainer.contacts > div:nth-child(3) > div form > input,
+.footerContainer.formBox > div:last-child > div:nth-of-type(2) form > div ul li input,
+.footerContainer.formBox > div:last-child > div:nth-of-type(2) form > div ul li textarea,
+.footerContainer.formBox > div:last-child > div:nth-of-type(2) form > div ul li span.selectComponent select,
+.footerContainer.formBox > div:last-child > div:nth-of-type(2) form > div > input,
+.footerContainer.care > div > div:nth-child(2) ul.hBlindBox li div video,
+.myAccountContainer > div fieldset .whiteBG ul li input,
+.myAccountContainer > div fieldset .whiteBG ul li textarea,
+.myAccountContainer > div form:first-child fieldset .whiteBG ul + div > div input,
+input + span.active,
+.inputBox span.selectComponent select,
+.inputBox > div input,
+.cartContainer > div > div:nth-child(1) form fieldset:nth-child(1) input,
+.cartContainer > div > div:nth-child(1) form fieldset.radioBox > div:nth-of-type(1),
+.cartContainer > div > div form fieldset legend,
+.cartContainer #creditcardBox input[type='text'],
+.myAccountContainer > div h2,
+.myAccountContainer > div fieldset legend{
+    width: 100%;
+}
+.indexContainer > :nth-child(1) > div:nth-child(1) video,
+.indexContainer > :nth-child(3) li img,
+.indexContainer > :nth-child(6) > ul li a img,
+.collectionContainer > div:nth-of-type(1) img,
+.hJContainer > div:nth-of-type(1) video,
+.hJContainer > div:not(:first-child):not(:nth-child(2)) > div > img,
+.detailContainer > div:nth-of-type(1) .thumbNailPager li a img,
+.footerContainer.care > div > div:nth-child(2) ul.hBlindBox li div video{
+    object-fit: cover;
+}
+.indexContainer > :nth-child(1) > div:nth-child(2),
+.indexContainer > :nth-child(4) > .bx-wrapper .bx-controls-direction a.bx-next,
+.detailContainer > div:nth-of-type(2) form strong,
+.signUpContainer > div > button,
+.myAccountContainer > div .whiteBG > div:nth-child(1) > div ul li div:nth-child(2) strong,
+.cartContainer > div > div:nth-child(1) form fieldset > div#pickupBox div div span:nth-child(2n),
+.cartContainer > div > div:nth-child(2) ul li div:nth-child(2) strong,
+.cartContainer > div > div:nth-child(2) > div:nth-of-type(2) :nth-child(2n){
+    text-align: right;
+}
+.indexContainer > :nth-child(1) > div:nth-child(2),
+.indexContainer > :nth-child(3) li h3 b,
+.indexContainer > :nth-child(5) > div h2,
+.indexContainer > :nth-child(7) > div:nth-of-type(2) div h2 mark,
+.indexContainer > :nth-child(8) > h2,
+.hJContainer > div:nth-of-type(2) p,
+.hJCreateRingContainer > ul > li:not(:first-of-type) > div.open > div ul[class^='createRing'] li span,
+.hJCreateRingContainer > ul > li:not(:first-of-type) > div.open > div:nth-child(2) form fieldset,
+.hJCreateRingContainer > ul > li:last-of-type div.open,
+.hJCreateRingContainer > ul > li:last-of-type div.open form ul li mark,
+.footerContainer.contacts > div:nth-child(2),
+.footerContainer.care > div > div:nth-child(1) *,
+.myAccountContainer > div .whiteBG > div:nth-child(1) > div ul li div:nth-child(1) mark,
+input + span.active,
+.cartContainer > div > div:nth-child(2) ul li div:nth-child(1) mark{
+    color: var(--GS01);
+}
+.indexContainer > :nth-child(1) > div:nth-child(2)::after,
+.indexContainer > :nth-child(3) li:after,
+.filter > h3::after,
+.filter > div form ul.orAccComponent li b:after,
+.filter > div form ul.orAccComponent li b.active:after,
+[class*='color'] > div > h2::before,
+.collectionContainer > div:nth-of-type(1) div::before,
+.collectionContainer > div:nth-of-type(1) div::after,
+.hJContainer > div:nth-of-type(1) div::before,
+.hJContainer > div:nth-of-type(1) div::after,
+.detailContainer > div:nth-of-type(2) form :last-child .sizeGuideBox h3 span.active:after,
+.detailContainer > div:nth-of-type(2) form > :last-child ul.customSelect::before,
+.detailContainer > div:nth-of-type(2) form > :last-child ul.customSelect::after,
+.footerContainer ul.accComponent li h3:after,
+input + span.active::before,
+.inputBox > div:last-of-type::before,
+.inputBox > div:last-of-type::after,
+.cartContainer > ol li:not(:last-child):after,
+.cartContainer > div > div:nth-child(1) form fieldset > div:nth-of-type(1) div:nth-child(1) label[for='ship']:before,
+.cartContainer > div > div:nth-child(1) form fieldset > div:nth-of-type(1) div:nth-child(2) label[for='pickup']:before{
+    content: '';
+}
+.indexContainer > :nth-child(1) > div:nth-child(2) h2{
+    margin-bottom: var(--sp15);
+}
+.indexContainer > :nth-child(2) > h2,
+.indexContainer > :nth-child(4) > .bx-wrapper .bx-viewport ul.newInCarosuel li a b,
+.indexContainer > :nth-child(6),
+.indexContainer > :nth-child(7) > div,
+.collectionContainer > div:nth-of-type(1) div,
+.hJContainer > div:nth-of-type(1) div,
+.hJContainer > div:nth-of-type(2) p,
+.hJContainer > div:not(:first-child):not(:nth-child(2)) > div > div,
+.hJCreateRingContainer > ul > li:not(:first-of-type) > div.open > div ul[class^='createRing'] li span,
+.hJCreateRingContainer > ul > li:last-of-type div.open h2,
+.footerContainer.contacts > div:nth-child(2),
+.footerContainer.contacts > div:nth-child(3) > div form > h3,
+.footerContainer.sizeG > div > div:nth-child(2) div,
+.footerContainer.care > div > div:nth-child(1) *,
+.myAccountContainer > div .whiteBG > div:nth-child(1) > div ul li div:nth-child(1) mark,
+input + span.active,
+.cartContainer > div > div:nth-child(2) ul li div:nth-child(1) mark{
+    text-align: center;
+}
+.indexContainer > :nth-child(2) > h2,
+.indexContainer > :nth-child(6) > h2{
+    margin-bottom: var(--sp100);
+}
+.indexContainer > :nth-child(2) > ul li a{
+    height: 400px;
+}
+.indexContainer > :nth-child(2) > ul li a,
+.indexContainer > :nth-child(2) > ul li a img,
+.indexContainer > :nth-child(3) li h3 b,
+.indexContainer > :nth-child(4) > div:nth-of-type(1) > b,
+.indexContainer > :nth-child(6) > ul li a,
+.indexContainer > :nth-child(7) > div:nth-of-type(1) ul.diaSlider li a,
+.indexContainer > :nth-child(7) > div:nth-of-type(1) ul.diaSlider li a img,
+.listContainer > ul li a,
+.listContainer > ul li a img,
+.collectionContainer > div:nth-of-type(2) > div:first-of-type > ul li a,
+.collectionContainer > div:nth-of-type(2) > div:first-of-type > ul li a img,
+.hJContainer > div:not(:first-child):not(:nth-child(2)) > div > div ul li a,
+.hJContainer > div:not(:first-child):not(:nth-child(2)) > ul li a,
+.hJContainer > div:not(:first-child):not(:nth-child(2)) > ul li a img,
+.hJCreateRingContainer > ul > li:nth-of-type(1) h2,
+.hJCreateRingContainer > ul > li:not(:first-of-type) > div.open > div:nth-child(2) form fieldset legend,
+.hJCreateRingContainer > ul > li:last-of-type div.open form ul li h3,
+.detailContainer > div:nth-of-type(1) > .bx-wrapper,
+.signUpContainer > div > div h3,
+.signUpContainer > div > form ul li label,
+.footerContainer.contacts > div:nth-child(2) h2,
+.footerContainer.contacts > div:nth-child(3) > div form > ul li label,
+.footerContainer.contacts > div:nth-child(3) > div form > div,
+.footerContainer.formBox > div:last-child > div:nth-of-type(2) form > div ul li label,
+.myAccountContainer > div .whiteBG > div:nth-child(1) > div ul li div:nth-child(2) b,
+.myAccountContainer > div .whiteBG > div:nth-child(2) ul li em,
+.myAccountContainer > div fieldset .whiteBG ul li label,
+.myAccountContainer > div fieldset .whiteBG ul + div mark,
+.cartContainer > div > div:nth-child(1) form fieldset legend,
+.cartContainer > div > div:nth-child(1) form fieldset > div h3,
+.cartContainer > div > div:nth-child(2) ul li div:nth-child(2) b,
+.cartContainer #bankDepositBox > p{
+    margin-bottom: var(--sp20);
+}
+.indexContainer > :nth-child(2) > ul li a img,
+.listContainer > ul li a img,
+.collectionContainer > div:nth-of-type(2) > div:first-of-type > ul li a img,
+.hJContainer > div:not(:first-child):not(:nth-child(2)) > ul li a img{
+    height: 70%;
+}
+.indexContainer > :nth-child(2) > ul li a img,
+.indexContainer > :nth-child(7) > div:nth-of-type(1) ul.diaSlider li a img,
+.listContainer > ul li a img,
+.listContainer > ul li:hover a img,
+.collectionContainer > div:nth-of-type(2) > div:first-of-type > ul li a img,
+.hJContainer > div:not(:first-child):not(:nth-child(2)) > ul li a img{
+    object-fit: contain;
+}
+.indexContainer > :nth-child(2) > ul li a b,
+.indexContainer > :nth-child(2) > ul li div,
+.listContainer > ul li a b,
+.listContainer > ul li div,
+.collectionContainer > div:nth-of-type(2) > div:first-of-type > ul li a b,
+.collectionContainer > div:nth-of-type(2) > div:first-of-type > ul li div,
+.hJContainer > div:not(:first-child):not(:nth-child(2)) > ul li a b,
+.hJContainer > div:not(:first-child):not(:nth-child(2)) > ul li div{
+    padding: 0 var(--sp20);
+}
+.indexContainer > :nth-child(2) > ul li a b,
+.indexContainer > :nth-child(4) > .bx-wrapper .bx-viewport ul.newInCarosuel li a b,
+.indexContainer > :nth-child(7) > div:nth-of-type(1) ul.diaSlider li a b,
+.listContainer > ul li a b,
+.collectionContainer > div:nth-of-type(2) > div:first-of-type > ul li a b,
+.hJContainer > div:not(:first-child):not(:nth-child(2)) > div > div ul li a b,
+.hJContainer > div:not(:first-child):not(:nth-child(2)) > ul li a b,
+.myAccountContainer > div .whiteBG > div:nth-child(1) > div ul li div:nth-child(2) b,
+.cartContainer > div > div:nth-child(2) ul li div:nth-child(2) b{
+    color: var(--GS13);
+}
+.indexContainer > :nth-child(2) > ul li a b,
+.listContainer > ul li a b,
+.collectionContainer > div:nth-of-type(2) > div:first-of-type > ul li a b,
+.hJContainer > div:not(:first-child):not(:nth-child(2)) > ul li a b{
+    height: 60px;
+}
+.indexContainer > :nth-child(2) > ul li div strong,
+.indexContainer > :nth-child(7) > div:nth-of-type(1) ul.diaSlider li strong,
+.listContainer > ul li div strong,
+.collectionContainer > div:nth-of-type(2) > div:first-of-type > ul li div strong,
+.hJContainer > div:not(:first-child):not(:nth-child(2)) > div > div ul li strong,
+.hJContainer > div:not(:first-child):not(:nth-child(2)) > ul li div strong,
+.detailContainer > div:nth-of-type(2) form strong,
+.footerContainer > ul li.active,
+.policy > div > aside h2:hover a,
+.policy > div > aside ul li:hover a,
+.myAccountContainer aside ul li.active,
+.myAccountContainer aside ul li:hover a,
+.myAccountContainer > div .whiteBG > div:nth-child(1) > div ul li div:nth-child(2) strong,
+.myAccountContainer > div .whiteBG > div:nth-child(2) > div strong,
+.myAccountContainer > div fieldset .whiteBG ul + div > span,
+.myAccountContainer > div form:last-child fieldset legend a,
+.myAccountContainer > div form:last-child fieldset h3 > input:nth-of-type(2),
+.cartContainer > ol li.active,
+.cartContainer > div > div:nth-child(2) ul li div:nth-child(2) strong,
+.cartContainer > div > div:nth-child(2) > div:nth-of-type(3) strong{
+    color: var(--RS01);
+}
+.indexContainer > :nth-child(2) > ul li div strong,
+.listContainer > ul li div strong,
+.collectionContainer > div:nth-of-type(2) > div:first-of-type > ul li div strong,
+.hJContainer > div:not(:first-child):not(:nth-child(2)) > ul li div strong{
+    right: 20px;
+}
+.indexContainer > :nth-child(3) li:after{
+    width: 90%; height: 96%;
+}
+.indexContainer > :nth-child(3) li:after,
+.filter,
+.filter > div,
+.detailContainer > div:nth-of-type(1) > .bx-wrapper .bx-controls a,
+.detailContainer > div:nth-of-type(2) form :last-child .qtyBox,
+input + span.active{
+    z-index: 10;
+}
+.indexContainer > :nth-child(3) li:after{
+    left: 5%; top: 2%; border: 10px solid var(--GS01);
+}
+.indexContainer > :nth-child(3) li:after,
+.indexContainer > :nth-child(7) > div:nth-of-type(2),
+.filter > div,
+.filter > div form ul.orAccComponent li b,
+.filter > div form ul.orAccComponent li ol li input[type='checkbox'],
+.collectionContainer > div:nth-of-type(1) div,
+.hJContainer > div:nth-of-type(1) div,
+.hJCreateRingContainer > ul > li,
+.hJCreateRingContainer > ul > li:not(:first-of-type) > div.open,
+.hJCreateRingContainer > ul > li:not(:first-of-type) > div.open > div:nth-child(2) form fieldset ul li input[type='radio'],
+.detailContainer > div:nth-of-type(2) form .colorChipsComponent ul li,
+.detailContainer > div:nth-of-type(2) form > :last-child ul.customSelect,
+.detailContainer > div:nth-of-type(2) form :last-child ul.customSelect li,
+.signUpContainer > div > form ul li input,
+.footerContainer.contacts > div:nth-child(3) > ul.accComponent,
+.footerContainer.contacts > div:nth-child(3) > div,
+.footerContainer.contacts > div:nth-child(3) > div form > ul li input,
+.footerContainer.contacts > div:nth-child(3) > div form > ul li textarea,
+.footerContainer.sizeG > div > div:nth-child(2),
+.policy > div > aside,
+.policy > div > article,
+.policy > div > article > div,
+.policy > div > article > div div.whiteBG,
+.switchToggle,
+.policy > div > article > div div.whiteBG ol,
+.policy > div > article > div div.whiteBG ul:not(.switchToggle),
+.policy table tr > *,
+.footerContainer.formBox > div:last-child > div:nth-of-type(2),
+.footerContainer.formBox > div:last-child > div:nth-of-type(2) form > div ul li input,
+.footerContainer.formBox > div:last-child > div:nth-of-type(2) form > div ul li textarea,
+.footerContainer.qa > div > div:nth-child(2),
+.footerContainer.care > div > div:nth-child(1),
+.myAccountContainer aside,
+.myAccountContainer > div,
+.myAccountContainer > div > .whiteBG > *,
+.myAccountContainer > div form:first-child fieldset .whiteBG > *:not(:first-child),
+.myAccountContainer > div form:first-child fieldset .whiteBG ul + div > div input,
+input + span.active,
+.inputBox span.selectComponent,
+.inputBox > div input,
+.cartContainer > div > div:nth-child(1) form fieldset:nth-child(1) input,
+.cartContainer > div > div:nth-child(1) form fieldset.radioBox > div:nth-of-type(1),
+.cartContainer > div > div:nth-child(1) form fieldset > div#pickupBox div div,
+.cartContainer > div > div:nth-child(2) > div:nth-of-type(1) input:first-child,
+.cartContainer #creditcardBox input[type='text']{
+    box-sizing: border-box;
+}
+.indexContainer > :nth-child(3) li:after,
+.detailContainer > div:nth-of-type(2) > ul li p{
+    opacity: 0;
+}
+.indexContainer > :nth-child(3) li:hover:after,
+.detailContainer > div:nth-of-type(2) > ul li h3.active ~ p{
+    opacity: 1;
+}
+.indexContainer > :nth-child(3) li:after{
+    transition: 0.8s ease-in-out;
+}
+.indexContainer > :nth-child(3) li:nth-of-type(2n+1):hover:after,
+.signUpContainer > div,
+.footerContainer.contacts > div:nth-child(3) > div,
+.footerContainer.sizeG > div > div:nth-child(2) div,
+.footerContainer.qa > div > div:nth-child(2) > div{
+    border-radius: 0 50px 0 50px;
+}
+.indexContainer > :nth-child(3) li:nth-of-type(2n):hover:after{
+    border-radius: 50px 0 50px 0;
+}
+.indexContainer > :nth-child(3) h3{
+    z-index: 100;
+}
+.indexContainer > :nth-child(3) li:nth-of-type(2n+1) h3,
+.filter > div{
+    top: 50px;
+}
+.indexContainer > :nth-child(3) li:nth-of-type(2n) h3{
+    bottom: 50px;
+}
+.indexContainer > :nth-child(4) > div:nth-of-type(1) > b,
+.signUpContainer > div > form ul li label::after,
+.footerContainer.contacts > div:nth-child(3) > div form > ul li label::after,
+.footerContainer.formBox > div:last-child > div:nth-of-type(2) form > div ul li label::after,
+.myAccountContainer > div fieldset .whiteBG ul + div mark small{
+    color: var(--GS07);
+}
+.indexContainer > :nth-child(4) > div:nth-of-type(1) *:not(:first-child, :last-child),
+.indexContainer > :nth-child(5) > div *:not(:last-child),
+.indexContainer > :nth-child(8) *:not(:last-child),
+.collectionContainer > div:nth-of-type(1) div h2,
+.hJContainer > div:nth-of-type(1) div h2,
+.hJCreateRingContainer > ul > li:nth-of-type(1) ol li:not(:last-child),
+.policy > div > aside h2,
+.footerContainer.care > div > div:nth-child(1) h2,
+.myAccountContainer aside h2,
+.myAccountContainer > div .whiteBG > div h3,
+.myAccountContainer > div form:last-child fieldset .whiteBG > div h3,
+.cartContainer > div > div:nth-child(2) ul{
+    margin-bottom: var(--sp50);
+}
+.indexContainer > :nth-child(4) > div:nth-of-type(1) h2,
+.indexContainer > :nth-child(7) > div:nth-of-type(2) div h2,
+.pager > ol li.active,
+.pager > ol li a:hover,
+.hJContainer > div:nth-of-type(1) div h2,
+.hJCreateRingContainer > ul > li:nth-of-type(1) h2,
+.detailContainer > div:nth-of-type(2) form h2,
+.policy > div > aside h2 a,
+.policy > div > article h2,
+.myAccountContainer aside h2 a,
+.myAccountContainer > div .whiteBG > div:nth-child(2) > div strong::before,
+.cartContainer > div > div:nth-child(2) > div:nth-of-type(3) strong:before{
+    color: var(--GS14);
+}
+.indexContainer > :nth-child(4) > div:nth-of-type(1) h2,
+.indexContainer > :nth-child(5) > div h2,
+.indexContainer > :nth-child(7) > div:nth-of-type(2) div h2,
+.filter > h3,
+.listContainer > div:nth-of-type(1) h2,
+.hJCreateRingContainer > ul > li:not(:first-of-type) > div:first-child b,
+.hJCreateRingContainer > ul > li:last-of-type div.open h2,
+.detailContainer > div h3,
+.signUpContainer > div > div h3,
+.footerContainer.sizeG > div > div:nth-child(2) h2,
+.footerContainer.care > div > div:nth-child(1) h2,
+.myAccountContainer aside h2,
+.myAccountContainer > div h2,
+.myAccountContainer > div fieldset legend,
+.myAccountContainer > div .whiteBG > div h3,
+.myAccountContainer > div form:last-child fieldset .whiteBG > div h3,
+.myAccountContainer > div fieldset .whiteBG ul + div mark{
+    text-transform: uppercase;
+}
+.indexContainer > :nth-child(4) > div:nth-of-type(1) p,
+.listContainer > div:nth-of-type(1) p,
+.hJContainer > div:nth-of-type(1) div p,
+.hJCreateRingContainer > ul > li:nth-of-type(1) p,
+.footerContainer ul.accComponent li div span,
+.footerContainer ul.accComponent li div p,
+.footerContainer.sizeG > div > div:nth-child(2) div p,
+.policy > div > article,
+.footerContainer.formBox > div:last-child > div:nth-of-type(2) form > div p:not(:last-of-type),
+.myAccountContainer > div .whiteBG > div > div time,
+.myAccountContainer > div .whiteBG > div:nth-child(2) ul li em,
+.myAccountContainer > div fieldset .whiteBG ul li label,
+.inputBox > div label,
+.cartContainer > div > div:nth-child(1) form fieldset > div#pickupBox p{
+    color: var(--GS10);
+}
+.indexContainer > :nth-child(4) > .bx-wrapper .bx-viewport ul.newInCarosuel li:not(4n+1){
+    margin-left: var(--sp10);
+}
+.indexContainer > :nth-child(4) > .bx-wrapper .bx-viewport ul.newInCarosuel li a b{
+    padding-top: var(--sp20);
+}
+.indexContainer > :nth-child(4) > .bx-wrapper .bx-controls-direction a{
+    background: url('../images/icon_expand_L.png') center / contain no-repeat;
+}
+.indexContainer > :nth-child(4) > .bx-wrapper .bx-controls-direction a.bx-prev{
+    left: -3%;
+}
+.indexContainer > :nth-child(4) > .bx-wrapper .bx-controls-direction a.bx-next{
+    right: -3%; transform: rotateZ(-180deg);
+}
+.indexContainer > :nth-child(4) > .bx-wrapper .bx-controls-direction a.bx-next,
+.indexContainer > :nth-child(7) > div:nth-of-type(1) .bx-wrapper .bx-controls-direction a.bx-prev,
+.pager > a.prev,
+.hJContainer > div:nth-child(3) > div > div .bx-wrapper .bx-controls-direction a.bx-prev,
+.detailContainer > div:nth-of-type(1) > .bx-wrapper .bx-controls a.bx-prev,
+.detailContainer > div:nth-of-type(1) > .thumbPagerBox .bx-controls a.bx-prev{
+    text-indent: 9999px;
+}
+.indexContainer > :nth-child(5){
+    background-image: url('../images/bg_div4.png'), url('../images/HJ_1_Sugar_0901_h.jpg');
+}
+.indexContainer > :nth-child(5),
+.indexContainer > :nth-child(8),
+.hJContainer > div:nth-of-type(2),
+.hJCreateRingContainer > ul > li:nth-of-type(2) div.open,
+.hJCreateRingContainer > ul > li:nth-of-type(3) div.open,
+.hJCreateRingContainer > ul > li:nth-of-type(4) div.open,
+.footerContainer.contacts > div:nth-child(2),
+.footerContainer.care > div > div:nth-child(1),
+.cartContainer > div > div form fieldset ul li{
+    background-position: center;
+}
+.indexContainer > :nth-child(5),
+.indexContainer > :nth-child(8),
+.hJContainer > div:nth-of-type(2),
+.hJCreateRingContainer > ul > li:nth-of-type(2) div.open,
+.hJCreateRingContainer > ul > li:nth-of-type(3) div.open,
+.hJCreateRingContainer > ul > li:nth-of-type(4) div.open,
+.footerContainer.contacts > div:nth-child(2),
+.footerContainer.care > div > div:nth-child(1){
+    background-size: cover;
+}
+.indexContainer > :nth-child(5),
+.indexContainer > :nth-child(8),
+.hJContainer > div:nth-of-type(2),
+.hJCreateRingContainer > ul > li:nth-of-type(2) div.open,
+.hJCreateRingContainer > ul > li:nth-of-type(3) div.open,
+.hJCreateRingContainer > ul > li:nth-of-type(4) div.open,
+.footerContainer.contacts > div:nth-child(2){
+    background-attachment: fixed;
+}
+.indexContainer > :nth-child(5) > div p,
+.indexContainer > :nth-child(8) > p{
+    color: var(--GS03);
+}
+.indexContainer > :nth-child(6) > ul li a,
+.myAccountContainer > div fieldset .whiteBG ul li textarea{
+    overflow: hidden;
+}
+.indexContainer > :nth-child(6) > ul li a img{
+    transform: scale(1.0); transition: 0.5s ease-in-out;
+}
+.indexContainer > :nth-child(6) > ul li:hover a img{
+    transform: scale(1.08);
+}
+.indexContainer > :nth-child(7) > div:nth-of-type(1) .bx-wrapper,
+.indexContainer > :nth-child(7) > div:nth-of-type(2) div,
+.indexContainer > :nth-child(7) > div:nth-of-type(2) div a,
+.hJContainer > div:nth-child(3) > div > div .bx-wrapper,
+.hJCreateRingContainer > ul > li:not(:first-of-type) > div.open > div > [class$='Pager'],
+.detailContainer > div:nth-of-type(1) .thumbPagerBox,
+.footerContainer.sizeG > div > div:nth-child(2) div img{
+    margin: 0 auto;
+}
+.indexContainer > :nth-child(7) > div:nth-of-type(1) .bx-wrapper .bx-controls-direction a{
+    background: url('../images/icon_arrow_right.png') center / 9px no-repeat;
+}
+.indexContainer > :nth-child(7) > div:nth-of-type(1) .bx-wrapper .bx-controls-direction a.bx-prev,
+.pager > a.prev,
+.hJContainer > div:nth-child(3) > div > div .bx-wrapper .bx-controls-direction a.bx-prev{
+    transform: rotateY(180deg);
+}
+.indexContainer > :nth-child(7) > div:nth-of-type(2){
+    background: url('../images/HJ_2_Diamonds_0401_h.jpg') center / cover no-repeat;
+}
+.indexContainer > :nth-child(7) > div:nth-of-type(2) div h2 mark,
+.hJCreateRingContainer > ul > li:last-of-type div.open form ul li mark,
+.myAccountContainer > div .whiteBG > div:nth-child(1) > div ul li div:nth-child(1) mark,
+.myAccountContainer > div .whiteBG > div:nth-child(2) ul li em,
+.myAccountContainer > div fieldset .whiteBG ul + div mark,
+.cartContainer > div > div:nth-child(2) ul li div:nth-child(1) mark,
+.cartContainer > div > div:nth-child(2) > div:nth-of-type(2) em{
+    font-style: normal;
+}
+.indexContainer > :nth-child(7) > div:nth-of-type(2) div h2 mark{
+    margin: auto 0;
+}
+.indexContainer > :nth-child(8){
+    background-image: url('../images/bg_div4.png'), url('../images/Ca_1_Rings_0504.jpg');
+}
+.filter,
+.filter > div form ul.orAccComponent,
+.listContainer > div:nth-of-type(1) h2,
+.hJContainer > div:not(:first-child):not(:nth-child(2)) > div > div > h2,
+.hJCreateRingContainer > ul > li:not(:first-of-type) > div:first-child em,
+.hJCreateRingContainer > ul > li:not(:first-of-type) > div.open > div:nth-child(2) form fieldset:nth-of-type(1),
+.hJCreateRingContainer > ul > li:last-of-type div.open form ul li:not(:last-child),
+.detailContainer > div:nth-of-type(2) form h2,
+.detailContainer > div:nth-of-type(2) form .colorChipsComponent h3,
+.footerContainer ul.accComponent li:not(:last-child),
+.footerContainer ul.accComponent li div :not(:last-child),
+.footerContainer.contacts > div:nth-child(3) > div form > h3,
+.footerContainer.contacts > div:nth-child(3) > div form > ul li:not(:last-child),
+.footerContainer.contacts > div:nth-child(3) > div form > span,
+.policy > div > article *:not(:last-child,table,tr,a,input,.switchToggle li),
+.policy table:not(:nth-of-type(5)),
+.footerContainer.formBox > div:last-child > div:nth-of-type(2) form > div > :not(:last-child,:nth-last-child(2),:nth-last-child(3)),
+.footerContainer.formBox > div:last-child > div:nth-of-type(2) form > div ul li:not(:last-child),
+.footerContainer.qa > div > div:nth-child(2) > h2,
+.footerContainer.care > div > div:nth-child(1) p:not(:last-of-type),
+.myAccountContainer aside ul li:not(:last-child),
+.myAccountContainer > div form:first-child fieldset,
+.myAccountContainer > div .whiteBG > div > div time,
+.myAccountContainer > div .whiteBG > div:nth-child(1) > div ul li:not(:last-child),
+.myAccountContainer > div .whiteBG > div:nth-child(2) ul,
+.myAccountContainer > div .whiteBG > div:nth-child(2) ul li:not(:last-child),
+.myAccountContainer > div fieldset .whiteBG ul li:not(:last-child){
+    margin-bottom: var(--sp30);
+}
+.filter.active > h3{
+    background: url('../images/icon_expand_T.png') right center / contain no-repeat;
+}
+.filter > h3::after{
+    background: url('../images/icon_filter.png') left 20% center / contain no-repeat;
+}
+.filter > h3::after,
+.cartContainer > ol li:not(:last-child):after{
+    width: 20px;
+}
+.filter > h3::after,
+.switchToggle input,
+.cartContainer > ol li:not(:last-child):after{
+    height: 20px;
+}
+.filter > h3::after{
+    margin-bottom: -3px;
+}
+.filter > div{
+    border-radius: 0 10px 10px 0;
+}
+.filter > div form ul.orAccComponent li b,
+.filter > div form ul.orAccComponent li ol,
+.detailContainer > div:nth-of-type(2) > ul li,
+.cartContainer > div > div:nth-child(2) > div{
+    padding: var(--sp30) 0;
+}
+.filter > div form ul.orAccComponent li b,
+.filter > div form ul.orAccComponent li b.active + ol,
+.detailContainer > div:nth-of-type(2) > ul li:nth-of-type(1),
+.detailContainer > div:nth-of-type(2) > ul li:nth-of-type(2),
+.footerContainer.sizeG > div > div:nth-child(2) h2,
+.policy > div > article h2,
+.footerContainer.formBox > div:last-child > div:nth-of-type(2) form > div h2,
+.footerContainer.qa > div > div:nth-child(2) > h2,
+.myAccountContainer > div h2,
+.myAccountContainer > div fieldset legend,
+.myAccountContainer > div form:last-child fieldset h3 > input,
+.cartContainer > div > div:nth-child(1) form fieldset.radioBox > div:nth-of-type(1) div:nth-child(1),
+.cartContainer > div > div:nth-child(1) form > ul li:first-child{
+    border-bottom: 1px solid var(--GS04);
+}
+.filter > div form ul.orAccComponent li b{
+    font-size: 18px;
+}
+.filter > div form ul.orAccComponent li b:after,
+.filter > div form ul.orAccComponent li b.active:after,
+.myAccountContainer > div .whiteBG > div:nth-child(1) > div ul li div:nth-child(1) mark,
+.cartContainer > div > div:nth-child(2) ul li div:nth-child(1) mark,
+.cartContainer > div > div form fieldset ul li{
+    width: 25px;
+}
+.filter > div form ul.orAccComponent li b:after,
+.filter > div form ul.orAccComponent li b.active:after,
+.myAccountContainer > div .whiteBG > div:nth-child(1) > div ul li div:nth-child(1) mark,
+.cartContainer > div > div:nth-child(2) ul li div:nth-child(1) mark,
+.cartContainer > div > div form fieldset ul li{
+    height: 25px;
+}
+.filter > div form ul.orAccComponent li b:after{
+    background: url('../images/icon_add.png') center / contain no-repeat;
+}
+.filter > div form ul.orAccComponent li b.active:after{
+    background: url('../images/icon_minimize.png') center / contain no-repeat;
+}
+.filter > div form ul.orAccComponent li b:after,
+.filter > div form ul.orAccComponent li b.active:after,
+.hJCreateRingContainer > ul > li:not(:first-of-type) > div.open > div ul[class^='createRing'] li span,
+.signUpContainer > div > div h3 small,
+.footerContainer.contacts > div:nth-child(3) > div form > h3 small,
+.footerContainer.formBox > div:last-child > div:nth-of-type(2) form > div h2 small,
+.myAccountContainer > div fieldset .whiteBG ul + div mark small,
+.cartContainer > div > div:nth-child(1) form fieldset > div#shipBox h3 small,
+.cartContainer form .bottomContent input.gray,
+.cartContainer > div > div:nth-child(2) > div:nth-of-type(3) strong,
+.cartContainer > div > div form fieldset p small,
+.cartContainer > div > div form fieldset legend small{
+    right: 0;
+}
+.filter > div form ul.orAccComponent li b:after,
+.filter > div form ul.orAccComponent li b.active:after{
+    top: 27px;
+}
+.filter > div form ul.orAccComponent li ol li,
+.cartContainer form .bottomContent ol li a{
+    color: var(--GS06);
+}
+.filter > div form ul.orAccComponent li ol li input[type='checkbox'],
+.hJCreateRingContainer > ul > li:not(:first-of-type) > div.open > div:nth-child(2) form fieldset ul li input[type="radio"],
+.switchToggle input,
+.footerContainer.formBox > div:last-child > div:nth-of-type(2) form > div ul li span.selectComponent select,
+.inputBox span.selectComponent select,
+.cartContainer > div > div:nth-child(1) form fieldset > div:nth-of-type(1) div input[type='radio']{
+    appearance: none;
+}
+.filter > div form ul.orAccComponent li ol li input[type='checkbox'],
+.hJCreateRingContainer > ul > li:not(:first-of-type) > div.open > div:nth-child(2) form fieldset ul li input[type="radio"]{
+    background-clip: content-box;
+}
+.filter > div form ul.orAccComponent li ol li input[type='checkbox'],
+.hJCreateRingContainer > ul > li:not(:first-of-type) > div.open > div:nth-child(2) form fieldset ul li input[type="radio"]{
+    padding: 2px;
+}
+.filter > div form ul.orAccComponent li ol li input[type='checkbox'],
+.pager > a,
+.hJCreateRingContainer > ul > li:not(:first-of-type) > div.open > div:nth-child(2) form fieldset ul li input[type="radio"],
+input + span.active::before{
+    width: 12px;
+}
+.filter > div form ul.orAccComponent li ol li input[type='checkbox'],
+.pager > a,
+.hJCreateRingContainer > ul > li:not(:first-of-type) > div.open > div:nth-child(2) form fieldset ul li input[type="radio"]{
+    height: 12px;
+}
+.filter > div form ul.orAccComponent li ol li input[type='checkbox']{
+    border: 1px solid var(--GS06);
+}
+.filter > div form ul.orAccComponent li ol li input[type='checkbox']:checked{
+    background-color: var(--GS11);
+}
+.filter > div form ul.orAccComponent li ol li input[type='checkbox']:checked + label,
+.cartContainer form .bottomContent ol li:hover a{
+    color: var(--GS11);
+}
+.pager{
+    display: flex; justify-content: center; align-items: center;
+}
+.pager > ol li:not(:first-of-type),
+.pager > a.next{
+    margin-left: var(--sp30);
+}
+.pager > ol li a,
+.hJCreateRingContainer > ul > li:not(:first-of-type) > div:first-child b,
+.inputBox > div input::placeholder,
+.myAccountContainer > div form:first-child fieldset .whiteBG ul + div > div input::placeholder,
+.footerContainer.formBox > div:last-child > div:nth-of-type(2) form > div ul li input::placeholder,
+.footerContainer.contacts > div:nth-child(3) > div form > ul li input::placeholder,
+.signUpContainer > div > form ul li input::placeholder,
+.cartContainer #creditcardBox input[type='text']::placeholder,
+.cartContainer > div > div:nth-child(2) > div:nth-of-type(1) input:first-child::placeholder,
+.cartContainer > div > div:nth-child(1) form fieldset:nth-child(1) input{
+    color: var(--GS05);
+}
+.pager > a{
+    background: url("../images/icon_arrow_right.png") center / contain no-repeat;
+}
+.pager > a.prev{
+    margin-right: var(--sp30);
+}
+[class*='color'] > div > h2::before,
+.switchToggle input{
+    width: 40px;
+}
+[class*='color'] > div > h2::before{
+    height: 40px; margin-right: var(--sp20);
+}
+.listContainer.colorBlack > div > h2::before,
+.hJCreateRingContainer > ul > li:not(:first-of-type) > div.open > div ul[class^='createRing'] li span,
+.myAccountContainer > div .whiteBG > div:nth-child(1) > div ul li div:nth-child(1) mark,
+input + span.active,
+input + span.active::before,
+.cartContainer > div > div:nth-child(2) ul li div:nth-child(1) mark{
+    background-color: var(--GS14);
+}
+.listContainer.colorBlue > div > h2::before{
+    background-color: var(--BS01);
+}
+.listContainer.colorBrown > div > h2::before{
+    background-color: var(--RS03);
+}
+.listContainer.colorGreen > div > h2::before{
+    background-color: var(--GNS01);
+}
+.listContainer.colorMulticolour > div > h2::before{
+    background: linear-gradient(#eabcaa,#d0c6f5);
+}
+.listContainer.colorNeutrals > div > h2::before{
+    background-color: var(--NS01);
+}
+.listContainer.colorOnlyGold > div > h2::before{
+    background-color: var(--OG01);
+}
+.listContainer.colorOrange > div > h2::before{
+    background-color: var(--Orange);
+}
+.listContainer.colorPink > div > h2::before{
+    background-color: var(--Pink);
+}
+.listContainer.colorPurple > div > h2::before{
+    background-color: var(--Purple);
+}
+.listContainer.colorRed > div > h2::before{
+    background-color: var(--RS02);
+}
+.listContainer.colorYellow > div > h2::before{
+    background-color: var(--YS01);
+}
+.collectionContainer > div:nth-of-type(1) img,
+.hJContainer > div:nth-of-type(1) video{
+    height: 500px;
+}
+.collectionContainer > div:nth-of-type(1) div::before,
+.collectionContainer > div:nth-of-type(1) div::after,
+.hJContainer > div:nth-of-type(1) div::before,
+.hJContainer > div:nth-of-type(1) div::after,
+.policy table tr > :nth-child(3),
+.myAccountContainer input.btn.box.gray{
+    width: 30%;
+}
+.collectionContainer > div:nth-of-type(1) div::before,
+.collectionContainer > div:nth-of-type(1) div::after,
+.hJContainer > div:nth-of-type(1) div::before,
+.hJContainer > div:nth-of-type(1) div::after{
+    height: 1px;
+}
+.collectionContainer > div:nth-of-type(1) div::before,
+.collectionContainer > div:nth-of-type(1) div::after,
+.hJContainer > div:nth-of-type(1) div::before,
+.hJContainer > div:nth-of-type(1) div::after,
+.detailContainer > div:nth-of-type(2) form > :last-child ul.customSelect::before,
+.switchToggle input:checked,
+.inputBox > div:last-of-type::before{
+    background-color: var(--GS04);
+}
+.hJContainer > div:nth-of-type(1) div::before{
+    left: 4%;
+}
+.hJContainer > div:nth-of-type(1) div::after{
+    right: 4%;
+}
+.hJContainer > div:nth-of-type(2){
+    background-image: url('../images/bg_div4.png'), url('../images/HJ_1_Sugar_0504.jpg');
+}
+.hJContainer > div:nth-child(3) > div > div .bx-wrapper .bx-controls-direction a{
+    background: url('../images/icon_arrow_right.png') center / 10px no-repeat;
+}
+.hJContainer > div:not(:first-child):not(:nth-child(2)) > div,
+.cartContainer > div > div:nth-child(2) ul li:not(:last-child){
+    margin-bottom: var(--sp35);
+}
+.hJContainer > div:not(:first-child):not(:nth-child(2)) > div > div ul li a img,
+.hJCreateRingContainer > ul > li:not(:first-of-type) > div.open > div > .bx-wrapper{
+    margin: 0 auto var(--sp20);
+}
+.hJContainer > div:not(:first-child):not(:nth-child(2)) > div > div ul li a img{
+    max-width: 550px;
+}
+.hJCreateRingContainer > ul > li:nth-of-type(1) ol li,
+.myAccountContainer > div .whiteBG > div:nth-child(1) > div ul li div:nth-child(2),
+.cartContainer > div > div:nth-child(2) > div:nth-of-type(1) input:first-child{
+    width: 70%;
+}
+.hJCreateRingContainer > ul > li:not(:first-of-type) > div:first-child em{
+    color: var(--GS04);
+}
+.hJCreateRingContainer > ul > li:not(:first-of-type) > div.open,
+.detailContainer > div:nth-of-type(2) form :last-child .sizeGuideBox h3 span.active:after{
+    left: 0;
+}
+.hJCreateRingContainer > ul > li:not(:first-of-type) > div.open,
+.detailContainer > div:nth-of-type(1) > .thumbPagerBox .bx-controls a{
+    top: 0;
+}
+.hJCreateRingContainer > ul > li:not(:first-of-type) > div.open,
+.detailContainer > div:nth-of-type(1) > .thumbPagerBox .bx-controls a{
+    height: 100%;
+}
+.hJCreateRingContainer > ul > li:nth-of-type(2) div.open{
+    background-image: url('../images/bg_div4.png'),url("../images/Ca_2_Earrings_0306.jpg");
+}
+.hJCreateRingContainer > ul > li:nth-of-type(3) div.open{
+    background-image: url('../images/bg_div4.png'),url("../images/Ca_1_Rings_0502.jpg");
+}
+.hJCreateRingContainer > ul > li:nth-of-type(4) div.open{
+    background-image: url('../images/bg_div4.png'),url("../images/Ca_2_Earrings_0404.jpg");
+}
+.hJCreateRingContainer > ul > li:not(:first-of-type) > div.open > div ul[class^='createRing'] li span{
+    bottom: 20px; width: 80px; padding: 5px;
+}
+.hJCreateRingContainer > ul > li:not(:first-of-type) > div.open > div > [class$='Pager']{
+    max-width: 308px;
+}
+.hJCreateRingContainer > ul > li:not(:first-of-type) > div.open > div > [class$='Pager'] li,
+.policy table tr > :nth-child(4),
+.policy table tr > :nth-child(5){
+    width: 15%;
+}
+.hJCreateRingContainer > ul > li:not(:first-of-type) > div.open > div > [class$='Pager'] li,
+.myAccountContainer > div form:last-child fieldset legend a,
+.cartContainer > ol li:not(:last-child):after,
+.cartContainer > div > div:nth-child(1) form fieldset > div:nth-of-type(1) div label,
+.cartContainer > div > div:nth-child(1) form fieldset > div:nth-of-type(1) div:nth-child(1) label[for='ship']:before,
+.cartContainer > div > div:nth-child(1) form fieldset > div:nth-of-type(1) div:nth-child(2) label[for='pickup']:before,
+.cartContainer > div > div:nth-child(2) > div:nth-of-type(3) strong:before{
+    vertical-align: middle;
+}
+.hJCreateRingContainer > ul > li:not(:first-of-type) > div.open > div > [class$='Pager'] li a:not(.active) img{
+    filter: grayscale(1);
+}
+.hJCreateRingContainer > ul > li:not(:first-of-type) > div.open > div:nth-child(2) form fieldset ul li input[type='radio'],
+.cartContainer > div > div:nth-child(1) form fieldset > div:nth-of-type(1) div input[type='radio']{
+    margin: 0;
+}
+.hJCreateRingContainer > ul > li:not(:first-of-type) > div.open > div:nth-child(2) form fieldset ul li input[type='radio'],
+.detailContainer > div:nth-of-type(2) form .colorChipsComponent ul li{
+    border: 1px solid var(--GS01);
+}
+.hJCreateRingContainer > ul > li:last-of-type div.open h2{
+    font-style: italic;
+}
+.hJCreateRingContainer > ul > li:last-of-type div.open h2,
+.hJCreateRingContainer > ul > li:last-of-type div.open form ul,
+.signUpContainer > div > form ul,
+.signUpContainer > div > div,
+.detailContainer > div:nth-of-type(2) form > :last-child,
+.detailContainer > div:nth-of-type(2) form strong,
+.detailContainer > div:nth-of-type(2) form .colorChipsComponent,
+.myAccountContainer aside ul,
+.policy > div > aside ul,
+.cartContainer > div > div:nth-child(1) form > ul{
+    margin-bottom: var(--sp90);
+}
+.hJCreateRingContainer > ul > li:last-of-type div.open form ul li mark{
+    padding-left: 5%;
+}
+.hJCreateRingContainer > ul > li:not(:first-child) input.next,
+.hJCreateRingContainer > ul > li:not(:first-child) input.prev{
+    background: url('../images/icon_next.png') center / contain no-repeat; width: 45px; height: 44px; right: 3%;
+}
+.hJCreateRingContainer > ul > li:not(:first-child) input.prev{
+    transform: rotate(180deg);
+}
+.detailContainer > div:nth-of-type(1) > .bx-wrapper .bx-controls a{
+    background: url('../images/icon_arrow_right.png') center / contain no-repeat; height: 15px;
+}
+.detailContainer > div:nth-of-type(1) > .bx-wrapper .bx-controls a.bx-prev{
+    left: -6%;
+}
+.detailContainer > div:nth-of-type(1) > .bx-wrapper .bx-controls a.bx-prev,
+.detailContainer > div:nth-of-type(1) > .thumbPagerBox .bx-controls a.bx-prev{
+    transform: rotateZ(180deg);
+}
+.detailContainer > div:nth-of-type(1) > .bx-wrapper .bx-controls a.bx-next{
+    right: -6%; 
+}
+.detailContainer > div:nth-of-type(1) .thumbNailPager li a,
+.detailContainer > div:nth-of-type(1) .thumbNailPager li a img{
+    height: 78px;
+}
+.detailContainer > div:nth-of-type(1) .thumbNailPager li a{
+    border: 1px solid transparent; 
+}
+.detailContainer > div:nth-of-type(1) > .thumbPagerBox .bx-controls a,
+.cartContainer > ol li:not(:last-child):after{
+    background: url('../images/icon_expand_R.png') center / contain no-repeat;
+}
+.detailContainer > div:nth-of-type(1) > .thumbPagerBox .bx-controls a{
+    z-index: 9999;
+}
+.detailContainer > .blackBG,
+.signUpContainer,
+.footerContainer.contacts > div:nth-child(3),
+.myAccountContainer > div,
+.footerContainer.qa > div > div:nth-child(2),
+.footerContainer.formBox > div:last-child > div:nth-of-type(2),
+.policy > div > article,
+.footerContainer.sizeG > div > div:nth-child(2){
+    background-color: rgba(0, 0, 0, 0.02);
+}
+.detailContainer > .blue{
+    background-color: rgba(0, 100, 153, 0.03); 
+}
+.detailContainer > .brown{
+    background-color: rgba(102, 5, 6, 0.02); 
+}
+.detailContainer > .green{
+    background-color: rgba(80, 179, 44, 0.03); 
+}
+.detailContainer > .multicolour{
+    background: linear-gradient(rgba(234, 188, 170, 0.08),rgba(208, 198, 245, 0.08)); 
+}
+.detailContainer > .neutrals{
+    background-color: rgba(230, 218, 194, 0.12); 
+}
+.detailContainer > .onlyGold{
+    background-color: rgba(230, 197, 131, 0.07); 
+}
+.detailContainer > .orange{
+    background-color: rgba(255, 136, 0, 0.03); 
+}
+.detailContainer > .pink{
+    background-color: rgba(253, 88, 148, 0.03); 
+}
+.detailContainer > .purple{
+    background-color: rgba(224, 101, 230, 0.03); 
+}
+.detailContainer > .red{
+    background-color: rgba(245, 12, 13, 0.02); 
+}
+.detailContainer > .yellow{
+    background-color: rgba(179, 172, 0, 0.03); 
+}
+.detailContainer > div:nth-of-type(2) form .colorChipsComponent ul li{
+    width: 50px; 
+}
+.detailContainer > div:nth-of-type(2) form .colorChipsComponent ul li,
+.detailContainer > div:nth-of-type(2) form > :last-child ul.customSelect,
+.cartContainer form .bottomContent input.returnPage{
+    height: 50px;
+}
+.detailContainer > div:nth-of-type(2) form .colorChipsComponent ul li:not(:last-child){
+    margin-right: 1%;
+}
+
+
+    .detailContainer > div:nth-of-type(2) form .colorChipsComponent ul li:hover span,
+    .detailContainer > div:nth-of-type(2) form .colorChipsComponent ul li:hover span::before{
+        position: absolute;
+    }
+    .detailContainer > div:nth-of-type(2) form .colorChipsComponent ul li:hover span,
+    .detailContainer > div:nth-of-type(2) form .colorChipsComponent ul li:hover span::before{
+        display: inline-block; background-color: var(--GS14);
+    }
+    .detailContainer > div:nth-of-type(2) form .colorChipsComponent ul li:hover span{
+        top: 40px; border-radius: 5px; z-index: 10; text-align: center;  color: var(--GS01); line-height: 16px; padding: var(--sp05);
+    }
+    .detailContainer > div:nth-of-type(2) form .colorChipsComponent ul li:hover span::before{
+        clip-path: polygon(50% 0%, 0% 100%, 100% 100%); top: -5px; content: ''; width: 12px; height: 5px;
+    }
+
+
+.detailContainer > div:nth-of-type(2) form :last-child .sizeGuideBox h3 span.active:after,
+.switchToggle input{
+    border-radius: 10px;
+}
+.detailContainer > div:nth-of-type(2) form :last-child .sizeGuideBox h3 span.active:after{
+    background: url('../images/sizeTable.png') center / contain no-repeat; top: 30px;
+}
+.detailContainer > div:nth-of-type(2) form > :last-child ul.customSelect::before{
+    right: 30px;
+}
+.detailContainer > div:nth-of-type(2) form > :last-child ul.customSelect::before,
+.myAccountContainer > div form:first-child fieldset .whiteBG ul + div > div label,
+.inputBox > div label,
+.inputBox > div:last-of-type::before{
+    top: 10px;
+}
+.detailContainer > div:nth-of-type(2) form > :last-child ul.customSelect::before,
+.inputBox > div:last-of-type::before{
+    width: 1px;
+}
+.detailContainer > div:nth-of-type(2) form > :last-child ul.customSelect::after{
+    background: url('../images/icon_arrow_right_gray.png') right center / contain no-repeat; 
+    width: 10px; height: 10px; top: 20px; transform: rotate(90deg);
+}
+.detailContainer > div:nth-of-type(2) form > :last-child ul.customSelect::after,
+.inputBox > div:last-of-type::after{
+    right: 12px;
+}
+.detailContainer > div:nth-of-type(2) form > :last-child ul.customSelect::after,
+.inputBox > div:last-of-type::after{
+    transition: 0.2s ease-in-out;
+}
+.detailContainer > div:nth-of-type(2) form > :last-child ul.customSelect:hover::after{
+    background-image: url('../images/icon_arrow_right.png'); 
+}
+.detailContainer > div:nth-of-type(2) form > :last-child ul.customSelect,
+.signUpContainer > div > form ul li input,
+.footerContainer.contacts > div:nth-child(3) > div form > ul li input,
+.footerContainer.contacts > div:nth-child(3) > div form > ul li textarea,
+.policy > div > article > div div.whiteBG,
+.footerContainer.formBox > div:last-child > div:nth-of-type(2) form > div ul li input,
+.footerContainer.formBox > div:last-child > div:nth-of-type(2) form > div ul li textarea,
+.footerContainer.formBox > div:last-child > div:nth-of-type(2) form > div ul li span.selectComponent select,
+.myAccountContainer > div .whiteBG > div:nth-child(1) > div ul li div:nth-child(1) img,
+.myAccountContainer .whiteBG,
+.myAccountContainer > div form:first-child fieldset .whiteBG ul + div > div input,
+.inputBox span.selectComponent,
+.inputBox > div input,
+.cartContainer > div > div:nth-child(1) form fieldset:nth-child(1) input,
+.cartContainer > div > div:nth-child(1) form fieldset.radioBox > div:nth-of-type(1),
+.cartContainer > div > div:nth-child(1) form fieldset > div#pickupBox div div,
+.cartContainer > div > div:nth-child(1) form > ul,
+.cartContainer > div > div:nth-child(2) ul li div:nth-child(1) img,
+.cartContainer > div > div:nth-child(2) > div:nth-of-type(1) input:first-child,
+.cartContainer fieldset.payment > div,
+.cartContainer #creditcardBox input[type='text']{
+    border-radius: 5px;
+}
+.detailContainer > div:nth-of-type(2) form :last-child ul.customSelect.active{
+    height: initial;
+}
+.detailContainer > div:nth-of-type(2) form :last-child ul.customSelect li,
+.inputBox span.selectComponent select,
+.cartContainer > div > div:nth-child(1) form > ul{
+    padding: 0 var(--sp10);
+}
+.detailContainer > div:nth-of-type(2) form :last-child ul.customSelect.active li:hover{
+    background-color: rgba(0, 168, 255, 0.05);
+}
+.detailContainer > div:nth-of-type(2) > ul li :nth-child(2),
+.detailContainer > div:nth-of-type(2) > ul li:nth-of-type(1),
+.footerContainer.contacts > div:nth-child(3) > div form > ul,
+.policy table tbody > *:not(:first-child),
+.myAccountContainer > div .whiteBG > div:nth-child(2) > h3 + ul + div,
+.cartContainer form .bottomContent ol,
+.cartContainer > div > div:nth-child(2) > div,
+.cartContainer fieldset.payment > div > div:nth-child(2),
+.cartContainer fieldset.payment > div > div:last-child > :first-child,
+.cartContainer fieldset.payment > div > div > div:last-child{
+    border-top: 1px solid var(--GS04);
+}
+.detailContainer > div:nth-of-type(2) > ul li :nth-child(2){
+    padding-top: var(--sp30);
+}
+.detailContainer > div:nth-of-type(2) > ul li *:not(:first-child),
+.signUpContainer > div > form ul li:not(:first-of-type),
+.footerContainer ul.accComponent li div,
+.footerContainer.sizeG > div > div:nth-child(2) div,
+.footerContainer.sizeG > div > div:nth-child(2) div p,
+.policy table caption p{
+    margin-top: var(--sp30);
+}
+.detailContainer > div:nth-of-type(2) > ul li h3{
+    font-size: 21px; background: url("../images/icon_add.png") right / 25px no-repeat;
+}
+.detailContainer > div:nth-of-type(2) > ul li h3.active{
+    background: url("../images/icon_minimize.png") right / 25px no-repeat;
+}
+.signUpContainer{
+    margin: 150px 0 150px;
+}
+.signUpContainer > div{
+    padding: var(--sp50) 4%;
+}
+.signUpContainer > div h2{
+    max-width: 90px; margin: 0 auto var(--sp90);
+}
+.signUpContainer > div > div h3 small,
+.myAccountContainer > div fieldset .whiteBG ul + div mark small{
+    text-transform: capitalize;
+}
+.signUpContainer > div > div span a{
+    margin-left: var(--sp05);
+}
+.signUpContainer > div > form ul li label::after,
+.footerContainer.contacts > div:nth-child(3) > div form > ul li label::after,
+.footerContainer.formBox > div:last-child > div:nth-of-type(2) form > div ul li label::after,
+.myAccountContainer > div form:first-child fieldset .whiteBG ul + div > div:not(:last-of-type) label:after,
+.inputBox div:not(:nth-last-child(2):nth-last-child(5):nth-last-child(9)) label:after{
+    content: '*';
+}
+.signUpContainer > div > form ul li label::after,
+.footerContainer.contacts > div:nth-child(3) > div form > ul li label::after,
+.footerContainer.formBox > div:last-child > div:nth-of-type(2) form > div ul li label::after,
+.myAccountContainer > div .whiteBG > div:nth-child(2) > div strong::before,
+.cartContainer > div > div:nth-child(2) > div:nth-of-type(3) strong:before{
+    font-size: 12px;
+}
+.signUpContainer > div > form ul li label::after,
+.footerContainer.contacts > div:nth-child(3) > div form > ul li label::after,
+.footerContainer.formBox > div:last-child > div:nth-of-type(2) form > div ul li label::after,
+.myAccountContainer > div .whiteBG > div:nth-child(2) > div strong::before,
+.cartContainer > div > div:nth-child(2) > div:nth-of-type(3) strong:before{
+    font-weight: 200;
+}
+.signUpContainer > div > form ul li label::after,
+.footerContainer.formBox > div:last-child > div:nth-of-type(2) form > div ul li label::after,
+.inputBox div:not(:nth-last-child(2):nth-last-child(5):nth-last-child(9)) label:after{
+    padding-left: var(--sp05);
+}
+.signUpContainer > div > form ul li label::after,
+.footerContainer.contacts > div:nth-child(3) > div form > ul li label::after,
+.footerContainer.formBox > div:last-child > div:nth-of-type(2) form > div ul li label::after,
+.cartContainer > div > div:nth-child(1) form > ul li > *{
+    vertical-align: top;
+}
+.signUpContainer > div > form ul li input,
+.footerContainer.contacts > div:nth-child(3) > div form > ul li input,
+.footerContainer.contacts > div:nth-child(3) > div form > ul li textarea,
+.footerContainer.formBox > div:last-child > div:nth-of-type(2) form > div ul li input,
+.footerContainer.formBox > div:last-child > div:nth-of-type(2) form > div ul li textarea,
+.inputBox > div.oneLine input,
+.cartContainer > div > div:nth-child(1) form fieldset:nth-child(1) input,
+.cartContainer > div > div:nth-child(1) form fieldset.radioBox > div:nth-of-type(1) div:nth-child(1),
+.cartContainer > div > div:nth-child(1) form fieldset.radioBox > div:nth-of-type(1) div:nth-child(2),
+.cartContainer > div > div:nth-child(1) form fieldset > div#pickupBox div div,
+.cartContainer #creditcardBox input[type='text'],
+.cartContainer #bankDepositBox{
+    padding: var(--sp10);
+}
+.signUpContainer > div > form ul li input,
+input.onlyNumber{
+    font-size: 16px;
+}
+.signUpContainer > div > a{
+    margin: var(--sp10) 0 var(--sp90);
+}
+.footerContainer > ul li.active{
+    border-bottom: 1px solid var(--GS14);
+}
+.footerContainer.contacts > div:nth-child(2){
+    padding: var(--sp150) 0; background-image: url('../images/bg_div4.png'), url('../images/Ca_2_Earrings_0404.jpg');
+}
+.footerContainer.contacts > div:nth-child(3){
+    padding: var(--sp50) 0;
+}
+.footerContainer.contacts > div:nth-child(3) > ul.accComponent{
+    border-right: 1px solid var(--GS04);
+}
+.footerContainer ul.accComponent li{
+    border-left: 1px solid var(--GS14); padding: var(--sp30) var(--sp20);
+}
+.footerContainer ul.accComponent li h3,
+.cartContainer > div > div:nth-child(2) > div:nth-of-type(2) span{
+    width: 80%;
+}
+.footerContainer ul.accComponent li h3{
+    font-size: 20px; font-weight: 500;
+}
+.footerContainer ul.accComponent li h3,
+.policy > div > aside ul li:before,
+.policy > div > aside ul li a,
+.policy > div > article h3,
+.policy table thead tr th,
+.myAccountContainer aside ul li:before,
+.myAccountContainer aside ul li a,
+.myAccountContainer > div .whiteBG > div:nth-child(2) ul li b,
+.myAccountContainer > div fieldset .whiteBG ul li input,
+.myAccountContainer > div fieldset .whiteBG ul li textarea,
+.myAccountContainer > div form:first-child fieldset .whiteBG ul + div > div input,
+.inputBox > div input,
+.inputBox.ex > div input::placeholder,
+.cartContainer > div > div:nth-child(1) form fieldset > div:nth-of-type(1) div label,
+.cartContainer > div > div:nth-child(2) > div:nth-of-type(1) input:first-child,
+.cartContainer #creditcardBox input[type='text'],
+.cartContainer #bankDepositBox p{
+    color: var(--GS12);
+}
+.footerContainer ul.accComponent li h3:after{
+    background: url("../images/icon_expand_D.png") right / contain no-repeat; right: 2.6%; top: 26px;
+}
+.footerContainer ul.accComponent li h3.active:after{
+    transform: rotateX(180deg);
+}
+.footerContainer ul.accComponent li div a{
+    color: var(--BS01);
+}
+.footerContainer ul.accComponent li div a:hover{
+    color: rgba(0, 168, 255, 0.7);
+}
+.footerContainer.contacts > div:nth-child(3) > div,
+.switchToggle{
+    padding: var(--sp30);
+}
+.footerContainer.contacts > div:nth-child(3) > div form > ul li label::after,
+.myAccountContainer > div form:first-child fieldset .whiteBG ul + div > div:not(:last-of-type) label:after{
+    padding-left: 5px;
+}
+.footerContainer.contacts > div:nth-child(3) > div form > ul li textarea,
+.footerContainer.formBox > div:last-child > div:nth-of-type(2) form > div ul li input,
+.footerContainer.formBox > div:last-child > div:nth-of-type(2) form > div ul li textarea,
+.myAccountContainer > div form:first-child fieldset .whiteBG ul + div > div input,
+.inputBox > div:not(.oneLine) input,
+.inputBox > div.oneLine input,
+.cartContainer #creditcardBox input[type='text']{
+    outline-color: var(--BS02);
+}
+.footerContainer.contacts > div:nth-child(3) > div form > ul li textarea,
+.footerContainer.formBox > div:last-child > div:nth-of-type(2) form > div ul li textarea,
+.myAccountContainer > div fieldset .whiteBG ul li textarea{
+    resize: none;
+}
+.footerContainer.contacts > div:nth-child(3) > div form > ul li textarea,
+.footerContainer.formBox > div:last-child > div:nth-of-type(2) form > div ul li textarea{
+    height: 200px;
+}
+.footerContainer.contacts > div:nth-child(3) > div form > input,
+.footerContainer.formBox > div:last-child > div:nth-of-type(2) form > div > div,
+.footerContainer.formBox > div:last-child > div:nth-of-type(2) form > div > input,
+.inputBox > div:not(:last-child),
+.cartContainer > div > div form fieldset > p,
+.cartContainer #creditcardBox > :not(:last-child){
+    margin-bottom: var(--sp10);
+}
+.footerContainer.sizeG > div > div:nth-child(1) input,
+.footerContainer.formBox > div:last-child > div:nth-child(1) input,
+.footerContainer.qa > div > div:nth-child(1) input{
+    right: 5%; bottom: 5%;
+}
+.footerContainer.sizeG > div > div:nth-child(2) h2,
+.policy > div > article h2,
+.footerContainer.formBox > div:last-child > div:nth-of-type(2) form > div h2,
+.footerContainer.qa > div > div:nth-child(2) > h2,
+.myAccountContainer > div h2,
+.myAccountContainer > div fieldset legend{
+    padding-bottom: var(--sp30);
+}
+.footerContainer.sizeG > div > div:nth-child(2) div img{
+    max-width: 400px;
+}
+.policy > div > aside{
+    position: sticky;
+}
+.policy > div > aside ul,
+.myAccountContainer aside ul li{
+    padding-left: var(--sp20);
+}
+.policy > div > aside ul li:before,
+.myAccountContainer aside ul li:before{
+    content: '-';
+}
+.policy > div > aside ul li:before{
+    top: 2px;
+}
+.policy > div > aside ul li:not(:last-child){
+   margin-bottom: var(--sp30);
+}   
+.policy > div > aside ul li a{
+    padding: 0 var(--sp10) 0 var(--sp15);
+}
+.policy > div > article > div,
+.policy > div > article > div div.whiteBG ol,
+.policy > div > article > div div.whiteBG ul:not(.switchToggle){
+    padding: 0 1.5%;
+}
+.policy > div > article > div div.whiteBG{
+    padding: var(--sp30) 1.5%;
+}
+.switchToggle input{
+    border: 1px solid var(--GS10); background: url("../images/icon_circle.png") left 10% center / 12px no-repeat; transition: 0.3s ease-in-out;
+}
+.switchToggle input:checked{
+    background-position: right 10% center;
+}
+.policy table{
+    text-align: left;
+}
+.policy table tr *{
+    word-break: break-all;
+}
+.policy table tr > :first-child,
+.policy table tr > :nth-child(2),
+.cartContainer > div > div:nth-child(2) > div:nth-of-type(2) em{
+    width: 20%;
+}
+.policy table tr > *{
+    padding: var(--sp10);
+}
+.policy table tbody tr > *:not(:first-child){
+    border-left: 1px solid var(--GS04);
+}
+.footerContainer.formBox > div:last-child > div:nth-of-type(2) form > div{
+    padding: var(--sp30) 7%;
+}
+.footerContainer.formBox > div:last-child > div:nth-of-type(2) form > div h2 small{
+    top: 25%; margin-top: -6px;
+}
+.footerContainer.formBox > div:last-child > div:nth-of-type(2) form > div ul li span.selectComponent select{
+    border: 1px solid var(--GS05); padding: var(--sp20) 1%;
+}
+.footerContainer.formBox > div:last-child > div:nth-of-type(2) form > div ul li span.selectComponent select,
+.inputBox span.selectComponent select{
+    background: url('../images/icon_expand_D.png') right center / 25px no-repeat;
+}
+.footerContainer.qa > div > div:nth-child(2) > div{
+    padding: var(--sp30) 2.7%;
+}
+.footerContainer.care > div > div:nth-child(1){
+    background-image: url('../images/bg_div4.png'), url('../images/Ca_3_Necklaces_0204.jpg');
+}
+.footerContainer.care > div > div:nth-child(1) input{
+    margin-top: 90px;
+}
+.footerContainer.care > div > div:nth-child(2) ul.hBlindBox li h3{
+    color: var(--GS01);
+}
+.myAccountContainer aside ul li:before{
+    display: inline; padding-right: var(--sp10);
+}
+.myAccountContainer .whiteBG{
+    margin: 30px 2% 0;
+}
+.myAccountContainer > div > .whiteBG > *,
+.myAccountContainer > div form:first-child fieldset .whiteBG > *:not(:first-child),
+.myAccountContainer > div form:last-child fieldset .whiteBG > div{
+    padding: var(--sp30) 2%;
+}
+.myAccountContainer > div .whiteBG > div:nth-child(1) > div ul li div:nth-child(1){
+    width: 25%;
+}
+.myAccountContainer > div .whiteBG > div:nth-child(1) > div ul li div:nth-child(1) mark,
+.cartContainer > div > div:nth-child(2) ul li div:nth-child(1) mark{
+    border-radius: 50%;
+}
+.myAccountContainer > div .whiteBG > div:nth-child(1) > div ul li div:nth-child(1) mark,
+.myAccountContainer > div fieldset .whiteBG ul li textarea,
+.cartContainer > div > div:nth-child(2) ul li div:nth-child(1) mark{
+    line-height: 25px;
+}
+.myAccountContainer > div .whiteBG > div:nth-child(1) > div ul li div:nth-child(1) mark,
+.cartContainer > div > div:nth-child(2) ul li div:nth-child(1) mark{
+    left: -10px; top: -10px;
+}
+.myAccountContainer > div .whiteBG > div:nth-child(1) > div ul li div:nth-child(2),
+.cartContainer > div > div:nth-child(2) ul li div:nth-child(2){
+    margin-left: 5%;
+}
+.myAccountContainer > div .whiteBG > div:nth-child(2) > h3 + ul + div{
+    padding: var(--sp30) 2% 0;
+}
+.myAccountContainer > div .whiteBG > div:nth-child(2) > div strong{
+    right: 2%;
+}
+.myAccountContainer > div .whiteBG > div:nth-child(2) > div strong::before,
+.cartContainer > div > div:nth-child(2) > div:nth-of-type(3) strong:before{
+    content: 'EUR'; left: -25%;
+}
+.myAccountContainer > div .whiteBG > div:nth-child(2) > div strong::before,
+.cartContainer > div > div:nth-child(1) form fieldset > div:nth-of-type(1) div:nth-child(1) label[for='ship']:before,
+.cartContainer > div > div:nth-child(1) form fieldset > div:nth-of-type(1) div:nth-child(2) label[for='pickup']:before,
+.cartContainer > div > div:nth-child(1) form > ul li b{
+    margin-right: var(--sp05);
+}
+.myAccountContainer > div fieldset .whiteBG ul li input,
+.myAccountContainer > div fieldset .whiteBG ul li textarea{
+    cursor: default;
+}
+.myAccountContainer > div fieldset .whiteBG ul li input:focus,
+.myAccountContainer > div fieldset .whiteBG ul li textarea:focus,
+.myAccountContainer > div form:first-child fieldset .whiteBG ul + div > div:last-of-type input,
+.inputBox span.selectComponent select,
+.cartContainer > div > div:nth-child(1) form fieldset:nth-child(1) input{
+    outline: none;
+}
+.myAccountContainer > div form:first-child fieldset .whiteBG ul + div > div input,
+.inputBox > div:not(.oneLine) input{
+    padding: var(--sp25) var(--sp10) var(--sp10);
+}
+.myAccountContainer > div form:first-child fieldset .whiteBG ul + div > div label,
+.inputBox > div label{
+    left: 10px;
+}
+input + span.active{
+    bottom: -20px; padding: var(--sp05); border-radius: 3px; font-size: 10px; line-height: 16px;
+}
+input + span.active::before{
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%); top: -5px; right: 18px; height: 5px;
+}
+.myAccountContainer input.btn.box.gray{
+    margin: var(--sp20) 0 0 70%;
+}
+.inputBox span.selectComponent{
+    padding: var(--sp25) 0 5px;
+}
+.inputBox > div:last-of-type::before{
+    right: 40px;
+}
+.inputBox > div:last-of-type::after{
+    background: url('../images/icon_error.png') right center / contain no-repeat; width: 24px; height: 24px;
+}
+.inputBox > div:last-of-type::after,
+.cartContainer > div > div:nth-child(1) form fieldset > div:nth-of-type(1) div label span{
+    top: 12px;
+}
+.cartContainer > div > div:nth-child(1) form fieldset > div:nth-of-type(1) div input[type='radio']{
+    background: url('../images/icon_radio.png') center / contain no-repeat; width: 18px; height: 18px;
+}
+.cartContainer > div > div:nth-child(1) form fieldset > div:nth-of-type(1) div input[type='radio']:checked{
+    background-image: url('../images/icon_radio_checked.png');
+}
+.cartContainer > div > div:nth-child(1) form fieldset > div:nth-of-type(1) div label span{
+    right: 10px;
+}
+.cartContainer > div > div:nth-child(1) form fieldset > div:nth-of-type(1) div:nth-child(1) label[for='ship']:before,
+.cartContainer > div > div:nth-child(1) form fieldset > div:nth-of-type(1) div:nth-child(2) label[for='pickup']:before{
+    width: 28px; height: 28px;
+}
+.cartContainer > div > div:nth-child(1) form fieldset > div:nth-of-type(1) div:nth-child(1) label[for='ship']:before{
+    background: url('../images/icon_shipping.png') center / contain no-repeat;
+}
+.cartContainer > div > div:nth-child(1) form fieldset > div:nth-of-type(1) div:nth-child(2) label[for='pickup']:before{
+    background: url('../images/icon_store.png') center / contain no-repeat;
+}
+#shipBox,#pickupBox{
+    margin-top: var(--sp50);
+}
+.cartContainer > div > div:nth-child(1) form fieldset > div#pickupBox p{
+    padding-bottom: var(--sp10);
+}
+.cartContainer > div > div:nth-child(1) form fieldset > div#pickupBox div div span{
+    width: 50%;
+}
+.cartContainer > div > div:nth-child(1) form fieldset > div#pickupBox div div span:nth-child(2n){
+    margin-left: -6px;
+}
+.cartContainer > div > div:nth-child(1) form > ul li{
+    padding: var(--sp10) 0;
+}
+.cartContainer form .bottomContent,
+.cartContainer form .bottomContent ol{
+    margin-top: var(--sp150);
+}
+.cartContainer form .bottomContent ol{
+    line-height: 50px;
+}
+.cartContainer > div > div:nth-child(2) > div:nth-of-type(1) input:first-child{
+    height: 52px; padding-left: 2%;
+}
+.cartContainer > div > div:nth-child(2) > div:nth-of-type(1) input.gray{
+    width: 28%;
+}
+.cartContainer > div > div:nth-child(2) > div:nth-of-type(3) strong:before{
+    left: -25%;
+}
+.cartContainer > div > div form fieldset p small,
+.cartContainer > div > div form fieldset legend small{
+    top: 5px;
+}
+.cartContainer > div > div form fieldset ul li:nth-child(1){
+    background-image: url('../images/icon_visa.png');
+}
+.cartContainer > div > div form fieldset ul li:nth-child(2){
+    background-image: url('../images/icon_mastercard.png');
+}
+.cartContainer > div > div form fieldset ul li:nth-child(3){
+    background-image: url('../images/icon_maestro.png');
+}
+.cartContainer > div > div form fieldset ul li:nth-child(4){
+    background-image: url('../images/icon_amex.png');
+}
+.cartContainer > div > div form fieldset ul li:nth-child(5){
+    background-image: url('../images/icon_unionpay.png');
+}
+.cartContainer fieldset.payment > div > div > div,
+.cartContainer fieldset.payment > div > div:nth-child(2){
+    padding: var(--sp10) var(--sp10);
+}
+/* Common */
+
+@media screen and (max-width: 767px){
+    .indexContainer > :nth-child(2),
+    .indexContainer > :nth-child(4),
+    .listContainer,
+    .collectionContainer > div:nth-of-type(2),
+    .hJContainer > div:nth-of-type(2) ~ div > ul,
+    .detailContainer > div:nth-of-type(1),
+    .cartContainer{
+        margin: 0 auto;
+    }
+    .indexContainer > :nth-child(2),
+    .indexContainer > :nth-child(4),
+    .listContainer,
+    .collectionContainer > div:nth-of-type(2),
+    .hJContainer > div:nth-of-type(2) ~ div > ul,
+    .detailContainer > div:nth-of-type(1),
+    .cartContainer,
+    .hJContainer > div:not(:first-child):not(:nth-child(2)) > div > div,
+    .hJCreateRingContainer > ul > li,
+    .footerContainer.contacts > div:nth-child(3) > ul.accComponent,
+    .myAccountContainer aside{
+        padding: 0 3.57%;
+    }
+    .indexContainer > :nth-child(1) > div:nth-child(1),
+        .indexContainer > :nth-child(7) > div:nth-of-type(2){
+        height: 300px;
+    }
+    .indexContainer > :nth-child(1) > div:nth-child(2){
+        right: 50px; bottom: 30px;
+    }
+    .indexContainer > :nth-child(1) > div:nth-child(2)::after{
+        width: 20px; border-radius: 0 10px 0 10px; top: -15px; right: -30px;
+    }
+    .indexContainer > :nth-child(1) > div:nth-child(2):after{
+        height: 94px;
+    }
+    .indexContainer > :nth-child(2) > ul li:not(:last-child),
+    .indexContainer > :nth-child(6) > ul li:not(:last-child),
+    .listContainer > ul li:not(:last-child),
+    .collectionContainer > div:nth-of-type(2) > div:first-of-type > ul li:not(:last-child){
+        margin-bottom: var(--sp25);
+    }
+    .indexContainer > :nth-child(3) li img,
+    .indexContainer > :nth-child(6) > ul li a,
+    .indexContainer > :nth-child(6) > ul li a img{
+        height: 600px;
+    }
+    .indexContainer > :nth-child(3) li:nth-of-type(2n+1) h3{
+        left: calc(3.57% + 20px);
+    }
+    .indexContainer > :nth-child(3) li:nth-of-type(2n) h3{
+        right: calc(3.57% + 20px);
+    }
+    .indexContainer > :nth-child(3) li:nth-of-type(2n) h3,
+    .indexContainer > :nth-child(5) > div a,
+    .switchToggle + div,
+    .cartContainer > div > div:nth-child(1) form > ul li a{
+        text-align: right;
+    }
+    .indexContainer > :nth-child(4) > div:nth-of-type(1) > a,
+    .indexContainer > :nth-child(8) > a,
+    .cartContainer > div > div:nth-child(2) ul li div:nth-child(2){
+        width: 70%;
+    }
+    .indexContainer > :nth-child(4) > div:nth-of-type(1) > a,
+    .indexContainer > :nth-child(8) > a{
+        margin-left: 30%;
+    }
+    .indexContainer > :nth-child(5) > div{
+        background: url("../images/bg_div4_L.png") top 50px center / 85% no-repeat; padding: 337px 3.57% var(--sp100);
+    }
+    .indexContainer > :nth-child(5) > div h2,
+    .indexContainer > :nth-child(5) > div p,
+    .footerContainer > ul,
+    .switchToggle li,
+    .footerContainer.care > div > div:nth-child(2) ul.hBlindBox li h3{
+        text-align: center;
+    }
+    .indexContainer > :nth-child(7) h2,
+    .detailContainer > div:nth-of-type(2) form :last-child .sizeGuideBox h3,
+    .detailContainer > div:nth-of-type(2) form :last-child .qtyBox h3{
+        margin-bottom: 20px;
+    }
+    .indexContainer > :nth-child(7) > div:nth-of-type(1) ul.diaSlider li a img{
+        height: 350px;
+    }
+    .indexContainer > :nth-child(7) > div:nth-of-type(1) .bx-wrapper .bx-controls-direction a.bx-prev{
+        left: 2%;
+    }
+    .indexContainer > :nth-child(7) > div:nth-of-type(1) .bx-wrapper .bx-controls-direction a.bx-next{
+        right: 2%;
+    }
+    .indexContainer > :nth-child(7) > div:nth-of-type(2){
+        padding-top: 100px;
+    }
+    .indexContainer > :nth-child(7) > div:nth-of-type(2) div,
+    .indexContainer > :nth-child(7) > div:nth-of-type(2) div a,
+    .policy > div > aside h2{
+        width: 90%;
+    }
+    .indexContainer > :nth-child(8),
+    .hJContainer > div:nth-of-type(2),
+    .hJCreateRingContainer > ul > li:not(:first-of-type) > div.open,
+    .detailContainer > div:nth-of-type(2){
+        padding: var(--sp90) 3.57%;
+    }
+    .filter{
+        max-width: 300px;
+    }
+    .filter > div{
+        padding: 0 3.57% var(--sp30); left: -3.57%; width: 107.6%; max-width: 348px; box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    }
+    .listContainer.colorBlack > div > h2::before,
+    .listContainer.colorBlue > div > h2::before,
+    .listContainer.colorBrown > div > h2::before,
+    .listContainer.colorGreen > div > h2::before,
+    .listContainer.colorMulticolour > div > h2::before,
+    .listContainer.colorNeutrals > div > h2::before,
+    .listContainer.colorOnlyGold > div > h2::before,
+    .listContainer.colorOrange > div > h2::before,
+    .listContainer.colorPink > div > h2::before,
+    .listContainer.colorPurple > div > h2::before,
+    .listContainer.colorRed > div > h2::before,
+    .listContainer.colorWhite > div > h2::before,
+    .listContainer.colorYellow > div > h2::before{
+        vertical-align: middle;
+    }   
+    .detailContainer > div:nth-of-type(2) form :last-child .sizeGuideBox h3 span{
+        line-height: 28px; margin-left: 3%;
+    }
+    .collectionContainer > div:nth-of-type(1) div{
+        top: 24.6%;
+    }
+    .collectionContainer > div:nth-of-type(1) div::before,
+    .myAccountContainer aside{
+        left: 3.57%;
+    }
+    .collectionContainer > div:nth-of-type(1) div::after{
+        right: 3.57%;
+    }
+    .hJContainer > div:nth-of-type(1) div{
+        padding: 30% 3.57%;
+    }
+    .hJContainer > div:nth-of-type(1) div::before{
+        top: 8%;
+    }
+    .hJContainer > div:nth-of-type(1) div::after{
+        bottom: 8%;
+    }
+    .hJContainer > div:not(:first-child):not(:nth-child(2)) > div > img{
+        height: 500px;
+    }
+    .hJContainer > div:not(:first-child):not(:nth-child(2)) > ul li:not(:last-child){
+        margin-bottom: var(--sp35);
+    }
+    .hJContainer > div:nth-child(3) > div > div .bx-wrapper .bx-controls-direction a.bx-prev{
+        left: -2%;
+    }
+    .hJContainer > div:nth-child(3) > div > div .bx-wrapper .bx-controls-direction a.bx-next{
+        right: -2%;
+    }
+    .hJContainer > div:nth-child(3) > div > div ul.hjSlider li a img{
+        object-fit: contain;
+    }
+    .hJCreateRingContainer > ul > li:nth-child(2){
+        height: 765px;
+    }
+    .hJCreateRingContainer > ul > li:nth-child(3){
+        height: 880px;
+    }
+    .hJCreateRingContainer > ul > li:last-child{
+        height: 885px;
+    }
+    .hJCreateRingContainer > ul > li:not(:first-of-type) > div.open > div:nth-child(2) form fieldset ul li,
+    .cartContainer form .bottomContent ol li{
+        width: 49.3%;
+    }
+    .hJCreateRingContainer > ul > li:not(:first-of-type) > div.open > div:nth-child(2) form fieldset ul li:not(:nth-last-child(1),:nth-last-child(2)),
+    .myAccountContainer > div form:first-child fieldset .whiteBG ul + div > div{
+        margin-bottom: var(--sp10);
+    }
+    .detailContainer > div:nth-of-type(1) .thumbPagerBox{
+        padding: 0 5%;
+    }
+    .detailContainer > div:nth-of-type(1) > .thumbPagerBox .bx-controls a.bx-prev{
+        left: -10px;
+    }
+    .detailContainer > div:nth-of-type(1) > .thumbPagerBox .bx-controls a.bx-next{
+        right: -10px; 
+    }
+    .detailContainer > div:nth-of-type(2) form :last-child .sizeGuideBox{
+        margin-bottom: 100px; z-index: 100;
+    }
+    .detailContainer > div:nth-of-type(2) form :last-child .sizeGuideBox h3 span.active:after,
+    .detailContainer > div:nth-of-type(2) form > :last-child ul.customSelect,
+    .detailContainer > div:nth-of-type(2) form :last-child div:last-child button,
+    .footerContainer > ul li.active,
+    .footerContainer.care > div > div:nth-child(2) ul.hBlindBox li h3,
+    .cartContainer #creditcardBox > div{
+        width: 100%;
+    }
+    .detailContainer > div:nth-of-type(2) form :last-child .sizeGuideBox h3 span.active:after{
+        height: 280px; z-index: 1000;
+    }  
+    .detailContainer > div:nth-of-type(2) form :last-child div:last-child{
+        margin-top: 140px;
+    }
+    .detailContainer > div:nth-of-type(2) form :last-child div:last-child button[type='button'],
+    .switchToggle li:first-child,
+    .switchToggle li:nth-child(2){
+        margin-bottom: 10px;
+    }
+    .detailContainer > div:nth-of-type(2) form .colorChipsComponent ul li:hover span{
+        width: 200%; left: -50%;
+    }
+    .detailContainer > div:nth-of-type(2) form .colorChipsComponent ul li:hover span::before{
+        left: 42%;
+    }
+    .signUpContainer{
+        padding: var(--sp150) 3.57%;
+    }
+    .signUpContainer > div > div h3 small{
+        bottom: -80px;
+    }
+    .footerContainer > ul{
+        padding-top: 55px;
+    }
+    .footerContainer > ul.active li{
+        font-size: 14px;
+    }
+    .footerContainer > ul li{
+        padding: var(--sp20); box-sizing: border-box;
+    }
+    .footerContainer > ul li.active,
+    .footerContainer > ul li.active:after{
+        top: 0;
+    }
+    .footerContainer > ul li.active:after{
+        background: url('../images/icon_arrow_drop_down.png') center / contain no-repeat; width: 38px; height: 55px; transition: 0.5s ease-in-out;
+    }
+    .footerContainer > ul.active li.active:after{
+        transform: rotate(-180deg);
+    }
+    .footerContainer > ul li:not(.active){
+        border-bottom: 1px solid var(--GS04); background-color: rgba(0, 0, 0,0.03);
+    }
+    .footerContainer > ul li:not(.active) a{
+        color: var(--GS05);
+    }
+    .footerContainer > ul li:not(.active):hover a{
+        color: var(--GS08); 
+    }    
+    .policy > div > aside{
+        padding: var(--sp30) 3.57% var(--sp35);
+    } 
+    .footerContainer ul.accComponent li div a,
+    .footerContainer.sizeG > div > div:nth-child(2) div p,
+    .policy > div > article p{
+        word-break: break-all;
+    }
+    .footerContainer.contacts > div:nth-child(3) > div{
+        margin: 0 3.57%;
+    }
+    .footerContainer.contacts > div:nth-child(3) > div form > h3 small{
+        bottom: -100px;
+    }
+    .footerContainer.contacts > div:nth-child(3) > div form > ul{
+        padding: 90px 0 var(--sp30);
+    }
+    .footerContainer.sizeG > div > div:nth-child(2),
+    .policy > div > article,
+    .myAccountContainer > div,
+    .footerContainer.qa > div > div:nth-child(2){
+        padding: var(--sp30) 3.57%;
+    }
+    .footerContainer.sizeG > div > div:nth-child(2) div{
+        padding: var(--sp30) 3%;
+    }
+    .policy .whiteBG > div{
+        overflow-x: auto;
+    }
+    .policy table{
+        min-width: 650px;
+    }
+    .switchToggle li{
+        width: 48%;
+    }
+    .switchToggle label{
+        width: 94px;
+    }
+    .footerContainer.formBox > div:last-child > div:nth-of-type(2),
+    .footerContainer.care > div > div:nth-child(1){
+        padding: var(--sp50) 3.57%;
+    }
+    .footerContainer.care > div > div:nth-child(2) ul.hBlindBox li,
+    .footerContainer.care > div > div:nth-child(2) ul.hBlindBox li div video{
+        height: 550px;
+    }
+    .footerContainer.care > div > div:nth-child(2) ul.hBlindBox li h3{
+        word-wrap: break-word;
+    }
+    .footerContainer.care > div > div:nth-child(2) ul.hBlindBox li h3{
+        bottom: 10%;
+    }
+    .myAccountContainer > div fieldset .whiteBG ul li textarea{
+        height: 50px;
+    }
+    .cartContainer > div > div:nth-child(1) form fieldset > div:nth-of-type(1) div label{
+        width: 87%;
+    }
+    .cartContainer > div > div form fieldset ul{
+        margin-left: 20px;
+    }   
+    .cartContainer form .bottomContent input.gray{
+        width: 50%;
+    }
+    .cartContainer > div > div:nth-child(2) ul li div:nth-child(1){
+        width: 25%;
+    }
+}
+/* Mobile */
+@media screen and (min-width: 768px) and (max-width:1279px){
+    .indexContainer > :nth-child(2),
+    .indexContainer > :nth-child(4),
+    .listContainer,
+    .collectionContainer > div:nth-of-type(2),
+    .hJContainer > div:nth-of-type(2) ~ div > ul,
+    .hJCreateRingContainer,
+    .detailContainer > div:nth-of-type(1),
+    .cartContainer{
+        margin: 0 auto;
+    }
+    .indexContainer > :nth-child(2),
+    .indexContainer > :nth-child(4),
+    .listContainer,
+    .collectionContainer > div:nth-of-type(2),
+    .hJContainer > div:nth-of-type(2) ~ div > ul,
+    .hJCreateRingContainer,
+    .detailContainer > div:nth-of-type(1),
+    .cartContainer,
+    .footerContainer.contacts > div:nth-child(3) > ul.accComponent,
+    .myAccountContainer aside{
+        padding: 0 3.125%;
+    }
+    .indexContainer > :nth-child(1) > div::after{
+        height: 105px;
+    }
+    .indexContainer > :nth-child(2) > ul li,
+    .listContainer > ul li,
+    .collectionContainer > div:nth-of-type(2) > div:first-of-type > ul li,
+    .hJContainer > div:not(:first-child):not(:nth-child(2)) > ul li{
+        width: 48.65%;
+    }
+    .indexContainer > :nth-child(2) > ul li:nth-child(1),
+    .indexContainer > :nth-child(2) > ul li:nth-child(2),
+    .indexContainer > :nth-child(6) > ul li:nth-child(1),
+    .indexContainer > :nth-child(6) > ul li:nth-child(2){
+        margin-bottom: var(--sp25);
+    }
+    .indexContainer > :nth-child(2) > ul li:nth-child(2n),
+    .listContainer > ul li:nth-of-type(2n),
+    .collectionContainer > div:nth-of-type(2) > div:first-of-type > ul li:nth-of-type(2n),
+    .hJContainer > div:not(:first-child):not(:nth-child(2)) > ul li:nth-of-type(2n){
+        margin-left: 2.7%;
+    }
+    .indexContainer > :nth-child(3) li,
+    .indexContainer > :nth-child(4) > div:nth-of-type(1) > a,
+    .indexContainer > :nth-child(6) > ul li,
+    .hJCreateRingContainer > ul > li:not(:first-of-type) > div.open > div,
+    .detailContainer > div:nth-of-type(2) form :last-child .sizeGuideBox{
+        width: 50%;
+    }
+    .indexContainer > :nth-child(4) > div:nth-of-type(1) > a{
+        margin-left: 50%;
+    }
+    .indexContainer > :nth-child(5) > div{
+        background: url("../images/bg_div4_L.png") top 10% center / 85% no-repeat; padding: 720px 3.125% var(--sp100);
+    }
+    .indexContainer > :nth-child(7) > div:nth-of-type(1) .bx-wrapper .bx-controls-direction a.bx-prev{
+        left: -10%;
+    }
+    .indexContainer > :nth-child(7) > div:nth-of-type(1) .bx-wrapper .bx-controls-direction a.bx-next{
+        right: -10%;
+    }
+    .indexContainer > :nth-child(8),
+    .hJContainer > div:nth-of-type(2),
+    .detailContainer > div:nth-of-type(2){
+        padding: var(--sp90) 3.125%;
+    }
+    .indexContainer > :nth-child(8) > a{
+        width: 60%; margin-left: 40%;
+    }
+    .filter{
+        width: 300px;
+    }
+    .filter > div{
+        padding: 0 8% var(--sp30); left: -8%; width: 348px;
+    }
+    .listContainer > ul li:not(.notMT),
+    .collectionContainer > div:nth-of-type(2) > div:first-of-type > ul li:not(.notMT),
+    .hJContainer > div:not(:first-child):not(:nth-child(2)) > ul li:not(.notMT){
+        margin-bottom: var(--sp35);
+    }
+    .collectionContainer > div:nth-of-type(1) div{
+        top: 27.6%;
+    }
+    .collectionContainer > div:nth-of-type(1) div::before,
+    .myAccountContainer aside{
+        left: 3.125%;
+    }    
+    .collectionContainer > div:nth-of-type(1) div::after{
+        right: 3.125%;
+    }
+    .hJCreateRingContainer > ul > li:not(:first-of-type){
+        padding: 0 2%; position: relative;
+    }
+    .hJCreateRingContainer > ul > li:not(:first-of-type,:last-child){
+        height: 550px;
+    }
+    .hJCreateRingContainer > ul > li:last-child{
+        height: 800px;
+    }
+    .hJCreateRingContainer > ul > li:not(:first-of-type) > div.open{
+        padding: var(--sp90) 2%;
+    }
+    .hJCreateRingContainer > ul > li:not(:first-of-type) > div.open > div{
+        float: left;
+    }
+    .detailContainer > div:nth-of-type(2) form :last-child .sizeGuideBox.exSize .size{
+        width: 85%;
+    }
+    .detailContainer > div:nth-of-type(2) form :last-child .qtyBox{
+        width: 48%;
+    }
+    .detailContainer > div:nth-of-type(2) form :last-child .qtyBox .qty{
+        width: 65%;
+    }
+    .detailContainer > div:nth-of-type(2) form .colorChipsComponent ul li:not(:first-child):hover span{
+        left: -50%; margin-left: -45px;
+    }
+    .detailContainer > div:nth-of-type(2) form .colorChipsComponent ul li:not(:first-child):hover span::before{
+        left: 42%;
+    }
+    .detailContainer > div:nth-of-type(2) form .colorChipsComponent ul li:first-child:hover span{
+        left: -22%;
+    }
+    .detailContainer > div:nth-of-type(2) form .colorChipsComponent ul li:first-child:hover span::before{
+        left: 14%;
+    }
+    .signUpContainer{
+        padding: var(--sp150) 20%;
+    }
+    .footerContainer.contacts > div:nth-child(3) > div{
+        margin: 0 3.125%;
+    }
+    .footerContainer.sizeG > div > div:nth-child(2),
+    .policy > div > article,
+    .footerContainer.qa > div > div:nth-child(2),
+    .myAccountContainer > div{
+        padding: var(--sp30) 3.125%;
+    }
+    .policy > div > aside{
+        padding: var(--sp30) 3.125% var(--sp35);
+    }
+    .policy > div > aside ul li{
+        width: 32%; min-height: 36px;
+        /* vertical-align: top; */
+    }
+    .policy > div > aside ul li:not(:nth-child(1),:nth-child(2),:nth-child(3)){
+        margin-top: var(--sp30);
+    }
+    .footerContainer.formBox > div:last-child > div:nth-of-type(2),
+    .footerContainer.care > div > div:nth-child(1){
+        padding: var(--sp50) 3.125%;
+    }
+    .footerContainer.care > div > div:nth-child(2){
+        height: 1512px;
+    }
+    .footerContainer.care > div > div:nth-child(2) ul.hBlindBox > *{
+        box-sizing: border-box;
+    }
+    .footerContainer.care > div > div:nth-child(2) ul.hBlindBox li:nth-child(1),
+    .footerContainer.care > div > div:nth-child(2) ul.hBlindBox li:nth-child(2),
+    .footerContainer.care > div > div:nth-child(2) ul.hBlindBox li:nth-child(3),
+    .footerContainer.care > div > div:nth-child(2) ul.hBlindBox li:nth-child(1).active ~ li:nth-child(3).active{
+        top: 0;
+    }
+    .footerContainer.care > div > div:nth-child(2) ul.hBlindBox li:nth-child(1),
+    .footerContainer.care > div > div:nth-child(2) ul.hBlindBox li:nth-child(4){
+        left: 0;
+    }
+    .footerContainer.care > div > div:nth-child(2) ul.hBlindBox li:nth-child(2),
+    .footerContainer.care > div > div:nth-child(2) ul.hBlindBox li:nth-child(5){
+        left: 33.33%;
+    }
+    .footerContainer.care > div > div:nth-child(2) ul.hBlindBox li:nth-child(3),
+    .footerContainer.care > div > div:nth-child(2) ul.hBlindBox li:nth-child(6){
+        left: 66.66%;
+    }
+    .footerContainer.care > div > div:nth-child(2) ul.hBlindBox li:nth-child(4),
+    .footerContainer.care > div > div:nth-child(2) ul.hBlindBox li:nth-child(5),
+    .footerContainer.care > div > div:nth-child(2) ul.hBlindBox li:nth-child(6),
+    .footerContainer.care > div > div:nth-child(2) ul.hBlindBox li:nth-child(4).active ~ li:nth-child(6).active{
+        top: 756px;
+    }
+    .footerContainer.care > div > div:nth-child(2) ul.hBlindBox li{
+        width: 33.33%;
+    }
+    .myAccountContainer > div fieldset .whiteBG ul li textarea{
+        height: 25px;
+    }
+    .cartContainer form .bottomContent ol li{
+        width: 24.6%;
+    }
+}
+/* Tablet */
+@media screen and (max-width: 1279px){
+    .indexContainer > *:not(:last-child,:nth-last-child(2)){
+        margin-bottom: var(--sp150);
+    }
+    .indexContainer > :nth-child(3) h3{
+        width: 60%;
+    }
+    .indexContainer > :nth-child(4) > div:nth-of-type(1),
+    .indexContainer > :nth-child(7) > div:nth-of-type(1) .bx-wrapper,
+    .footerContainer.contacts > div:nth-child(3) > ul.accComponent{
+        margin-bottom: var(--sp25);
+    }
+    .indexContainer > :nth-child(7) > div:nth-of-type(1),
+    .hJContainer > div:not(:first-child):not(:nth-child(2)) > div > div,
+    .hJCreateRingContainer > ul > li:nth-of-type(1),
+    .detailContainer > div:nth-of-type(1),
+    .myAccountContainer aside,
+    .myAccountContainer > div form:last-child fieldset .whiteBG > div > ul,
+    .cartContainer > div > div:nth-child(2){
+        margin-bottom: var(--sp35);
+    }
+    .listContainer > ul li a,
+    .collectionContainer > div:nth-of-type(2) > div:first-of-type > ul li a,
+    .hJContainer > div:not(:first-child):not(:nth-child(2)) > ul li a{
+        height: 280px;
+    }
+    .collectionContainer > div:nth-of-type(1),
+    .detailContainer > div:nth-of-type(1) .thumbPagerBox,
+    .policy > div > aside h2{
+        position: relative;
+    }
+    .collectionContainer > div:nth-of-type(1):after,
+    .policy > div > aside h2:after{
+        content: '';
+    }
+    .collectionContainer > div:nth-of-type(1):after{
+        background-color: black; width: 90%; height: 90%;
+    }
+    .collectionContainer > div:nth-of-type(1):after,
+    .policy > div > aside h2:after{
+        display: inline-block;
+    }
+    .collectionContainer > div:nth-of-type(1):after,
+    .collectionContainer > div:nth-of-type(1) div,
+    .policy > div > aside h2:after{
+        position: absolute;
+    }
+    .collectionContainer > div:nth-of-type(1):after{
+        top: 5%; left: 5%; opacity: 0.15; z-index: 10; border-radius: 0 50px 0 50px;
+    }
+    .collectionContainer > div:nth-of-type(1):not(.ex):after{
+        background-color: var(--GS14);
+    }
+    .collectionContainer > div:nth-of-type(1).ex:after,
+    .policy > div > aside{
+        background-color: var(--GS01);
+    }
+    .collectionContainer > div:nth-of-type(1) img,
+    .hJContainer > div:nth-of-type(1) video,
+    .hJCreateRingContainer > ul > li:not(:first-of-type) > div.open{
+        width: 100%;
+    }
+    .collectionContainer > div:nth-of-type(1) div,
+    .collectionContainer > div:nth-of-type(1) div::before,
+    .collectionContainer > div:nth-of-type(1) div::after{
+        z-index: 100;
+    }
+    .collectionContainer > div:nth-of-type(1) div{
+       padding: 0 8%;
+    }
+    .collectionContainer > div:nth-of-type(1) div::before{
+        top: -20%;
+    }    
+    .collectionContainer > div:nth-of-type(1) div::after{
+        bottom: -20%;
+    }
+    .collectionContainer > div:nth-of-type(1) div h2,
+    .collectionContainer > div:nth-of-type(1) div p{
+        color: var(--GS01);
+    }
+    .collectionContainer > div:nth-of-type(1) div h2{
+        text-shadow: 0 4px 10px var(--GS14);
+    }
+    .collectionContainer > div:nth-of-type(1) div p{
+        text-shadow: 0 4px 4px var(--GS14);
+    }
+    .collectionContainer > div:nth-of-type(2) > div:first-of-type > img,
+    .policy > div > aside ul{
+        display: none;
+    }
+    .hJContainer > div:nth-of-type(1),
+    .hJContainer > div:nth-child(4) > div,
+    .cartContainer > div{
+        display: flex; flex-direction: column;
+    }
+    .hJContainer > div:nth-of-type(1) video,
+    .hJContainer > div:nth-child(4) > div img,
+    .cartContainer > div > div:nth-child(1){
+        order: 2;
+    }
+    .hJContainer > div:nth-of-type(1) div,
+    .hJContainer > div:nth-child(4) > div div,
+    .cartContainer > div > div:nth-child(2){
+        order: 1;
+    }
+    .hJCreateRingContainer > ul > li:not(:first-of-type) > div:first-child{
+        top: 32.18%;
+    }
+    .hJCreateRingContainer > ul > li:not(:first-of-type) > div.open > div:nth-child(2){
+        margin-top: var(--sp35);
+    }
+    .hJCreateRingContainer > ul > li:not(:first-child) input.next{
+        bottom: 3%; transform: rotate(90deg);
+    }
+    .hJCreateRingContainer > ul > li:not(:first-child) input.prev{
+        right: 3%; top: 3%; transform: rotate(-90deg);
+    }
+    .policy > div > aside{
+        top: 148px; box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2);
+    }
+    .policy > div > aside h2{
+        font-size: 14px;
+    }
+    .policy > div > aside h2:after{
+        background: url('../images/icon_expand_D.png') center / contain no-repeat; width: 25px; height: 25px; right: -24px; top: -2px; transition: 0.5s ease-in-out;
+    }
+    .policy > div > aside h2.active:after{
+        transform: rotate(-180deg);
+    }
+    .footerContainer.contacts > div:nth-child(3) > div form > ul li input{ 
+        outline-color: var(--BS02);
+    }
+    .cartContainer > div > div:nth-child(1) form fieldset{
+        margin-bottom: var(--sp90);
+    }
+    .cartContainer form .bottomContent ol{
+        text-align: center;
+    }
+}
+/* Tablet & Mobile */
+@media screen and (min-width: 1280px){
+    .indexContainer > :nth-child(2),
+    .indexContainer > :nth-child(4),
+    .listContainer,
+    .collectionContainer > div:nth-of-type(2),
+    .hJContainer > div:nth-of-type(2) ~ div > ul,
+    .hJCreateRingContainer,
+    .detailContainer,
+    .cartContainer{
+        max-width: 1820px; padding: 0 2.74%;
+    }
+    .indexContainer > :nth-child(2),
+    .indexContainer > :nth-child(4),
+    .listContainer,
+    .collectionContainer > div:nth-of-type(2),
+    .hJContainer > div:nth-of-type(2) ~ div > ul,
+    .hJCreateRingContainer,
+    .detailContainer,
+    .cartContainer,
+    .hJContainer > div:nth-of-type(2) p{
+        margin: 0 auto;
+    }
+    .indexContainer > :nth-child(1) > div::after{
+        height: 140px;
+    }
+    .indexContainer > *:not(:last-child){
+        margin-bottom: var(--sp150);
+    }
+    .indexContainer > :nth-child(2) > ul li,
+    .listContainer > ul li,
+    .hJContainer > div:not(:first-child):not(:nth-child(2)) > ul li{
+        width: 24.55%;
+    }
+    .indexContainer > :nth-child(2) > ul li:not(:first-of-type),
+    .listContainer > ul li:not(:nth-of-type(4n+1)),
+    .collectionContainer > div:nth-of-type(2) > div:first-of-type > ul,
+    .collectionContainer > div:nth-of-type(2) > div:first-of-type > ul li:not(:nth-of-type(3n+1)),
+    .hJContainer > div:not(:first-child):not(:nth-child(2)) > ul li:not(:nth-of-type(4n+1)){
+        margin-left: 0.6%;
+    }
+    .indexContainer > :nth-child(3) li,
+    .indexContainer > :nth-child(6) > ul li,
+    .collectionContainer > div:nth-of-type(2) > div:first-of-type > img,
+    .hJCreateRingContainer > ul > li{
+        width: 25%;
+    }
+    .indexContainer > :nth-child(3) h3{
+        width: 74%;
+    }
+    .indexContainer > :nth-child(4) > div:nth-of-type(1){
+        width: 27%; margin-right: 2%;
+    }
+    .indexContainer > :nth-child(4) > div:nth-of-type(1) p,
+    .indexContainer > :nth-child(4) > div:nth-of-type(1) > a{
+        width: 85%;
+    }
+    .indexContainer > :nth-child(4) > .bx-wrapper{
+        width: 70%;
+    }
+    .indexContainer > :nth-child(5) > div{
+        background: url("../images/bg_div4_L.png") left 2.74% center / 33% no-repeat; padding: var(--sp150) 2.74% var(--sp150) 40%;
+    }
+    .indexContainer > :nth-child(7) > div,
+    .collectionContainer > div:nth-of-type(1) img,
+    .collectionContainer > div:nth-of-type(1) div,
+    .hJContainer > div:nth-of-type(1) video,
+    .hJContainer > div:nth-of-type(1) div,
+    .hJContainer > div:not(:first-child):not(:nth-child(2)) > div > div,
+    .hJContainer > div:not(:first-child):not(:nth-child(2)) > div > img,
+    .detailContainer > div,
+    .footerContainer.contacts > div:nth-child(3) > ul.accComponent,
+    .myAccountContainer > div > .whiteBG > *,
+    .myAccountContainer > div form:first-child fieldset .whiteBG > *:not(:first-child),
+    .myAccountContainer > div form:last-child fieldset .whiteBG > div > div,
+    .cartContainer > div > *{
+        width: 50%;
+    }
+    .indexContainer > :nth-child(7) > div:nth-of-type(1){
+        padding: var(--sp60) 0;
+    }
+    .indexContainer > :nth-child(7) > div:nth-of-type(1) .bx-wrapper .bx-controls-direction a.bx-prev{
+        left: -7%;
+    }
+    .indexContainer > :nth-child(7) > div:nth-of-type(1) .bx-wrapper .bx-controls-direction a.bx-next{
+        right: -7%;
+    }
+    .indexContainer > :nth-child(8){
+        padding: var(--sp90) 0 var(--sp90) var(--sp100);
+    }
+    .indexContainer > :nth-child(8) > p{
+        width: 30%;
+    }
+    .indexContainer > :nth-child(8) > a{
+        width: 387px;
+    }
+    .filter{
+        width: 300px;
+    }
+    .filter > div{
+        padding: 0 16.67% var(--sp30); left: -16.67%; width: 400px;
+    }
+    .listContainer > ul li:not(.notM),
+    .collectionContainer > div:nth-of-type(2) > div:first-of-type > ul li:not(.notM),
+    .hJContainer > div:not(:first-child):not(:nth-child(2)) > ul li:not(.notM){
+        margin-bottom: var(--sp35);
+    }
+    .listContainer > ul li a,
+    .collectionContainer > div:nth-of-type(2) > div:first-of-type > ul li a,
+    .hJContainer > div:not(:first-child):not(:nth-child(2)) > ul li a{
+        height: 400px;
+    }
+    .collectionContainer > .filter,
+    .collectionContainer > div:nth-of-type(2) > .filter,
+    .collectionContainer > div:nth-of-type(2) > div:first-of-type > img,
+    .myAccountContainer aside{
+        position: sticky;
+    }
+    .collectionContainer > .filter{
+        top: 50px;
+    }
+    .collectionContainer > div:nth-of-type(1) div{
+        padding: 8% 5%;
+    }
+    .collectionContainer > div:nth-of-type(1) div,
+    .hJContainer > div:nth-of-type(1) div{
+        height: 500px;
+    }
+    .collectionContainer > div:nth-of-type(1) div,
+    .hJCreateRingContainer > ul,
+    .footerContainer.care > div > div:nth-child(2) ul.hBlindBox li{
+        position: relative;
+    }
+    .collectionContainer > div:nth-of-type(1) div::before{
+        left: 4%; top: 12%;
+    }    
+    .collectionContainer > div:nth-of-type(1) div::after{
+        right: 4%; bottom: 12%;
+    }
+    .collectionContainer > div:nth-of-type(1) div h2{
+        color: var(--GS14);
+    }
+    .collectionContainer > div:nth-of-type(1) div p{
+        color: var(--GS10);
+    }
+    .collectionContainer > div:nth-of-type(2) > .filter{
+        top: 180px;
+    }
+    .collectionContainer > div:nth-of-type(2) > div:first-of-type > img{
+       top: 230px;
+    }
+    .collectionContainer > div:nth-of-type(2) > div:first-of-type > ul{
+        width: 74.4%;
+    }
+    .collectionContainer > div:nth-of-type(2) > div:first-of-type > ul li{
+        width: 32.93%;
+    }
+    .hJContainer > div:nth-of-type(2){
+        padding: var(--sp90) 0;
+    }
+    .hJContainer > div:nth-of-type(2) p,
+    .footerContainer.sizeG > div > div:nth-child(2),
+    .policy > div > article,
+    .footerContainer.formBox > div:last-child > div:nth-of-type(2),
+    .footerContainer.qa > div > div:nth-child(2),
+    .footerContainer.care > div > div:nth-child(2),
+    .myAccountContainer > div{
+        width: 65%;
+    }
+    .hJContainer > div:not(:first-child):not(:nth-child(2)) > div > div{
+        padding: var(--sp35) 0;
+    }
+    .hJCreateRingContainer > ul > li:nth-of-type(1){
+        padding: var(--sp70) 2.6%;
+    }
+    .hJCreateRingContainer > ul > li:not(:first-of-type),
+    .detailContainer > div:nth-of-type(1),
+    .footerContainer.contacts > div:nth-child(3) > ul.accComponent{
+        padding: 0 2.6%;
+    }
+    .hJCreateRingContainer > ul > li:not(:first-of-type){
+        position: absolute;
+    }
+    .hJCreateRingContainer > ul > li:not(:first-of-type),
+    .footerContainer.care > div > div:nth-child(2) ul.hBlindBox li.active{
+        top: 0;
+    }
+    .hJCreateRingContainer > ul > li:not(:first-of-type){
+        height: 100%;
+    }
+    .hJCreateRingContainer > ul > li:nth-of-type(2){
+        left: 25%;
+    }
+    .hJCreateRingContainer > ul > li:nth-of-type(3){
+        left: 50%;
+    }
+    .hJCreateRingContainer > ul > li:nth-of-type(4){
+        left: 75%;
+    }
+    .hJCreateRingContainer > ul > li:not(:first-of-type) > div:first-child{
+        top: 40.44%;
+    }
+    .hJCreateRingContainer > ul > li:not(:first-of-type) > div.open{
+        padding: var(--sp90) 3.9%;
+    }
+    .hJCreateRingContainer > ul > li:not(:first-of-type) > div.open > div:first-child,
+    .cartContainer > div > div:nth-child(1) form fieldset{
+        margin-bottom: var(--sp90);
+    }
+    .hJCreateRingContainer > ul > li:not(:first-child) input.next,
+    .hJCreateRingContainer > ul > li:not(:first-child) input.prev{
+        bottom: 0;
+    }
+    .hJCreateRingContainer > ul > li:not(:first-child) input.prev{
+        left: 3%;
+    }
+    .detailContainer > div,
+    .footerContainer.care > div > div:nth-child(2) ul > *,
+    .cartContainer > div > *{
+        box-sizing: border-box;
+    }
+    .detailContainer > div:nth-of-type(2){
+        padding: var(--sp90) 6%;
+    }
+    .detailContainer > div:nth-of-type(2) form .colorChipsComponent ul li:hover span{
+        left: -50%; margin-left: -45px;
+    }
+    .detailContainer > div:nth-of-type(2) form .colorChipsComponent ul li:hover span::before{
+        left: 42%;
+    }
+    .detailContainer > div:nth-of-type(2) form :last-child .sizeGuideBox{
+        width: 60%;
+    }
+    .detailContainer > div:nth-of-type(2) form :last-child .sizeGuideBox.exSize .size{
+        width: 80%;
+    }
+    .detailContainer > div:nth-of-type(2) form :last-child .qtyBox{
+        width: 38%;
+    }
+    .detailContainer > div:nth-of-type(2) form :last-child .qtyBox .qty{
+        width: 40%;
+    }
+    .signUpContainer{
+        padding: var(--sp150) 30%;
+    }
+    .footerContainer.contacts > div:nth-child(3) > div{
+        width: 44.8%; margin: 0 2.6%;
+    }
+    .footerContainer.sizeG > div > div:nth-child(1),
+    .policy > div > aside,
+    .footerContainer.formBox > div:last-child > div:nth-child(1),
+    .footerContainer.qa > div > div:nth-child(1),
+    .footerContainer.care > div > div:nth-child(1),
+    .myAccountContainer aside{
+        width: 35%;
+    }
+    .footerContainer.sizeG > div > div:nth-child(2),
+    .policy > div > article,
+    .footerContainer.qa > div > div:nth-child(2),
+    .myAccountContainer > div{
+        padding: var(--sp30) 3.7%;
+    }
+    .policy > div > aside{
+        padding: var(--sp30) 1% 0 2%; top: 150px;
+    }
+    .footerContainer.formBox > div:last-child > div:nth-of-type(2){
+        padding: var(--sp50) 3.7%;
+    }
+    .footerContainer.care > div > div:nth-child(1){
+        padding: var(--sp50) 1.7%;
+    }
+    .footerContainer.care > div > div:nth-child(2) ul.hBlindBox li{
+        width: 16.63%;
+    }
+    .myAccountContainer aside{
+        padding-left: 2%; top: 200px;
+    }
+    .myAccountContainer > div form:last-child fieldset .whiteBG > div > ul{
+        width: 48%;
+    }
+    .myAccountContainer > div form:last-child fieldset .whiteBG > div > div{
+        float: right;
+    }
+    .cartContainer > div > div:nth-child(1){
+        padding-right: 6.5%; border-right: 1px solid var(--GS04);
+    }
+    .cartContainer form .bottomContent ol li:not(:first-child){
+        margin-left: var(--sp30);
+    }
+    .cartContainer > div > div:nth-child(2){
+        padding-left: 6.5%;
+    }
+}
+/* Desktop */
+@media screen and (min-width: 768px){
+    .indexContainer > :nth-child(1) > div:nth-child(1){
+        height: 200px;
+    }
+    .indexContainer > :nth-child(1) > div:nth-child(2){
+        right: 90px; bottom: 110px;
+    }
+    .indexContainer > :nth-child(1) > div:nth-child(2)::after{
+        width: 20px; border-radius: 0 10px 0 10px; right: -40px;
+    }
+    .indexContainer > :nth-child(1) > div:nth-child(2)::after,
+    .detailContainer > div:nth-of-type(2) form > :last-child ul.customSelect{
+       top: 0;
+    }
+    .indexContainer > :nth-child(3) li img{
+        height: 830px;
+    }
+    .indexContainer > :nth-child(3) li h3{
+        left: 50px;
+    }
+    .indexContainer > :nth-child(6) > ul li a,
+    .indexContainer > :nth-child(6) > ul li a img{
+        height: 700px;
+    }    .indexContainer > :nth-child(7) h2{
+        margin-bottom: var(--sp50); 
+    }
+    .indexContainer > :nth-child(7) > div:nth-of-type(1) ul.diaSlider li a img{
+        height: 515px;
+    }
+    .indexContainer > :nth-child(7) > div:nth-of-type(2){
+        height: 822px; padding-top: var(--sp350);
+    }
+    .indexContainer > :nth-child(7) > div:nth-of-type(2) div,
+    .cartContainer > div > div:nth-child(1) form > ul li span{
+        width: 80%;
+    }
+    .indexContainer > :nth-child(7) > div:nth-of-type(2) div a{
+        width: 350px;
+    }
+    .filter > div{
+        box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+    }
+    .listContainer.colorBlack > div > h2::before,
+    .listContainer.colorBlue > div > h2::before,
+    .listContainer.colorBrown > div > h2::before,
+    .listContainer.colorGreen > div > h2::before,
+    .listContainer.colorMulticolour > div > h2::before,
+    .listContainer.colorNeutrals > div > h2::before,
+    .listContainer.colorOnlyGold > div > h2::before,
+    .listContainer.colorOrange > div > h2::before,
+    .listContainer.colorPink > div > h2::before,
+    .listContainer.colorPurple > div > h2::before,
+    .listContainer.colorRed > div > h2::before,
+    .listContainer.colorWhite > div > h2::before,
+    .listContainer.colorYellow > div > h2::before{
+        vertical-align: top;
+    }
+    .hJContainer > div:nth-of-type(1) div{
+        padding: 9% 5%;
+    }
+    .hJContainer > div:nth-of-type(1) div::before{
+        top: 12%;
+    }    
+    .hJContainer > div:nth-of-type(1) div::after{
+        bottom: 12%;
+    }
+    .hJContainer > div:not(:first-child):not(:nth-child(2)) > div > img{
+        height: 811px;
+    }
+     .hJContainer > div:nth-child(3) > div > div .bx-wrapper .bx-controls-direction a.bx-prev{
+        left: -4%;
+    }
+    .hJContainer > div:not(:first-child):not(:nth-child(2)) > div > div ul li a img{
+        height: 530px;
+    }
+    .hJCreateRingContainer > ul > li:not(:first-of-type) > div.open > div:nth-child(2) form fieldset ul li{
+        width: 32.4%;
+    }
+    .hJCreateRingContainer > ul > li:not(:first-of-type) > div.open > div:nth-child(2) form fieldset ul li:nth-of-type(1),
+    .hJCreateRingContainer > ul > li:not(:first-of-type) > div.open > div:nth-child(2) form fieldset ul li:nth-of-type(2),
+    .hJCreateRingContainer > ul > li:not(:first-of-type) > div.open > div:nth-child(2) form fieldset ul li:nth-of-type(3){
+        margin-bottom: var(--sp10);
+    }
+    .detailContainer > div:nth-of-type(1) > .thumbPagerBox .bx-controls a.bx-prev{
+        left: -30px;
+    }
+    .detailContainer > div:nth-of-type(1) > .thumbPagerBox .bx-controls a.bx-next{
+        right: -30px; 
+    }
+    .detailContainer > div:nth-of-type(2){
+        border-radius: 150px 30px 30px 100px;
+    }
+    .detailContainer > div:nth-of-type(2) form .colorChipsComponent ul li:hover span{
+        width: 200px;
+    }
+    .detailContainer > div:nth-of-type(2) form :last-child .sizeGuideBox,
+    .footerContainer.care > div > div:nth-child(2) ul.hBlindBox li.active{
+       z-index: 10;
+    }
+    .detailContainer > div:nth-of-type(2) form :last-child .sizeGuideBox,
+    .myAccountContainer > div form:first-child fieldset .whiteBG ul + div > div:nth-of-type(1){
+       margin-right: 2%;
+    }
+    .detailContainer > div:nth-of-type(2) form :last-child .sizeGuideBox h3{
+        line-height: 30px;
+    }
+    .detailContainer > div:nth-of-type(2) form :last-child .sizeGuideBox.exSize h3,
+    .detailContainer > div:nth-of-type(2) form :last-child .qtyBox h3{
+        line-height: 50px;
+    }
+    .detailContainer > div:nth-of-type(2) form :last-child .sizeGuideBox h3 span,
+    .footerContainer.care > div > div:nth-child(2) ul.hBlindBox li:hover h3,
+    .footerContainer.care > div > div:nth-child(2) ul.hBlindBox li.active div input{
+        display: block;
+    }
+    .detailContainer > div:nth-of-type(2) form :last-child .sizeGuideBox h3 span{
+        line-height: 20px;
+    }
+    .detailContainer > div:nth-of-type(2) form :last-child .sizeGuideBox h3 span.active:after{
+        width: 480px; height: 480px;
+    }
+    .detailContainer > div:nth-of-type(2) form :last-child .sizeGuideBox h3 span.active:after,
+    .footerContainer.care > div > div:nth-child(2) ul.hBlindBox li.active div input{
+        z-index: 100;
+    }
+    .detailContainer > div:nth-of-type(2) form :last-child .sizeGuideBox .size{
+        width: 65%;
+    }
+    .detailContainer > div:nth-of-type(2) form > :last-child ul.customSelect,
+    .cartContainer > div > div:nth-child(1) form > ul li a{
+        right: 0;
+    }
+    .detailContainer > div:nth-of-type(2) form :last-child div:last-child{
+        margin-top: var(--sp90);
+    }
+    .detailContainer > div:nth-of-type(2) form :last-child div:last-child button{
+        width: 50%;
+    }
+    .detailContainer > div:nth-of-type(2) form :last-child div:last-child button[type='submit'],
+    .myAccountContainer > div form:first-child fieldset .whiteBG ul + div > div:nth-of-type(2){
+        margin-left: -6px; 
+    }
+    .signUpContainer > div > div h3 small,
+    .footerContainer.contacts > div:nth-child(3) > div form > h3 small{
+        top: 50%; margin-top: -6px;
+    }
+    .footerContainer > ul li{
+        padding: var(--sp20);
+    }
+    .footerContainer > ul li:not(:last-child){
+        border-right: 1px solid var(--GS04);
+    }
+    .footerContainer > ul li a{
+        color: var(--GS14);
+    }
+    .footerContainer > ul li:hover a{
+        color: var(--RS01);
+    }
+    .footerContainer.contacts > div:nth-child(3) > div form > ul{
+        padding: var(--sp50) 0 var(--sp30);
+    }
+    .footerContainer.sizeG > div > div:nth-child(2) div{
+        padding: var(--sp30) 0;
+    }
+    .switchToggle li:not(:first-child){
+        margin-left: 3%;
+    }
+    .footerContainer.care > div > div:nth-child(2) ul.hBlindBox li,
+    .footerContainer.care > div > div:nth-child(2) ul.hBlindBox li div video{
+        height: 768px;
+    }   
+    .footerContainer.care > div > div:nth-child(2) ul.hBlindBox li{
+        transition: border .35s ease-out; border-style: solid; border-color: var(--GS01); 
+    }    
+    .footerContainer.care > div > div:nth-child(2) ul.hBlindBox li:hover{
+        border-width: 0 10px; box-sizing: border-box;
+    }
+    .footerContainer.care > div > div:nth-child(2) ul.hBlindBox li.active,
+    .footerContainer.care > div > div:nth-child(2) ul.hBlindBox li:hover h3,
+    .cartContainer #creditcardBox > div:nth-child(1),
+    .cartContainer #creditcardBox > div:nth-child(2){
+        width: 100%;
+    }
+    .footerContainer.care > div > div:nth-child(2) ul.hBlindBox li.active{
+        left: 0;
+    }
+    .footerContainer.care > div > div:nth-child(2) ul.hBlindBox li.active:hover,
+    .footerContainer.care > div > div:nth-child(2) ul.hBlindBox li.active div input{
+        border: none;
+    }
+    .footerContainer.care > div > div:nth-child(2) ul.hBlindBox li h3,
+    .footerContainer.care > div > div:nth-child(2) ul.hBlindBox li.active:hover h3{
+        display: none;
+    }
+    .footerContainer.care > div > div:nth-child(2) ul.hBlindBox li:hover h3{
+         text-align: center; word-wrap: break-word; bottom: 20%;
+    }
+    .footerContainer.care > div > div:nth-child(2) ul.hBlindBox li.active div input{
+        right: 5%; top: 5%; width: 14px; background: url('../images/icon_close.png') center / 26px no-repeat; text-indent: -9999px; transition: 0.3s ease-in-out;
+    }
+    .footerContainer.care > div > div:nth-child(2) ul.hBlindBox li.active div input:hover{
+        transform: rotateZ(90deg);
+    }
+    .myAccountContainer > div{
+        border-radius: 0 50px 0 50px;
+    }
+    .myAccountContainer > div form:first-child fieldset .whiteBG ul + div > div:not(:last-of-type){
+        width: 49%;
+    }
+    .myAccountContainer > div form:first-child fieldset .whiteBG ul + div > div:last-of-type{
+        margin: var(--sp10) 0;
+    }
+    .myAccountContainer > div fieldset:nth-of-type(2) h3 > input{
+        margin-left: 5px;
+    }
+    .inputBox div:nth-of-type(3),
+    .inputBox div:nth-of-type(4),
+    .inputBox div:nth-of-type(6),
+    .inputBox div:nth-of-type(7){
+        width: calc(49.5% - 2px);
+    }
+    .inputBox div:nth-of-type(3),
+    .inputBox div:nth-of-type(6){
+        margin-right: 1%;
+    }
+    .cartContainer > ol li:not(:last-child):after{
+        margin-left: var(--sp10);
+    }
+    .cartContainer form .bottomContent input.gray{
+        width: 30%;
+    }
+    .cartContainer > div > div:nth-child(2) ul li div:nth-child(1){
+        width: 20%;
+    }
+    .cartContainer > div > div:nth-child(2) ul li div:nth-child(2){
+        width: 75%;
+    }
+    .cartContainer > div > div form fieldset > div div:first-child ul{
+        right: 10px; top: 5px;
+    }
+    .cartContainer #creditcardBox > div:nth-child(3),
+    .cartContainer #creditcardBox > div:nth-child(4){
+        width: 49.5%;
+    }
+    .cartContainer #creditcardBox > div:nth-child(4){
+        margin-left: 1%;
+    }
+}
+/* Desktop & Tablet */
