@@ -128,9 +128,9 @@ div #introPop .closeBtn{
     /* text-indent: -9999px; background-color: transparent; */
     position: absolute; display: block; width: 26px; height: 26px; top: 10%; right: 3%;
 }
-div #introPop b{font-size: 48px; color: var(--Pink); display: block; margin-bottom: 10%;}
+div #introPop b{font-size: 48px; color: var(--GS14); display: block; margin-bottom: 10%;}
 div #introPop p{font-size: 16px; color: var(--GS12); margin-bottom: 7%;}
-div #introPop a{font-size: 10px; color: var(--GS12);}
+div #introPop a{font-size: 14px; color: var(--GS12);}
 
 .closeBtn{
   border: none; background: url('../images/icon_close.png') center / 26px no-repeat;
