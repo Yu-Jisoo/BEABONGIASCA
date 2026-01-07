@@ -119,7 +119,7 @@ div #introPop{
     position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);
     z-index: 1001; padding: 65px 5% 5%; box-sizing: border-box;
     line-height: 36px; border-radius: 10px; box-shadow: 0 0 15px var(--GS08);
-    background: url("../images/bg_div4.png") right center / cover no-repeat;
+    background: url("../images/Ca_1_Rings_5602.jpg") right center / cover no-repeat;
     background-color: #fff; display: none;
 }
 div #introPop .closeBtn{ 
@@ -127,7 +127,7 @@ div #introPop .closeBtn{
     /* text-indent: -9999px; background-color: transparent; */
     position: absolute; display: block; width: 25px; height: 25px; top: 10%; right: 3%;
 }
-div #introPop b{font-size: 48px; color: var(--Pink); display: block; margin-bottom: 10%;}
+div #introPop b{font-size: 48px; color: var(--GS14); display: block; margin-bottom: 10%;}
 div #introPop p{font-size: 16px; color: var(--GS12); margin-bottom: 7%;}
 div #introPop a{color: var(--GS10);}
 
