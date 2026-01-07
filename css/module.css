@@ -96,6 +96,7 @@
 [class$='150']{font-size: 150px;}
 
 /* line-height 예외인 것들 */
+.introPop b{line-height: 30px;}
 .returnPage{line-height: 18px;}
 p.poLT16{line-height: 36px;}
 .filter .poLT14 li{line-height: 30px;}
@@ -119,7 +120,7 @@ div #introPop{
     position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);
     z-index: 1001; padding: 65px 5% 5%; box-sizing: border-box;
     line-height: 36px; border-radius: 10px; box-shadow: 0 0 15px var(--GS08);
-    background: url("../images/Ca_1_Rings_5602.jpg") right center / cover no-repeat;
+    background: url("../images/bg_introPop.png") right center / cover no-repeat;
     background-color: #fff; display: none;
 }
 div #introPop .closeBtn{ 
@@ -129,7 +130,7 @@ div #introPop .closeBtn{
 }
 div #introPop b{font-size: 48px; color: var(--GS14); display: block; margin-bottom: 10%;}
 div #introPop p{font-size: 16px; color: var(--GS12); margin-bottom: 7%;}
-div #introPop a{color: var(--GS10);}
+div #introPop a{color: var(--GS12);}
 
 .closeBtn{
   border: none; background: url('../images/icon_close.png') center / 26px no-repeat;
