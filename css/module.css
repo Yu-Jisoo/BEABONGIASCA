@@ -96,7 +96,7 @@
 [class$='150']{font-size: 150px;}
 
 /* line-height 예외인 것들 */
-.introPop p{line-height: 30px;}
+#introPop p{line-height: 30px;}
 .returnPage{line-height: 18px;}
 p.poLT16{line-height: 36px;}
 .filter .poLT14 li{line-height: 30px;}
