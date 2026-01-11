@@ -112,6 +112,9 @@ function panelControl(target){
     $(".close").click(function(){ 
         $("#" + panelName).removeClass("active"); 
     });
+    $("#introPop .closeBtn").click(function(){
+        parent().removeClass("active");
+    });
 }
 function beaSlider(target,maxsV,slideW,slideM,pagerV,conV,pagerC,adapHVal){
     $(target).bxSlider({
