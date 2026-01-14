@@ -11,6 +11,7 @@ $(document).ready(function(){
     panelControl(".formBox > div:nth-child(3) > div:nth-child(2) > form > div > input");
     panelControl("#mnavPanel > ul li b");
     panelControl(".cartContainer > div > div:nth-child(1) > form > fieldset:nth-child(3) > div.bottomContent > input.btn.box.gray");
+    introPopup();
     
     beaSlider('.newInCarosuel',4,300,10,false,true,false);
     beaSlider('.diaSlider',1,550,0,false,true,null,false);
@@ -112,6 +113,8 @@ function panelControl(target){
     $(".close").click(function(){ 
         $("#" + panelName).removeClass("active"); 
     });
+}
+function introPopup(){
     $("#introPop .closeBtn").click(function(){
         parent().removeClass("active");
     });
