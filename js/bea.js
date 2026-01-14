@@ -116,7 +116,7 @@ function panelControl(target){
 }
 function introPopup(){
     $("#introPop .closeBtn").click(function(){
-        parent().removeClass("active");
+        $(this).parent().removeClass("active");
     });
 }
 function beaSlider(target,maxsV,slideW,slideM,pagerV,conV,pagerC,adapHVal){
