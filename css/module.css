@@ -497,7 +497,7 @@ input.allowBtn:hover{
     [class='roBL72']{font-size: 48px;}
     
     [data-floatChild="leftT"] > *{
-    float: left;
+        float: left;
     }
     [data-floatChild="leftT"]:after{
         content: ''; display: block; clear: both;
