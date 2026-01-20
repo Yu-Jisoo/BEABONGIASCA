@@ -4,32 +4,6 @@ li{
 a{
     text-decoration: none;
 }
-[data-floatChild="leftAll"] > *{
-    float: left;
-}
-[data-floatChild="leftAll"]:after{
-    content: ''; display: block; clear: both;
-}
-a,
-img,
-[data-disp="blockAll"],
-[data-dispEx="blockAll"],
-[data-disp="blockAll"]:before,
-[data-disp="blockAll"]:after,
-[data-disp="noneAll"].active,
-.formBox li label,
-.contacts li label,
-[data-dispChild="blockAll"] b,
-[data-dispChild="blockAll"] fieldset label,
-[data-dispActive="blockAll"] li.active,
-[data-dispActive="blockAll"].active li,
-[id$='Panel']:not(#mnavPanel).active,
-[id$='Popup'].active,
-[id$='Box'].active,
-input + span:not(.selectComponent).active,
-.filter.active > div{
-    display: block;
-}
 img,
 #cartPanel > div form ul li > div:nth-of-type(1) img,
 #cartPanel > div form ul li > div:nth-of-type(1) input[type='button'],
@@ -42,20 +16,6 @@ header{
 input{
     padding: 0px;
 }
-[data-disp="noneAll"],
-[data-dispActive="blockAll"] li,
-[data-dispActive="blockAll"].active::before,
-[data-dispActive="blockAll"].active::after,
-[id$='Panel']:not(#mnavPanel),
-[id$='Popup'],
-[id$='Box'],
-input + span:not(.selectComponent),
-input[type='number']::-webkit-inner-spin-button,
-input[type='number']::-webkit-outer-spin-button,
-[data-dispHover="noneAll"] span,
-.detailContainer p{
-    display: none;
-}
 #submitPopup input.closeBtn,
 #editProfilePopup.active input.closeBtn,
 #editPopup.active input.closeBtn,
@@ -63,38 +23,6 @@ input[type='number']::-webkit-outer-spin-button,
 #cartPanel > h2 input[type='button'],
 #createRingPopup .closeBtn{
     width: 14px; height: 14px;
-}
-[data-pos="abAll"],
-[data-pos="abAll"]::before,
-[data-pos="abAll"]::after,
-[data-posActive="abAll"].active,
-[id$='Popup'] .closeBtn,
-header [data-floatChild="leftAll"],
-#cartPanel mark,
-.filter > div form ul.orAccComponent li b:after,
-.listContainer [data-floatChild="leftDT"] strong,
-.hJContainer [data-floatChild="leftDT"] strong,
-.collectionContainer [data-floatChild="leftDT"] strong,
-.filter > div,
-.collectionContainer > div:nth-of-type(1) div::before,
-.collectionContainer > div:nth-of-type(1) div::after,
-.hJContainer > div:nth-of-type(1) div::before,
-.hJContainer > div:nth-of-type(1) div::after,
-.hJCreateRingContainer .open,
-.detailContainer .bx-controls a,
-.detailContainer .customSelect,
-.detailContainer .customSelect::before,
-.detailContainer .customSelect::after,
-.footerContainer .accComponent [data-disp="inBlockAll"]:after,
-.footerContainer.policy aside ul li::before,
-.hBlindBox > *,
-[data-posLabel="abAll"] label,
-.inputBox div:last-of-type::before,
-.inputBox div:last-of-type::after,
-input + span.active,
-input + span.active::before,
-.bottomContent .gray{
-    position: absolute;
 }
 #submitPopup input.closeBtn,
 #editProfilePopup.active input.closeBtn,
@@ -226,17 +154,6 @@ footer > div:first-of-type div h2{
 #createRingPopup > div:nth-of-type(2) ul li a:before{
     background: url('../images/icon_chip.png') center / contain no-repeat; margin-right: 5px; width: 0; height: 0; transition: 0.5s ease-in-out; vertical-align: middle;
 }
-[data-disp="inBlockAll"],
-[data-disp="inBlockAll"]::after,
-[data-disp="inBlockAll"]::before,
-[data-disp="inBlockAll"] p > a,
-[data-dispEx="blockAll"]::after,
-[data-dispChild="inBlockAll"] > *,
-span > a,
-.filter > h3::after,
-input + span.active::before{
-    display: inline-block;
-}
 #submitPopup > div:nth-of-type(2) ul li a:hover::before,
 #createRingPopup > div:nth-of-type(2) ul li a:hover::before,
 header > div:nth-of-type(2) > div > *{
@@ -296,22 +213,6 @@ header{
 }
 #cartPanel > h2{
     padding: var(--sp30) 0; border-bottom: 1px solid var(--GS04);
-}
-[data-pos="reAll"],
-#cartPanel > h2,
-.qa .accComponent li,
-.indexContainer > :nth-child(3) li,
-.hJContainer .sugar,
-.hJContainer .dia,
-.detailContainer .thumbPagerBox,
-.detailContainer .colorChipsComponent ul li,
-.policy > div > aside ul li,
-.myAccountContainer .whiteBG,
-.myAccountContainer > div form:last-child fieldset .whiteBG > div,
-.myAccountContainer > div fieldset .whiteBG ul + div mark,
-.cartContainer > div > div:nth-child(1) form fieldset > div:nth-of-type(1) div,
-.cartContainer > div > div:nth-child(2) > div:nth-of-type(3){
-    position: relative;
 }
 #cartPanel > h2 input[type='button']{
     top: 31px;
@@ -645,21 +546,6 @@ footer > div:last-of-type ol li:nth-of-type(8){
     header > div:nth-of-type(2) > button.mui{
         left: 3.57%;
     }
-    [data-disp="noneM"],
-    [data-dispChild="noneM"] :first-child,
-    [data-dispActive="noneM"] li:not(.active){
-        display: none;
-    }
-    [data-disp="blockM"],
-    [data-disp="blockM"]::after,
-    [data-disp="blockM"]:hover ~ ul,
-    [data-disp="blockM"]:hover + p,
-    #mnavPanel.active,
-    #mnavPanel.active ul li:hover > div,
-    [data-disp="blockM"] li b:after,
-    [data-disp="blockM"] li:hover b + div{
-        display: block;
-    }
     #cartPanel,
     header > div:nth-of-type(2) > nav.active{
         width: 100%;
@@ -780,12 +666,6 @@ footer > div:last-of-type ol li:nth-of-type(8){
 }
 /* Mobile */
 @media screen and (min-width: 768px) and (max-width:1279px){
-    [data-floatChild="leftT"] > *{
-    float: left;
-    }
-    [data-floatChild="leftT"]:after{
-        content: ''; display: block; clear: both;
-    }
     header > div:nth-of-type(2),
     footer{
         margin: 0 auto;
@@ -814,14 +694,6 @@ footer > div:last-of-type ol li:nth-of-type(8){
 }
 /* Tablet & Mobile */
 @media screen and (min-width: 1280px){
-    [data-floatChild="leftD"] > *,
-    [data-float="leftD"]{
-        float: left;
-    }
-    [data-floatChild="leftD"]:after,
-    [data-float="cancelD"]:after{
-        content: ''; display: block; clear: both;
-    }
     header > div:nth-of-type(2),
     footer{
         max-width: 1820px; margin: 0 auto;
@@ -843,14 +715,6 @@ footer > div:last-of-type ol li:nth-of-type(8){
 }
 /* Desktop */
 @media screen and (min-width: 768px){
-    [data-floatChild="leftDT"] > *,
-    [data-float="leftDT"]{
-        float: left;
-    }
-    [data-floatChild="leftDT"]::after,
-    [data-float="cancelDT"]:after{
-        content: ''; display: block; clear: both;
-    }
     #editProfilePopup.active,
     #editPopup.active,
     #addPopup.active,
