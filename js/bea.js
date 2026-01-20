@@ -7,7 +7,7 @@ $(document).ready(function(){
     panelControl("header > div:nth-of-type(2) > div input");
     panelControl("header > div:nth-of-type(2) button");
     panelControl(".detailContainer > div:nth-of-type(2) form :last-child div:last-child input");
-    panelControl(".7 > div:nth-child(3) > div > form > input");
+    panelControl(".contacts > div:nth-child(3) > div > form > input");
     panelControl(".formBox > div:nth-child(3) > div:nth-child(2) > form > div > input");
     panelControl("#mnavPanel > ul li b");
     panelControl(".cartContainer > div > div:nth-child(1) > form > fieldset:nth-child(3) > div.bottomContent > input.btn.box.gray");
