@@ -1010,7 +1010,7 @@ input + span.active::before,
     background: url('../images/icon_expand_R.png') center / contain no-repeat;
 }
 .detailContainer > div:nth-of-type(1) > .thumbPagerBox .bx-controls a{
-    z-index: 9999;
+    z-index: 100;
 }
 .detailContainer > .blackBG,
 .signUpContainer,
