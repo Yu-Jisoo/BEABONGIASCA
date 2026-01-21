@@ -51,6 +51,8 @@ $(document).ready(function(){
 
     policyToggle();
     footerTopAcc();
+    mnavAcc('#mnavPanel ul li b');
+    mnavAcc('footer h2');
     $(".videoBox").fitVids();
 });
 
@@ -493,8 +495,25 @@ function policyToggle(){
     });
 }
 function footerTopAcc(){
-    $('.footerContainer > ul > li.active').click(function(){
-        $(this).parent().toggleClass("active");
-        $(this).siblings().slideToggle();
-    });
+    var winWidth = $(window).width();
+
+        if (winWidth >= 768) {
+
+        } else {
+            $('.footerContainer > ul > li.active').click(function(){
+                $(this).parent().toggleClass("active");
+                $(this).siblings().slideToggle();
+            });
+        }
+}
+function mnavAcc(target){
+    var winWidth = $(window).width();
+
+        if (winWidth >= 767) {
+
+        } else {
+            $(target).click(function(){
+                $(this).toggleClass("active");
+            });
+        }
 }

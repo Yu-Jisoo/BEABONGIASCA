@@ -473,10 +473,10 @@ input.allowBtn:hover{
     }
     [data-disp="blockM"],
     [data-disp="blockM"]::after,
-    [data-disp="blockM"]:hover ~ ul,
-    [data-disp="blockM"]:hover + p,
     #mnavPanel.active,
-    #mnavPanel.active ul li:hover > div,
+    #mnavPanel.active ul li b.active + div,
+    footer h2.active ~ ul,
+    footer h2.active + p,
     [data-disp="blockM"] li b:after,
     [data-disp="blockM"] li:hover b + div{
         display: block;

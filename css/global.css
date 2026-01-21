@@ -622,7 +622,7 @@ footer > div:last-of-type ol li:nth-of-type(8){
     footer > div:first-of-type div h2:after{
         transition: 0.5s ease-in-out;
     }
-    header > div:nth-of-type(2) > nav ul li:hover b:after{
+    header > div:nth-of-type(2) > nav ul li b.active:after{
         transform: rotate(90deg);
     }
     header > div:nth-of-type(2) > nav ul li b + div{
@@ -654,7 +654,7 @@ footer > div:last-of-type ol li:nth-of-type(8){
     footer > div:first-of-type div h2:after{
         background: url('../images/icon_expand_D.png') center / contain no-repeat;
     }
-    footer > div:first-of-type div h2:hover:after{
+    footer > div:first-of-type div h2.active:after{
         transform: rotate(180deg);
     }
     footer > div:first-of-type div ul{
