@@ -465,7 +465,7 @@ input.allowBtn:hover{
         background: url('../images/icon_close_white.png') center / 26px no-repeat;
     }
 
-    div #introPop b{font-size: 38px;}
+    div #introPop b{font-size: 30px;}
     [data-disp="noneM"],
     [data-dispChild="noneM"] :first-child,
     [data-dispActive="noneM"] li:not(.active){
