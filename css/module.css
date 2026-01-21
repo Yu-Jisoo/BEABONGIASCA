@@ -124,7 +124,7 @@ div #introPop{
 div #introPop .closeBtn{ 
     position: absolute; display: block; width: 26px; height: 26px; top: 10%; right: 3%;
 }
-div #introPop b{font-size: 48px; color: var(--GS01); text-shadow: 3px 4px 5px #000; display: block; margin-bottom: 10%; word-break: break-all;}
+div #introPop b{color: var(--GS01); text-shadow: 3px 4px 5px #000; display: block; margin-bottom: 10%;}
 div #introPop p{font-size: 16px; color: var(--GS01); margin-bottom: 7%;}
 div #introPop a{font-size: 14px; color: var(--GS01);}
 
@@ -465,6 +465,7 @@ input.allowBtn:hover{
         background: url('../images/icon_close_white.png') center / 26px no-repeat;
     }
 
+    div #introPop b{font-size: 38px;}
     [data-disp="noneM"],
     [data-dispChild="noneM"] :first-child,
     [data-dispActive="noneM"] li:not(.active){
@@ -517,6 +518,7 @@ input.allowBtn:hover{
 }
 /* Desttop */
 @media screen and (min-width: 768px){
+    div #introPop b{font-size: 48px;}
     [data-floatChild="leftDT"] > *,
     [data-float="leftDT"]{
         float: left;
