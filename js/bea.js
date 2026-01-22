@@ -330,21 +330,21 @@ function cartRadio(){
 
     $("#ship").click(function(){
         $('.cartContainer > div > div:nth-child(2) > div.poLT16 > span:nth-child(4)').text('Enter shipping Address');
-        $(this).closest('form').attr('action','cart_Step3_ship.html');
+        $(this).closest('form').attr('action','cart_Step3_Ship.html');
     });
     $("#pickup").click(function(){
         $('.cartContainer > div > div:nth-child(2) > div.poLT16 > span:nth-child(4)').text('Free');
-        $(this).closest('form').attr('action','cart_Step3_pickup.html');
+        $(this).closest('form').attr('action','cart_Step3_Pickup.html');
     });
     $("#standard").click(function(){
         $('.cartContainer > div > div:nth-child(2) > div.poLT16 > span:nth-child(4)').text('Standard Post(With Signature) - €15,30');
         $('.cartContainer > div > div:nth-child(2) > div:nth-child(4) > strong').text('€2,035,00');
-        $(this).closest('form').attr('action','cart_Step4_ship_standard.html');
+        $(this).closest('form').attr('action','cart_Step4_Ship_standard.html');
     });
     $("#express").click(function(){
         $('.cartContainer > div > div:nth-child(2) > div.poLT16 > span:nth-child(4)').text('Express Post - €31,55');
         $('.cartContainer > div > div:nth-child(2) > div:nth-child(4) > strong').text('€2,051.55');
-        $(this).closest('form').attr('action','cart_Step4_ship_express.html');
+        $(this).closest('form').attr('action','cart_Step4_Ship_express.html');
     });
 }
 function onlyNumber(){
