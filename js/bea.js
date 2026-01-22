@@ -134,26 +134,26 @@ function beaSlider(target,maxsV,slideW,slideM,pagerV,conV,pagerC,adapHVal){
         moveSlides: 1
     });
 }
-// function toggleWish(){
-//     var toggleStatus = false;
+function toggleWish(){
+    var toggleStatus = false;
 
-//     $(".wishIcon").click(function(){
-//         toggleStatus = !toggleStatus;
-//         if(toggleStatus == true){
-//             $(this).css("background-image","url('../images/icon_toggleWish_on.png')");
-//         }else{
-//             $(this).css("background-image","url('../images/icon_toggleWish_off.png')");
-//         }
-//     });
-// }
+    $(".wishIcon").click(function(){
+        toggleStatus = !toggleStatus;
+        if(toggleStatus == true){
+            $(this).css("background-image","url('./images/icon_toggleWish_on.png')");
+        }else{
+            $(this).css("background-image","url('./images/icon_toggleWish_off.png')");
+        }
+    });
+}
 function toggleCart(){
     $(".cartIcon").click(function(){
-        $(this).css("background-image","url('../images/icon_toggleCart_on.png')");
+        $(this).css("background-image","url('./images/icon_toggleCart_on.png')");
         $("#cartPanel").addClass("active");
     });
     $(".closeBtn").click(function(){ 
         $("#cartPanel").removeClass("active"); 
-        $(".cartIcon").css("background-image","url('../images/icon_toggleCart_off.png')");
+        $(".cartIcon").css("background-image","url('./images/icon_toggleCart_off.png')");
     });
 }
 function accOrComponent(target){
