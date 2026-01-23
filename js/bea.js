@@ -123,28 +123,6 @@ function accOrComponent(target){
         $(this).siblings().slideToggle();
     });
 }
-// function toggleWish(){
-//     var toggleStatus = false;
-
-//     $(".wishIcon").click(function(){
-//         toggleStatus = !toggleStatus;
-//         if(toggleStatus == true){
-//             $(this).css("background-image","url('../images/icon_togglewish_off.png')");
-//         }else{
-//             $(this).css("background-image","");
-//         }
-//     });
-// }
-// function toggleCart(){
-//     $(".cartIcon").click(function(){
-//         $(this).css("background-image","url('../images/icon_togglecart_off.png')");
-//         $("#cartPanel").addClass("active");
-//     });
-//     $("#cartPanel .closeBtn").click(function(){ 
-//         $("#cartPanel").removeClass("active"); 
-//         $(".cartIcon").css("background-image","");
-//     });
-// }
 function toggleWish(){
     $(".wishIcon").click(function () {
         $(this).toggleClass("on");
