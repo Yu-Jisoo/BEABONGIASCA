@@ -1622,7 +1622,7 @@ input + span.active::before{
     .myAccountContainer aside{
         padding: 0 3.57%;
     }
-    .indexContainer > :nth-child(1) > div:nth-child(1){
+    .indexContainer > :nth-child(1){
         height: 300px;
     }
     .indexContainer > :nth-child(7) > div:nth-of-type(2){
@@ -2551,7 +2551,7 @@ input + span.active::before{
 }
 /* Desktop */
 @media screen and (min-width: 768px){
-    .indexContainer > :nth-child(1) > div:nth-child(1){
+    .indexContainer > :nth-child(1){
         height: 550px;
     }
     .indexContainer > :nth-child(1) > div:nth-child(2){
