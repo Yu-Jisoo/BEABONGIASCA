@@ -159,7 +159,7 @@ function toggleCart(){
         $(this).css("background-image","url('../images/icon_togglecart_on.png')");
         $("#cartPanel").addClass("active");
     });
-    $(".closeBtn").click(function(){ 
+    $("#cartPanel .closeBtn").click(function(){ 
         $("#cartPanel").removeClass("active"); 
         $(".cartIcon").css("background-image","");
     });
