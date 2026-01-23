@@ -1807,7 +1807,7 @@ input + span.active::before{
         width: 100%;
     }
     .detailContainer > div:nth-of-type(2) form :last-child .sizeGuideBox h3 span.active:after{
-        height: 280px; z-index: 1000;
+        height: 260px; width: 260px; z-index: 1000; margin-left: -48px;
     }  
     .detailContainer > div:nth-of-type(2) form :last-child div:last-child{
         margin-top: 140px;
