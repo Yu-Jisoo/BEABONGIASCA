@@ -2550,7 +2550,7 @@ input + span.active::before{
 /* Desktop */
 @media screen and (min-width: 768px){
     .indexContainer > :nth-child(1) > div:nth-child(1){
-        height: 200px;
+        height: 800px;
     }
     .indexContainer > :nth-child(1) > div:nth-child(2){
         right: 90px; bottom: 110px;
