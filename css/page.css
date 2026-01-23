@@ -1670,7 +1670,7 @@ input + span.active::before{
         margin-left: 30%;
     }
     .indexContainer > :nth-child(5) > div{
-        background: url("../images/bg_div4_L.png") top 50px center / 85% no-repeat; padding: 337px 3.57% var(--sp100);
+        background: url("../images/bg_div4_L.png") top 50px center / 300px no-repeat; padding: 337px 3.57% var(--sp100);
     }
     .indexContainer > :nth-child(5) > div h2,
     .indexContainer > :nth-child(5) > div p,
@@ -1977,7 +1977,7 @@ input + span.active::before{
         margin-left: 50%;
     }
     .indexContainer > :nth-child(5) > div{
-        background: url("../images/bg_div4_L.png") top 10% center / 85% no-repeat; padding: 720px 3.125% var(--sp100);
+        background: url("../images/bg_div4_L.png") top 10% center / 700px no-repeat; padding: 720px 3.125% var(--sp100);
     }
     .indexContainer > :nth-child(7) > div:nth-of-type(1) .bx-wrapper .bx-controls-direction a.bx-prev{
         left: -10%;
