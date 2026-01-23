@@ -109,7 +109,7 @@ span > a:hover,
     color: rgba(0, 100, 153, 0.7);
 }
 .whiteBG,
-.indexContainer > :nth-child(1) > div:nth-child(2)::after,
+.indexContainer .videoBox > div:nth-child(2)::after,
 .filter > div,
 .listContainer.colorWhite > div > h2::before,
 .hJCreateRingContainer > ul > li:not(:first-of-type) > div.open > div:nth-child(2) form fieldset ul li input[type='radio']:checked,
@@ -145,7 +145,7 @@ span > a:hover,
 .indexContainer{
     padding-top: 150px;
 }
-.indexContainer > :nth-child(1) > div:nth-child(1) video,
+.indexContainer .videoBox > div:nth-child(1) video,
 .filter > div > form > div input,
 .hJCreateRingContainer > ul > li:nth-of-type(1) input,
 .hJCreateRingContainer > ul > li:last-of-type div.open,
@@ -177,7 +177,7 @@ input + span.active,
 .myAccountContainer > div fieldset legend{
     width: 100%;
 }
-.indexContainer > :nth-child(1) > div:nth-child(1) video,
+.indexContainer .videoBox > div:nth-child(1) video,
 .indexContainer > :nth-child(3) li img,
 .indexContainer > :nth-child(6) > ul li a img,
 .collectionContainer > div:nth-of-type(1) img,
@@ -187,7 +187,7 @@ input + span.active,
 .footerContainer.care > div > div:nth-child(2) ul.hBlindBox li div video{
     object-fit: cover;
 }
-.indexContainer > :nth-child(1) > div:nth-child(2),
+.indexContainer .videoBox > div:nth-child(2),
 .indexContainer > :nth-child(4) > .bx-wrapper .bx-controls-direction a.bx-next,
 .detailContainer > div:nth-of-type(2) form strong,
 .signUpContainer > div > button,
@@ -197,7 +197,7 @@ input + span.active,
 .cartContainer > div > div:nth-child(2) > div:nth-of-type(2) :nth-child(2n){
     text-align: right;
 }
-.indexContainer > :nth-child(1) > div:nth-child(2),
+.indexContainer .videoBox > div:nth-child(2),
 .indexContainer > :nth-child(3) li h3 b,
 .indexContainer > :nth-child(5) > div h2,
 .indexContainer > :nth-child(7) > div:nth-of-type(2) div h2 mark,
@@ -214,7 +214,7 @@ input + span.active,
 .cartContainer > div > div:nth-child(2) ul li div:nth-child(1) mark{
     color: var(--GS01);
 }
-.indexContainer > :nth-child(1) > div:nth-child(2)::after,
+.indexContainer .videoBox > div:nth-child(2)::after,
 .indexContainer > :nth-child(3) li:after,
 .filter > h3::after,
 .filter > div form ul.orAccComponent li b:after,
@@ -236,7 +236,7 @@ input + span.active::before,
 .cartContainer > div > div:nth-child(1) form fieldset > div:nth-of-type(1) div:nth-child(2) label[for='pickup']:before{
     content: '';
 }
-.indexContainer > :nth-child(1) > div:nth-child(2) h2{
+.indexContainer .videoBox > div:nth-child(2) h2{
     margin-bottom: var(--sp15);
 }
 .indexContainer > :nth-child(2) > h2,
@@ -1627,17 +1627,17 @@ input + span.active::before{
     .myAccountContainer aside{
         padding: 0 3.57%;
     }
-    .indexContainer > :nth-child(1),
+    .indexContainer .videoBox,
     .indexContainer > :nth-child(7) > div:nth-of-type(2){
         height: 400px;
     }
-    .indexContainer > :nth-child(1) > div:nth-child(2){
+    .indexContainer .videoBox > div:nth-child(2){
         right: 50px; bottom: 30px;
     }
-    .indexContainer > :nth-child(1) > div:nth-child(2)::after{
+    .indexContainer .videoBox > div:nth-child(2)::after{
         width: 20px; border-radius: 0 10px 0 10px; top: -15px; right: -30px;
     }
-    .indexContainer > :nth-child(1) > div:nth-child(2):after{
+    .indexContainer .videoBox > div:nth-child(2):after{
         height: 94px;
     }
     .indexContainer > :nth-child(2) > ul li:not(:last-child),
@@ -1948,7 +1948,7 @@ input + span.active::before{
     .myAccountContainer aside{
         padding: 0 3.125%;
     }
-    .indexContainer > :nth-child(1) > div::after{
+    .indexContainer .videoBox > div::after{
         height: 105px;
     }
     .indexContainer > :nth-child(2) > ul li,
@@ -2282,7 +2282,7 @@ input + span.active::before{
     .hJContainer > div:nth-of-type(2) p{
         margin: 0 auto;
     }
-    .indexContainer > :nth-child(1) > div::after{
+    .indexContainer .videoBox > div::after{
         height: 140px;
     }
     .indexContainer > *:not(:last-child){
@@ -2554,16 +2554,16 @@ input + span.active::before{
 }
 /* Desktop */
 @media screen and (min-width: 768px){
-    .indexContainer > :nth-child(1){
+    .indexContainer .videoBox{
         height: 700px;
     }
-    .indexContainer > :nth-child(1) > div:nth-child(2){
+    .indexContainer .videoBox > div:nth-child(2){
         right: 90px; bottom: 110px;
     }
-    .indexContainer > :nth-child(1) > div:nth-child(2)::after{
+    .indexContainer .videoBox > div:nth-child(2)::after{
         width: 20px; border-radius: 0 10px 0 10px; right: -40px;
     }
-    .indexContainer > :nth-child(1) > div:nth-child(2)::after,
+    .indexContainer .videoBox > div:nth-child(2)::after,
     .detailContainer > div:nth-of-type(2) form > :last-child ul.customSelect{
        top: 0;
     }
