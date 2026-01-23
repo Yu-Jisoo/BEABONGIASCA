@@ -2279,9 +2279,6 @@ input + span.active::before{
     .hJContainer > div:nth-of-type(2) p{
         margin: 0 auto;
     }
-    .indexContainer > :nth-child(1) > div:nth-child(1){
-        height: 550px;
-    }
     .indexContainer > :nth-child(1) > div::after{
         height: 140px;
     }
@@ -2554,6 +2551,9 @@ input + span.active::before{
 }
 /* Desktop */
 @media screen and (min-width: 768px){
+    .indexContainer > :nth-child(1) > div:nth-child(1){
+        height: 550px;
+    }
     .indexContainer > :nth-child(1) > div:nth-child(2){
         right: 90px; bottom: 110px;
     }
