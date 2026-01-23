@@ -148,7 +148,7 @@ function toggleWish(){
     $(".wishIcon").click(function(){
         toggleStatus = !toggleStatus;
         if(toggleStatus == true){
-            $(this).css("background-image","url('../images/icon_toggleWish_on.png')");
+            $(this).css("background-image","url('../images/icon_togglewish_on.png')");
         }else{
             $(this).css("background-image","");
         }
@@ -156,7 +156,7 @@ function toggleWish(){
 }
 function toggleCart(){
     $(".cartIcon").click(function(){
-        $(this).css("background-image","url('../images/icon_toggleCart_on.png')");
+        $(this).css("background-image","url('../images/icon_togglecart_on.png')");
         $("#cartPanel").addClass("active");
     });
     $(".closeBtn").click(function(){ 
