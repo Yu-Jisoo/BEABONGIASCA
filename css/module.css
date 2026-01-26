@@ -266,11 +266,11 @@ input + span.active::before{
 }
 .btn.box{
     border: none; line-height: 50px; text-align: center; font-size: 14px; font-weight: 600; text-transform: uppercase;
-    transition: 0.5s ease-in-out; z-index: 0; overflow: hidden; box-sizing: border-box;
+    transition: 0.5s ease-in-out; z-index: 0; overflow: hidden; box-sizing: border-box; position: relative;
 }
-.btn.box:not(.gray){
+/* .btn.box:not(.gray){
     position: relative;
-}
+} */
 .btn.box:before,
 .btn.box:after{
     content: ""; width: 20px; height: 20px; 
